@@ -17,7 +17,7 @@ export const Route = createRootRoute({
       { property: 'og:image:height', content: '630' },
       {
         property: 'og:image:alt',
-        content: 'Hawaii Public Safety Watch — firefighter pay and labor facts',
+        content: 'PublicSafetyFactsHawaii — firefighter pay and labor facts',
       },
       { name: 'twitter:image', content: OG_IMAGE },
     ],

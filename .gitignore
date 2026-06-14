@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+.output
+.netlify
+
+# Content Collections generated types
+.content-collections
+
+# Local editor / tooling
+.claude
+
+# Logs & environment
+*.log
+.env
+.env.*
+.DS_Store

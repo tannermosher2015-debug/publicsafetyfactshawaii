@@ -8,7 +8,7 @@ categories:
 image: placeholder.png
 kicker: "Community Education"
 subtitle: "Hawaii's firefighters can work 53-hour weeks without earning a single dollar of overtime. The law that makes this possible is optional. And most people have never heard of it."
-byline: "Hawaii Public Safety Watch · May 2026 · Public Safety Compensation Series"
+byline: "PublicSafetyFactsHawaii · May 2026 · Public Safety Compensation Series"
 masthead: "Community Education · State of Hawaii · May 2026 · Public Safety Compensation Series"
 ---
 

@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 
+import SiteFooter from '@/components/SiteFooter'
 import { ORGANIZATION_SCHEMA, SITE_NAME, SITE_URL } from '@/lib/site'
 
 export const Route = createFileRoute('/about')({
@@ -9,7 +10,7 @@ export const Route = createFileRoute('/about')({
       {
         name: 'description',
         content:
-          'Hawaii Public Safety Watch is an independent community education project on Hawaii firefighter pay, overtime, and labor rights — built from public records and cited sources.',
+          'PublicSafetyFactsHawaii is an independent community education project on Hawaii firefighter pay, overtime, and labor rights — built from public records and cited sources.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/about` },
@@ -111,7 +112,7 @@ function AboutPage() {
         </div>
       </div>
 
-      <footer className="site-footer">
+      <SiteFooter>
         PublicSafetyFactsHawaii &nbsp;·&nbsp; Independent Community Education
         &nbsp;·&nbsp; publicsafetyfactshawaii.org
         <div className="footer-disclaimer">
@@ -119,7 +120,7 @@ function AboutPage() {
             Disclaimer
           </Link>
         </div>
-      </footer>
+      </SiteFooter>
     </>
   )
 }

@@ -750,6 +750,17 @@ body {
   flex-shrink: 0;
 }
 
+/* Loading placeholder — reserves the row's space so the count doesn't shift
+   the surrounding meta line when it loads in (avoids layout shift / CLS). */
+.view-counter-skeleton {
+  display: inline-block;
+  width: 4.5em;
+  height: 0.85em;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: 0.18;
+}
+
 .site-views {
   margin-top: 12px;
 }

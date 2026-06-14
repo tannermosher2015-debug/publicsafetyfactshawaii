@@ -53,7 +53,7 @@ export const Route = createFileRoute('/')({
       { property: 'og:url', content: `${SITE_URL}/` },
       {
         property: 'og:title',
-        content: 'Hawaii Public Safety Watch | Firefighter Pay & Labor Facts',
+        content: `${SITE_NAME} | Firefighter Pay & Labor Facts`,
       },
       {
         property: 'og:description',
@@ -63,7 +63,7 @@ export const Route = createFileRoute('/')({
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
-        content: 'Hawaii Public Safety Watch | Firefighter Pay & Labor Facts',
+        content: `${SITE_NAME} | Firefighter Pay & Labor Facts`,
       },
       {
         name: 'twitter:description',

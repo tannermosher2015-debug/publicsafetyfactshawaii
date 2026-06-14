@@ -1,5 +1,5 @@
 export const SITE_URL = 'https://publicsafetyfactshawaii.org'
-export const SITE_NAME = 'Hawaii Public Safety Watch'
+export const SITE_NAME = 'PublicSafetyFactsHawaii'
 export const OG_IMAGE = `${SITE_URL}/og-default.jpg`
 
 export const ORGANIZATION_SCHEMA = {

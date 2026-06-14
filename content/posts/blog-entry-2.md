@@ -8,7 +8,7 @@ categories:
 image: placeholder.png
 kicker: "The Human Cost Behind the Badge"
 subtitle: "Hawaii's firefighter applicant pools are shrinking. The passing bar is dropping. The partners holding it all together go unnamed. And on International Firefighters' Day, counties across the state issued proclamations. Here's what they didn't say."
-byline: "Hawaii Public Safety Watch · May 2026 · Public Safety Compensation Series"
+byline: "PublicSafetyFactsHawaii · May 2026 · Public Safety Compensation Series"
 masthead: "Community Education · State of Hawaii · May 2026 · Public Safety Compensation Series"
 ---
 
@@ -145,6 +145,6 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
     <li>BLS Urban Hawaii CPI-U annual averages (2015–2024 verified; 2025 estimated)</li>
     <li>Hawaii State Databook Table 14.04</li>
     <li>All other figures from official county and state government records</li>
-    <li>This article is part of the Hawaii Public Safety Watch Public Safety Compensation Series</li>
+    <li>This article is part of the PublicSafetyFactsHawaii Public Safety Compensation Series</li>
   </ul>
 </div>
