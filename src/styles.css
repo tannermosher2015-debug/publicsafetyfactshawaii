@@ -24,9 +24,25 @@
   --police: #1A3A6B;
   --rule: #D0C8BA;
   --ink: #111111;
+
+  /* Refresh design tokens — consistent radii, warm-tinted elevation, easing. */
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --shadow-sm: 0 1px 2px rgba(26, 24, 22, 0.05), 0 3px 10px rgba(26, 24, 22, 0.05);
+  --shadow-md: 0 6px 16px rgba(26, 24, 22, 0.08), 0 14px 32px rgba(26, 24, 22, 0.08);
+  --shadow-lg: 0 12px 28px rgba(26, 24, 22, 0.12), 0 28px 56px rgba(26, 24, 22, 0.13);
+  --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+::selection {
+  background: var(--fire);
+  color: #fff;
+}
 
 /* KEYBOARD FOCUS
    Visible focus indicator for all interactive elements, shown only for
@@ -94,9 +110,9 @@ body {
 /* HERO */
 .hero {
   border-bottom: 3px solid var(--smoke);
-  padding: 60px 20px 48px;
+  padding: 72px 20px 52px;
   text-align: center;
-  background: var(--paper);
+  background: linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -117,8 +133,10 @@ body {
   color: var(--fire);
   display: inline-block;
   border: 1.5px solid var(--fire);
-  padding: 4px 14px;
-  margin-bottom: 32px;
+  background: rgba(184, 50, 8, 0.05);
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-bottom: 28px;
 }
 
 .hero h1 {
@@ -141,9 +159,18 @@ body {
   font-size: clamp(16px, 2vw, 20px);
   font-weight: 400;
   max-width: 620px;
-  margin: 0 auto 36px;
+  margin: 0 auto 32px;
   color: var(--ash);
   line-height: 1.6;
+}
+
+.deck::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin: 28px auto 0;
+  background: linear-gradient(90deg, var(--fire), var(--ember));
 }
 
 .byline {
@@ -179,26 +206,46 @@ body {
   font-size: clamp(16px, 1.8vw, 18px);
 }
 
+/* Inline links inside article bodies — brand-colored with a subtle underline. */
+.article-body a {
+  color: var(--fire);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s var(--ease);
+}
+
+.article-body a:hover {
+  color: var(--fire-light);
+}
+
+/* Every article heading gets the same section-head treatment (double top rule)
+   so all articles read consistently regardless of the source markup — this is
+   what brings Article 3's plain headings in line with the rest. */
 .article-body h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: clamp(22px, 3vw, 30px);
+  font-size: clamp(23px, 3vw, 31px);
   margin: 56px 0 20px;
   color: var(--smoke);
-  line-height: 1.2;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  border-top: 3px double var(--rule);
+  padding-top: 30px;
 }
 
 .article-body h2.section-head {
   border-top: 3px double var(--rule);
-  padding-top: 32px;
+  padding-top: 30px;
 }
 
 /* PULL QUOTE */
 .pull-quote {
-  border-left: 5px solid var(--fire);
-  margin: 40px 0;
-  padding: 20px 28px;
+  border-left: 4px solid var(--fire);
+  margin: 44px 0;
+  padding: 22px 30px;
   background: var(--cream);
+  border-radius: 0 var(--radius) var(--radius) 0;
 }
 
 .pull-quote p {
@@ -246,10 +293,11 @@ body {
 }
 
 .compare-card {
-  border-radius: 4px;
-  padding: 28px 24px;
+  border-radius: var(--radius);
+  padding: 28px 26px;
   position: relative;
   color: #ffffff;
+  box-shadow: var(--shadow-md);
 }
 
 .compare-card.police { background: var(--police); border-top: 4px solid #4A90D9; }
@@ -313,11 +361,12 @@ body {
 /* DATA CALLOUT */
 .data-callout {
   background: var(--cream);
-  border: 2px solid var(--rule);
-  border-left: 6px solid var(--fire);
-  padding: 28px;
+  border: 1px solid var(--rule);
+  border-left: 5px solid var(--fire);
+  padding: 26px 30px;
   margin: 40px 0;
-  border-radius: 2px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
 }
 
 .data-callout .callout-label {
@@ -586,10 +635,16 @@ body {
 
 .post-card {
   border-bottom: 1px solid var(--rule);
-  padding: 32px 0;
+  padding: 30px 20px;
+  margin: 0 -20px;
   display: block;
   text-decoration: none;
   color: inherit;
+  transition: background 0.2s var(--ease);
+}
+
+.post-card:hover {
+  background: var(--cream);
 }
 
 .post-card:first-child {
@@ -640,6 +695,11 @@ body {
 .post-card-meta .read-more {
   color: var(--fire);
   margin-left: auto;
+  transition: transform 0.2s var(--ease);
+}
+
+.post-card:hover .read-more {
+  transform: translateX(4px);
 }
 
 /* FEATURED HERO — the single most important story, given visual weight that
@@ -649,13 +709,13 @@ body {
   text-decoration: none;
   color: #ffffff;
   background: var(--smoke);
-  border-radius: 6px;
-  padding: 40px 36px 32px;
-  margin-bottom: 40px;
+  border-radius: var(--radius-lg);
+  padding: 44px 40px 34px;
+  margin-bottom: 44px;
   position: relative;
   overflow: hidden;
-  transition: transform 0.15s, box-shadow 0.15s;
-  box-shadow: 0 8px 28px rgba(26, 24, 22, 0.18);
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  box-shadow: var(--shadow-md);
 }
 
 .featured-hero::before {
@@ -667,8 +727,8 @@ body {
 }
 
 .featured-hero:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(26, 24, 22, 0.28);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
 }
 
 .featured-hero:hover .featured-hero-title {
@@ -792,9 +852,16 @@ body {
   background: var(--paper);
   border: 1px solid var(--rule);
   border-top: 3px solid var(--smoke);
-  padding: 24px 18px;
+  padding: 26px 18px;
   text-align: center;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.stat-box:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
 .stat-box.featured {
@@ -828,8 +895,9 @@ body {
   background: var(--smoke);
   color: #fff;
   padding: 28px 32px;
-  border-radius: 4px;
+  border-radius: var(--radius);
   margin: 40px 0;
+  box-shadow: var(--shadow-md);
 }
 
 .callout-dark .callout-label {
@@ -853,6 +921,11 @@ body {
 .article-body .table-wrap {
   margin: 36px 0;
   overflow-x: auto;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 22px;
 }
 
 .article-body .table-label {
@@ -1048,7 +1121,7 @@ body {
   color: var(--ink);
   background: var(--paper);
   border: 2px solid var(--rule);
-  border-radius: 0;
+  border-radius: var(--radius-sm);
 }
 
 .newsletter-input:focus-visible {
@@ -1067,13 +1140,15 @@ body {
   color: #ffffff;
   background: var(--fire);
   border: 2px solid var(--fire);
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s var(--ease), border-color 0.15s var(--ease), transform 0.15s var(--ease);
 }
 
 .newsletter-button:hover {
   background: var(--fire-light);
   border-color: var(--fire-light);
+  transform: translateY(-1px);
 }
 
 .newsletter-button:disabled {
@@ -1131,6 +1206,8 @@ body {
 }
 
 .faq-question::-webkit-details-marker { display: none; }
+
+.faq-question:hover { color: var(--fire); }
 
 .faq-question::after {
   content: "+";
@@ -1256,6 +1333,7 @@ body {
   border-color: var(--fire);
   background: var(--cream);
   transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .share-btn:active {
@@ -1336,14 +1414,15 @@ body {
   flex-direction: column;
   background: var(--paper);
   border: 1px solid var(--rule);
-  border-radius: 6px;
+  border-radius: var(--radius);
   overflow: hidden;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
+  box-shadow: var(--shadow-sm);
 }
 
 .social-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(26, 24, 22, 0.12);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
 .social-card-media {

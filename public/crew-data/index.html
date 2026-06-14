@@ -36,14 +36,14 @@
   <script defer src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { background: #0a0f1e; }
+    html, body { background: #14110F; }
     body { font-family: Georgia, 'Times New Roman', serif; }
     /* Visible keyboard focus indicator for tabs and links. */
     a:focus-visible,
     button:focus-visible,
     [role="tab"]:focus-visible,
     [role="tabpanel"]:focus-visible {
-      outline: 3px solid #c9a84c;
+      outline: 3px solid #E8883A;
       outline-offset: 2px;
       border-radius: 4px;
     }
@@ -103,37 +103,37 @@
       return (
         <div style={{
           fontFamily: "Georgia, 'Times New Roman', serif",
-          background: "#0a0f1e",
+          background: "#14110F",
           minHeight: "100vh",
-          color: "#e8e4d6",
+          color: "#F5F1EB",
         }}>
 
           {/* ── HEADER ───────────────────────────────────────── */}
           <div style={{
-            background: "linear-gradient(135deg, #0d1635 0%, #1a2a5e 50%, #0d1635 100%)",
-            borderBottom: "3px solid #c9a84c",
+            background: "linear-gradient(135deg, #1A1816 0%, #3D1208 50%, #1A1816 100%)",
+            borderBottom: "3px solid #E8883A",
             padding: "36px 32px 28px",
             position: "relative",
             overflow: "hidden",
           }}>
             <div style={{
               position: "absolute", top: 0, left: 0, right: 0, bottom: 0,
-              backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(201,168,76,0.04) 40px, rgba(201,168,76,0.04) 41px)",
+              backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(232,136,58,0.04) 40px, rgba(232,136,58,0.04) 41px)",
               pointerEvents: "none",
             }} />
             <div style={{ position: "relative" }}>
               <a href="/" style={{
                 display: "inline-flex", alignItems: "center", gap: 6,
                 fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase",
-                color: "#c9a84c", textDecoration: "none", marginBottom: 18,
-                border: "1px solid rgba(201,168,76,0.35)", borderRadius: 4,
+                color: "#E8883A", textDecoration: "none", marginBottom: 18,
+                border: "1px solid rgba(232,136,58,0.35)", borderRadius: 4,
                 padding: "7px 14px", fontFamily: "Georgia, serif",
               }}>
                 <span style={{ fontSize: 15, lineHeight: 1 }}>&larr;</span> Back to Home
               </a>
               <div style={{
                 fontSize: 11, letterSpacing: "0.25em", textTransform: "uppercase",
-                color: "#c9a84c", marginBottom: 10,
+                color: "#E8883A", marginBottom: 10,
               }}>
                 Research-Backed Staffing Data
               </div>
@@ -143,10 +143,10 @@
                 letterSpacing: "-0.5px",
               }}>
                 Why 5-Person Crews<br />
-                <span style={{ color: "#c9a84c" }}>Are the Standard</span>
+                <span style={{ color: "#E8883A" }}>Are the Standard</span>
               </h1>
               <p style={{
-                margin: "12px 0 0", fontSize: 13, color: "#9aa8c7",
+                margin: "12px 0 0", fontSize: 13, color: "#B6B0A7",
                 fontStyle: "italic", lineHeight: 1.5, maxWidth: 480,
               }}>
                 Compiled from federal NIST research, Dallas Fire Department study, and USFA injury data
@@ -157,8 +157,8 @@
           {/* ── TABS ─────────────────────────────────────────── */}
           <div role="tablist" aria-label="Crew size data views" style={{
             display: "flex",
-            borderBottom: "1px solid rgba(201,168,76,0.2)",
-            background: "#0d1635",
+            borderBottom: "1px solid rgba(232,136,58,0.2)",
+            background: "#1A1816",
             overflowX: "auto",
           }}>
             {tabs.map((t, i) => (
@@ -175,8 +175,8 @@
                 padding: "14px 22px", border: "none", cursor: "pointer",
                 background: "transparent", fontSize: 13, letterSpacing: "0.05em",
                 fontFamily: "Georgia, serif",
-                color: activeTab === t.id ? "#c9a84c" : "#6b7a9a",
-                borderBottom: activeTab === t.id ? "2px solid #c9a84c" : "2px solid transparent",
+                color: activeTab === t.id ? "#E8883A" : "#978D82",
+                borderBottom: activeTab === t.id ? "2px solid #E8883A" : "2px solid transparent",
                 whiteSpace: "nowrap", transition: "color 0.2s",
               }}>
                 {t.label}
@@ -192,23 +192,23 @@
               <div id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" tabIndex={0}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 14, marginBottom: 28 }}>
                   {[
-                    { num: "100%", label: "Efficiency rating",      sub: "All 13 tasks — 5-person crews", color: "#c9a84c" },
-                    { num: "22%",  label: "Faster to water on fire", sub: "vs. 2-person crews (NIST)",    color: "#4a9eff" },
-                    { num: "½",    label: "The fire size faced",     sub: "5-person vs. 2-person arrival", color: "#e05a2b" },
+                    { num: "100%", label: "Efficiency rating",      sub: "All 13 tasks — 5-person crews", color: "#E8883A" },
+                    { num: "22%",  label: "Faster to water on fire", sub: "vs. 2-person crews (NIST)",    color: "#4A90D9" },
+                    { num: "½",    label: "The fire size faced",     sub: "5-person vs. 2-person arrival", color: "#D94518" },
                   ].map((s, i) => (
                     <div key={i} style={{
-                      background: "linear-gradient(160deg, #111828 0%, #0d1635 100%)",
-                      border: "1px solid rgba(201,168,76,0.18)",
+                      background: "linear-gradient(160deg, #221E1B 0%, #1A1816 100%)",
+                      border: "1px solid rgba(232,136,58,0.18)",
                       borderTop: `3px solid ${s.color}`,
                       borderRadius: 6, padding: "18px 14px", textAlign: "center",
                     }}>
                       <div style={{ fontSize: "clamp(28px, 6vw, 40px)", fontWeight: 800, color: s.color, lineHeight: 1 }}>
                         {s.num}
                       </div>
-                      <div style={{ fontSize: 12, color: "#c8d0e0", marginTop: 6, fontWeight: 600 }}>
+                      <div style={{ fontSize: 12, color: "#E7E2DA", marginTop: 6, fontWeight: 600 }}>
                         {s.label}
                       </div>
-                      <div style={{ fontSize: 11, color: "#5a6a8a", marginTop: 4, fontStyle: "italic" }}>
+                      <div style={{ fontSize: 11, color: "#877D72", marginTop: 4, fontStyle: "italic" }}>
                         {s.sub}
                       </div>
                     </div>
@@ -217,20 +217,20 @@
 
                 {[
                   {
-                    color: "#c9a84c", bg: "linear-gradient(135deg,#1a1000,#2a1800)",
-                    border: "rgba(201,168,76,0.35)", textColor: "#d8ceb0",
+                    color: "#E8883A", bg: "linear-gradient(135deg,#1a1000,#2a1800)",
+                    border: "rgba(232,136,58,0.35)", textColor: "#EAD9C2",
                     label: "Dallas Fire Department Study",
                     body: <>91 fire ground simulations across single-family, apartment, and high-rise scenarios. <strong style={{color:"#fff"}}>Five-person crews achieved a 100% efficiency rating on all 13 tasks.</strong> Four-person crews showed measurable degradation on interior line advancement and search & rescue. Three-person crews degraded further. The study concluded five is the optimal crew size.</>
                   },
                   {
-                    color: "#4a9eff", bg: "linear-gradient(135deg,#00101a,#001525)",
-                    border: "rgba(74,158,255,0.25)", textColor: "#c8d8e8",
+                    color: "#4A90D9", bg: "linear-gradient(135deg,#0E0B09,#14110F)",
+                    border: "rgba(74,144,217,0.25)", textColor: "#E7E2DA",
                     label: "NIST / DHS Federal Study (2010)",
                     body: <>60+ live-fire experiments. 22 timed tasks. Crews of 2, 3, 4, and 5. <strong style={{color:"#fff"}}>Five-person crews were faster than four-person crews on several key tasks</strong> and faced a fire half the size — 1.1 MW vs. 2.1 MW. A 2.1 MW fire produces near-flashover conditions in a standard room. A 1.1 MW fire does not.</>
                   },
                   {
-                    color: "#e05a2b", bg: "linear-gradient(135deg,#1a0000,#250000)",
-                    border: "rgba(224,90,43,0.25)", textColor: "#e0c8c0",
+                    color: "#D94518", bg: "linear-gradient(135deg,#1a0000,#250000)",
+                    border: "rgba(217,69,24,0.25)", textColor: "#E7E2DA",
                     label: "USFA / NFIRS Injury Data",
                     body: <>Five-year national data from the National Fire Incident Reporting System establishes <strong style={{color:"#fff"}}>five as the injury equilibrium point</strong> — the crew size where firefighter injury rates are lowest. Below five, injuries rise. At six, injuries begin to rise again. Four is the legal minimum; five is the safety optimum.</>
                   },
@@ -255,20 +255,20 @@
             {/* ── FIRE GROWTH ── */}
             {activeTab === "fire" && (
               <div id="panel-fire" role="tabpanel" aria-labelledby="tab-fire" tabIndex={0}>
-                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#c9a84c", marginBottom: 6 }}>
+                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#E8883A", marginBottom: 6 }}>
                   Fire Size at Time of Suppression
                 </div>
-                <p style={{ margin: "0 0 24px", fontSize: 13, color: "#7a8aaa", fontStyle: "italic" }}>
+                <p style={{ margin: "0 0 24px", fontSize: 13, color: "#A89F95", fontStyle: "italic" }}>
                   Smaller crew = more time to complete tasks = larger fire when water is applied
                 </p>
 
                 {data.fireSize.map((d, i) => (
                   <div key={i} style={{ marginBottom: 18 }}>
                     <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
-                      <span style={{ fontSize: 14, color: "#c8d0e0", fontWeight: 600 }}>{d.label}</span>
+                      <span style={{ fontSize: 14, color: "#E7E2DA", fontWeight: 600 }}>{d.label}</span>
                       <span style={{ fontSize: 15, fontWeight: 700, color: d.color }}>{d.mw} MW</span>
                     </div>
-                    <div style={{ height: 28, background: "#111828", borderRadius: 4, overflow: "hidden", border: "1px solid rgba(255,255,255,0.06)" }}>
+                    <div style={{ height: 28, background: "#221E1B", borderRadius: 4, overflow: "hidden", border: "1px solid rgba(255,255,255,0.06)" }}>
                       <div style={{
                         height: "100%",
                         width: `${(d.mw / 2.1) * 100}%`,
@@ -280,8 +280,8 @@
                   </div>
                 ))}
 
-                <div style={{ marginTop: 28, background: "#0d1635", border: "1px solid rgba(201,168,76,0.2)", borderRadius: 6, padding: "18px 20px" }}>
-                  <div style={{ fontSize: 13, fontWeight: 700, color: "#c9a84c", marginBottom: 12 }}>
+                <div style={{ marginTop: 28, background: "#1A1816", border: "1px solid rgba(232,136,58,0.2)", borderRadius: 6, padding: "18px 20px" }}>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "#E8883A", marginBottom: 12 }}>
                     What these numbers mean on the fireground:
                   </div>
                   {[
@@ -289,17 +289,17 @@
                     ["2.1 MW", "Near-flashover conditions in a 12×16 ft room of origin. Lethal risk for interior crews."],
                   ].map(([mw, desc]) => (
                     <div key={mw} style={{ display: "flex", gap: 12, marginBottom: 10 }}>
-                      <span style={{ fontSize: 12, fontWeight: 800, color: "#fff", background: "#1a2a5e", padding: "2px 8px", borderRadius: 3, whiteSpace: "nowrap", alignSelf: "flex-start" }}>
+                      <span style={{ fontSize: 12, fontWeight: 800, color: "#fff", background: "#3D1208", padding: "2px 8px", borderRadius: 3, whiteSpace: "nowrap", alignSelf: "flex-start" }}>
                         {mw}
                       </span>
-                      <span style={{ fontSize: 13, color: "#8a9ab8", lineHeight: 1.5 }}>{desc}</span>
+                      <span style={{ fontSize: 13, color: "#A89F95", lineHeight: 1.5 }}>{desc}</span>
                     </div>
                   ))}
                 </div>
 
-                <div style={{ marginTop: 16, background: "rgba(224,90,43,0.08)", border: "1px solid rgba(224,90,43,0.25)", borderRadius: 6, padding: "16px 18px" }}>
-                  <strong style={{ color: "#e05a2b", fontSize: 13 }}>Bottom line: </strong>
-                  <span style={{ fontSize: 13, color: "#c0a898" }}>
+                <div style={{ marginTop: 16, background: "rgba(217,69,24,0.08)", border: "1px solid rgba(217,69,24,0.25)", borderRadius: 6, padding: "16px 18px" }}>
+                  <strong style={{ color: "#D94518", fontSize: 13 }}>Bottom line: </strong>
+                  <span style={{ fontSize: 13, color: "#B6B0A7" }}>
                     A 5-person crew arriving early faces a fire nearly <strong style={{ color: "#fff" }}>half the size</strong> of
                     what a 2-person crew arriving late faces — even in the same structure, on the same call.
                     Crew size is a direct multiplier on fire danger and firefighter safety.
@@ -311,30 +311,30 @@
             {/* ── TASK DATA ── */}
             {activeTab === "tasks" && (
               <div id="panel-tasks" role="tabpanel" aria-labelledby="tab-tasks" tabIndex={0}>
-                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#c9a84c", marginBottom: 6 }}>
+                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#E8883A", marginBottom: 6 }}>
                   Task Performance by Crew Size
                 </div>
-                <p style={{ margin: "0 0 20px", fontSize: 13, color: "#7a8aaa", fontStyle: "italic" }}>
+                <p style={{ margin: "0 0 20px", fontSize: 13, color: "#A89F95", fontStyle: "italic" }}>
                   NIST: 22 tasks timed over 60+ live-fire experiments
                 </p>
 
-                <div style={{ background: "#0d1635", border: "1px solid rgba(201,168,76,0.18)", borderRadius: 6, padding: "18px 20px", marginBottom: 22 }}>
-                  <div style={{ fontSize: 12, letterSpacing: "0.15em", textTransform: "uppercase", color: "#6b7a9a", marginBottom: 14 }}>
+                <div style={{ background: "#1A1816", border: "1px solid rgba(232,136,58,0.18)", borderRadius: 6, padding: "18px 20px", marginBottom: 22 }}>
+                  <div style={{ fontSize: 12, letterSpacing: "0.15em", textTransform: "uppercase", color: "#978D82", marginBottom: 14 }}>
                     Dallas Study — Overall Efficiency Rating
                   </div>
                   {data.efficiency.map((e, i) => (
                     <div key={i} style={{ marginBottom: i < 2 ? 14 : 0 }}>
                       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 5 }}>
-                        <span style={{ fontSize: 13, color: "#c8d0e0", fontWeight: 600 }}>{e.label}</span>
-                        <span style={{ fontSize: 13, fontWeight: 700, color: e.rating === 100 ? "#c9a84c" : "#6b7a9a" }}>
-                          {e.rating}% — <span style={{ fontSize: 11, fontWeight: 400, color: "#5a6a8a", fontStyle: "italic" }}>{e.desc}</span>
+                        <span style={{ fontSize: 13, color: "#E7E2DA", fontWeight: 600 }}>{e.label}</span>
+                        <span style={{ fontSize: 13, fontWeight: 700, color: e.rating === 100 ? "#E8883A" : "#978D82" }}>
+                          {e.rating}% — <span style={{ fontSize: 11, fontWeight: 400, color: "#877D72", fontStyle: "italic" }}>{e.desc}</span>
                         </span>
                       </div>
-                      <div style={{ height: 10, background: "#0a0f1e", borderRadius: 5, overflow: "hidden", border: "1px solid rgba(255,255,255,0.05)" }}>
+                      <div style={{ height: 10, background: "#14110F", borderRadius: 5, overflow: "hidden", border: "1px solid rgba(255,255,255,0.05)" }}>
                         <div style={{
                           height: "100%",
                           width: `${e.rating}%`,
-                          background: e.rating === 100 ? "linear-gradient(90deg,#8a6a20,#c9a84c)" : "linear-gradient(90deg,#2a3a6a,#4a5a9a)",
+                          background: e.rating === 100 ? "linear-gradient(90deg,#8A4A1E,#E8883A)" : "linear-gradient(90deg,#3A322C,#5A4D43)",
                           borderRadius: 5,
                           transition: "width 0.8s ease",
                         }} />
@@ -346,21 +346,21 @@
                 <div style={{ overflowX: "auto" }}>
                   <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
                     <thead>
-                      <tr style={{ borderBottom: "2px solid rgba(201,168,76,0.4)" }}>
-                        <th style={{ textAlign: "left", padding: "10px 12px", color: "#c9a84c", fontWeight: 700 }}>Task</th>
+                      <tr style={{ borderBottom: "2px solid rgba(232,136,58,0.4)" }}>
+                        <th style={{ textAlign: "left", padding: "10px 12px", color: "#E8883A", fontWeight: 700 }}>Task</th>
                         {["2-Person","3-Person","4-Person","5-Person"].map((h, i) => (
-                          <th key={i} style={{ textAlign: "center", padding: "10px 10px", color: i === 3 ? "#c9a84c" : "#6b7a9a", fontWeight: i === 3 ? 700 : 400 }}>{h}</th>
+                          <th key={i} style={{ textAlign: "center", padding: "10px 10px", color: i === 3 ? "#E8883A" : "#978D82", fontWeight: i === 3 ? 700 : 400 }}>{h}</th>
                         ))}
                       </tr>
                     </thead>
                     <tbody>
                       {data.tasks.map((row, i) => (
                         <tr key={i} style={{ borderBottom: "1px solid rgba(255,255,255,0.05)", background: i % 2 === 0 ? "transparent" : "rgba(255,255,255,0.015)" }}>
-                          <td style={{ padding: "11px 12px", color: "#c8d0e0", fontWeight: 600 }}>{row.task}</td>
+                          <td style={{ padding: "11px 12px", color: "#E7E2DA", fontWeight: 600 }}>{row.task}</td>
                           {[row.twoP, row.threeP, row.fourP, row.fiveP].map((val, j) => (
                             <td key={j} style={{
                               textAlign: "center", padding: "11px 10px",
-                              color: j === 3 ? "#c9a84c" : val.includes("Degraded") ? "#e05a2b" : val.includes("Reduced") ? "#e07a2b" : "#7a8aaa",
+                              color: j === 3 ? "#E8883A" : val.includes("Degraded") ? "#D94518" : val.includes("Reduced") ? "#E8883A" : "#A89F95",
                               fontWeight: j === 3 ? 700 : 400,
                             }}>{val}</td>
                           ))}
@@ -370,7 +370,7 @@
                   </table>
                 </div>
 
-                <div style={{ marginTop: 20, background: "rgba(201,168,76,0.07)", border: "1px solid rgba(201,168,76,0.2)", borderRadius: 6, padding: "14px 18px", fontSize: 13, color: "#c8b880", lineHeight: 1.6 }}>
+                <div style={{ marginTop: 20, background: "rgba(232,136,58,0.07)", border: "1px solid rgba(232,136,58,0.2)", borderRadius: 6, padding: "14px 18px", fontSize: 13, color: "#F0C28A", lineHeight: 1.6 }}>
                   <strong>Note on 4-person crews:</strong> Four meets the NFPA 1500 minimum and OSHA 2-in/2-out standard.
                   It is the legal floor — not the performance ceiling. Research consistently places the efficiency
                   and injury-reduction optimum at <strong>five</strong>.
@@ -381,41 +381,41 @@
             {/* ── SOURCES ── */}
             {activeTab === "sources" && (
               <div id="panel-sources" role="tabpanel" aria-labelledby="tab-sources" tabIndex={0}>
-                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#c9a84c", marginBottom: 20 }}>
+                <div style={{ fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "#E8883A", marginBottom: 20 }}>
                   Primary Research Sources
                 </div>
 
                 {[
-                  { color: "#4a9eff", title: "Report on Residential Fireground Field Experiments",
+                  { color: "#4A90D9", title: "Report on Residential Fireground Field Experiments",
                     meta: "National Institute of Standards and Technology (NIST) · 2010 · NIST Technical Note 1661",
                     detail: "60+ live-fire experiments in a 2,000 sq ft residential structure. Crews of 2–5 timed on 22 tasks. Funded by DHS/FEMA. The foundational federal study on crew size and deployment." },
-                  { color: "#4a9eff", title: "Landmark High-Rise Fire Study — Crew Sizes & Elevator Use",
+                  { color: "#4A90D9", title: "Landmark High-Rise Fire Study — Crew Sizes & Elevator Use",
                     meta: "National Institute of Standards and Technology (NIST) · 2013 · 13 DC-area departments",
                     detail: "48 experiments in a 13-story building. Compared 3–6 person crews. Five-person crews completed all critical tasks 21 minutes faster than 3-person crews." },
-                  { color: "#c9a84c", title: "Impact of Crew Size on Fire Attack in a Residential Structure",
+                  { color: "#E8883A", title: "Impact of Crew Size on Fire Attack in a Residential Structure",
                     meta: "Dallas Fire Department · 1984 · O'Hagan; Webb EFO #26602",
                     detail: "91 fire ground simulations. 3, 4, and 5-person crews across single-family, apartment, and high-rise scenarios. Concluded 5-person = 100% efficiency. Foundational crew-size study cited by USFA." },
-                  { color: "#e05a2b", title: "Optimal Staffing Levels for Firefighter Effectiveness and Mitigation of Injuries",
+                  { color: "#D94518", title: "Optimal Staffing Levels for Firefighter Effectiveness and Mitigation of Injuries",
                     meta: "U.S. Fire Administration / National Fire Academy · 2000 · EFO Research Paper — USFA/FEMA",
                     detail: "Synthesizes Dallas and Ohio State studies. Establishes 5 as both the efficiency optimum and injury equilibrium point. NFIRS five-year data supports this finding." },
-                  { color: "#e05a2b", title: "Ohio State University Staffing Study",
+                  { color: "#D94518", title: "Ohio State University Staffing Study",
                     meta: "Ohio State University / Columbus Fire Department · 1994 · Webb, J., EFO #26602",
                     detail: "404 structure fires analyzed. Firefighter injuries increase 46.7% at residential fires below 15 firefighters on scene; 73.5% at large fire risks. Fire spread increases with reduced staffing." },
                 ].map((s, i) => (
                   <div key={i} style={{
-                    background: "linear-gradient(135deg,#0d1635,#0a0f1e)",
+                    background: "linear-gradient(135deg,#1A1816,#14110F)",
                     border: "1px solid rgba(255,255,255,0.06)",
                     borderLeft: `3px solid ${s.color}`,
                     borderRadius: 6, padding: "16px 18px", marginBottom: 14,
                   }}>
                     <div style={{ fontSize: 14, fontWeight: 700, color: "#fff", marginBottom: 3 }}>{s.title}</div>
                     <div style={{ fontSize: 11, color: s.color, letterSpacing: "0.1em", marginBottom: 6 }}>{s.meta}</div>
-                    <div style={{ fontSize: 12, color: "#7a8aaa", lineHeight: 1.6 }}>{s.detail}</div>
+                    <div style={{ fontSize: 12, color: "#A89F95", lineHeight: 1.6 }}>{s.detail}</div>
                   </div>
                 ))}
 
-                <div style={{ marginTop: 6, padding: "14px 18px", background: "rgba(201,168,76,0.05)", border: "1px solid rgba(201,168,76,0.15)", borderRadius: 6, fontSize: 12, color: "#7a8aaa", lineHeight: 1.7 }}>
-                  <strong style={{ color: "#c9a84c" }}>NFPA 1500 / OSHA Standard:</strong> Four firefighters is the legal minimum
+                <div style={{ marginTop: 6, padding: "14px 18px", background: "rgba(232,136,58,0.05)", border: "1px solid rgba(232,136,58,0.15)", borderRadius: 6, fontSize: 12, color: "#A89F95", lineHeight: 1.7 }}>
+                  <strong style={{ color: "#E8883A" }}>NFPA 1500 / OSHA Standard:</strong> Four firefighters is the legal minimum
                   for interior structural attack (2-in/2-out). This is the floor, not the target.
                   All research above places the performance and safety optimum at five.
                 </div>
@@ -425,7 +425,7 @@
           </div>
 
           {/* ── FOOTER ── */}
-          <div style={{ borderTop: "1px solid rgba(201,168,76,0.15)", padding: "16px 24px", textAlign: "center", fontSize: 11, color: "#3a4a6a", letterSpacing: "0.1em" }}>
+          <div style={{ borderTop: "1px solid rgba(232,136,58,0.15)", padding: "16px 24px", textAlign: "center", fontSize: 11, color: "#4A3F37", letterSpacing: "0.1em" }}>
             DATA COMPILED FOR MEMBER EDUCATION
           </div>
         </div>
