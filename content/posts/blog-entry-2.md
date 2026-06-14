@@ -1,6 +1,7 @@
 ---
 date: "2026-05-15"
 title: "Recognition Without Compensation Is Just Words"
+slug: "recognition_without_compensation_is_just_words"
 summary: "Hawaii's firefighter applicant pools are shrinking. The passing bar is dropping. The partners holding it all together go unnamed. And on International Firefighters' Day, counties across the state issued proclamations. Here's what they didn't say."
 categories:
   - Public Safety

@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { marked } from 'marked'
 
 import { allPosts } from 'content-collections'
 import ViewCounter from '@/components/ViewCounter'
@@ -193,7 +192,7 @@ function RouteComponent() {
         <ShareBar url={shareUrl} title={post.title} />
         <div
           className="article-body"
-          dangerouslySetInnerHTML={{ __html: marked(post.content) as string }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
         <ShareBar url={shareUrl} title={post.title} />
       </div>

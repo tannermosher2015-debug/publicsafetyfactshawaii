@@ -1,6 +1,7 @@
 ---
 date: "2026-05-20"
 title: "The Federal Exemption That Costs Hawaii Firefighters Millions"
+slug: "the_federal_exemption_that_costs_hawaii_firefighters_millions"
 summary: "Hawaii's firefighters can work 53-hour weeks without earning a single dollar of overtime. The law that makes this possible is optional. And most people have never heard of it."
 categories:
   - Public Safety
