@@ -7,6 +7,12 @@ export const ORGANIZATION_SCHEMA = {
   '@id': `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: `${SITE_URL}/`,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${SITE_URL}/logo.jpg`,
+    width: 1000,
+    height: 1000,
+  },
   description:
     'Independent community education on Hawaii firefighter pay, labor rights, and public safety facts.',
   sameAs: [

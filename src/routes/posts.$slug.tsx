@@ -121,6 +121,12 @@ export const Route = createFileRoute('/posts/$slug')({
               '@type': 'Organization',
               name: SITE_NAME,
               url: `${SITE_URL}/`,
+              logo: {
+                '@type': 'ImageObject',
+                url: OG_IMAGE,
+                width: 1000,
+                height: 1000,
+              },
             },
             articleSection: loaderData.categories[0] ?? 'Public Safety',
             keywords: loaderData.categories.join(', '),
