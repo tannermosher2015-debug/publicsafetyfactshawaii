@@ -1,6 +1,6 @@
 export const SITE_URL = 'https://publicsafetyfactshawaii.org'
 export const SITE_NAME = 'PublicSafetyFactsHawaii'
-export const OG_IMAGE = `${SITE_URL}/og-default.jpg`
+export const OG_IMAGE = `${SITE_URL}/logo.jpg`
 
 export const ORGANIZATION_SCHEMA = {
   '@type': 'Organization',

@@ -14,10 +14,14 @@
 @import "tailwindcss" source("../");
 
 :root {
-  --fire: #B83208;
-  --fire-light: #D94518;
-  --ember: #E8883A;
-  --smoke: #1A1816;
+  /* Navy + gold palette — matches the PublicSafetyFactsHawaii logo. Gold is the
+     accent on dark (navy) surfaces; navy is the accent on light surfaces. The
+     fire/ember variable names are kept so the rest of the sheet maps cleanly. */
+  --fire: #1A3A6B;        /* primary accent on light backgrounds — medium navy */
+  --fire-light: #25508C;  /* lighter navy — hover states */
+  --ember: #C9A84C;       /* gold — accent on dark (navy) surfaces */
+  --gold-light: #E8C97A;  /* lighter gold */
+  --smoke: #0F1F3D;       /* deep navy — dark surfaces + headings (logo navy) */
   --ash: #6B6560;
   --paper: #FFFFFF;
   --cream: #F5F1EB;
@@ -25,13 +29,13 @@
   --rule: #D0C8BA;
   --ink: #111111;
 
-  /* Refresh design tokens — consistent radii, warm-tinted elevation, easing. */
+  /* Design tokens — consistent radii, navy-tinted elevation, easing. */
   --radius-sm: 4px;
   --radius: 8px;
   --radius-lg: 14px;
-  --shadow-sm: 0 1px 2px rgba(26, 24, 22, 0.05), 0 3px 10px rgba(26, 24, 22, 0.05);
-  --shadow-md: 0 6px 16px rgba(26, 24, 22, 0.08), 0 14px 32px rgba(26, 24, 22, 0.08);
-  --shadow-lg: 0 12px 28px rgba(26, 24, 22, 0.12), 0 28px 56px rgba(26, 24, 22, 0.13);
+  --shadow-sm: 0 1px 2px rgba(15, 31, 61, 0.06), 0 3px 10px rgba(15, 31, 61, 0.06);
+  --shadow-md: 0 6px 16px rgba(15, 31, 61, 0.10), 0 14px 32px rgba(15, 31, 61, 0.10);
+  --shadow-lg: 0 12px 28px rgba(15, 31, 61, 0.14), 0 28px 56px rgba(15, 31, 61, 0.15);
   --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 
@@ -1541,3 +1545,55 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ── Logo ─────────────────────────────────────────────────────────────────
+   The circular badge sits at the top of every masthead and in the footer.
+   Clipped to a circle (drops the source image's white corners); an inset gold
+   ring hides the hairline edge and echoes the badge's gold rim. The navy bands
+   match the logo's navy, so it sits seamlessly. */
+.masthead,
+.home-masthead {
+  padding-top: 20px;
+}
+
+.masthead::before,
+.home-masthead::before {
+  content: '';
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  background: url('/logo.jpg') center / cover no-repeat;
+  box-shadow: inset 0 0 0 2px var(--ember);
+}
+
+.site-footer::before {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: url('/logo.jpg') center / cover no-repeat;
+  box-shadow: inset 0 0 0 2px var(--ember);
+}
+
+/* ── Navy/gold accent fixes ────────────────────────────────────────────────
+   Spots that must use gold (on dark navy surfaces) or navy (on light) to stay
+   visible and legible after the palette remap. */
+.divider { color: var(--fire); }                 /* navy — gold is too faint on white */
+
+.home-nav-link.active,
+.home-nav-link[data-status="active"] { border-bottom-color: var(--ember); }
+
+.newsletter { border-top: 4px solid var(--ember); }
+.newsletter-button { background: var(--ember); border-color: var(--ember); color: var(--smoke); }
+.newsletter-button:hover { background: var(--gold-light); border-color: var(--gold-light); }
+.newsletter-input:focus-visible { outline-color: var(--fire); border-color: var(--fire); }
+
+.featured-hero::before {
+  background: linear-gradient(90deg, var(--ember) 0%, var(--gold-light) 50%, var(--ember) 100%);
+}
+.stat-box.featured { border-top: 3px solid var(--ember); }
+.bar-fill.fire-bar { background: var(--ember); color: var(--smoke); }
