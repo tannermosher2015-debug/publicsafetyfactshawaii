@@ -33,6 +33,7 @@ export const POST_META: Record<string, PostMeta> = {
     topic: 'Recognition',
     stat: '1 in 3',
     statLabel: 'days a firefighter spends away from home',
+    photo: 'family.jpg',
   },
   the_federal_exemption_that_costs_hawaii_firefighters_millions: {
     topic: 'Overtime Law',
@@ -45,21 +46,25 @@ export const POST_META: Record<string, PostMeta> = {
       topic: 'Governance',
       stat: '$0',
       statLabel: "of the study's logic applied to firefighters",
+      photo: 'governance.jpg',
     },
   maui_fire_commission_was_told_firefighters_do_fairly_well: {
     topic: 'Governance',
     stat: '"Fairly well"',
     statLabel: "what the commission was told, vs. the county's own records",
+    photo: 'commission.jpg',
   },
   maui_firefighter_vacancies_county_roster: {
     topic: 'Staffing',
     stat: '10',
     statLabel: "line vacancies named on the county's own May 2026 roster",
+    photo: 'vacancies.jpg',
   },
   cost_of_living_gap_hawaii_firefighter_pay: {
     topic: 'Cost of Living',
     stat: '~5×',
     statLabel: "a starting firefighter's salary to afford Maui's median home",
+    photo: 'cost-of-living.jpg',
   },
   why_5_person_fire_crews_are_the_standard: {
     topic: 'Staffing',

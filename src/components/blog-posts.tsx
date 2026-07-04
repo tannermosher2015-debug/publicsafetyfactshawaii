@@ -403,8 +403,8 @@ export default function BlogPosts({
           </Link>
         </div>
         <div className="footer-credits">
-          Photos: U.S. Navy, U.S. Coast Guard &amp; National Park Service
-          (public domain)
+          Photos: U.S. Navy, U.S. Marine Corps, U.S. Coast Guard, FEMA &amp;
+          National Park Service (public domain)
         </div>
       </SiteFooter>
     </>
