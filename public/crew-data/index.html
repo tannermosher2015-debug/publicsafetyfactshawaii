@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hawaii 5-Person Fire Crew Staffing Data | PublicSafetyFactsHawaii</title>
+  <meta name="description" content="Why five-person fire crews are the standard in Hawaii: NFPA 1710 benchmarks and the data showing how crew size affects rescue speed and fireground safety." />
+  <link rel="canonical" href="https://publicsafetyfactshawaii.org/crew-data" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PublicSafetyFactsHawaii" />
+  <meta property="og:url" content="https://publicsafetyfactshawaii.org/crew-data" />
+  <meta property="og:title" content="Hawaii 5-Person Fire Crew Staffing Data" />
+  <meta property="og:description" content="NFPA 1710 benchmarks and the data behind safe fire crew staffing in Hawaii." />
+  <meta property="og:image" content="https://publicsafetyfactshawaii.org/og-default.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hawaii 5-Person Fire Crew Staffing Data" />
+  <meta name="twitter:description" content="NFPA 1710 benchmarks and the data behind safe fire crew staffing in Hawaii." />
+  <meta name="twitter:image" content="https://publicsafetyfactshawaii.org/og-default.jpg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Hawaii 5-Person Fire Crew Staffing Data",
+    "description": "Data on five-person crew staffing standards for Hawaii fire departments, including NFPA 1710 benchmarks, fireground task efficiency, and fire-growth timelines by crew size.",
+    "url": "https://publicsafetyfactshawaii.org/crew-data",
+    "publisher": { "@type": "Organization", "name": "PublicSafetyFactsHawaii", "url": "https://publicsafetyfactshawaii.org/" },
+    "about": "Fire department staffing standards in Hawaii",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+  </script>
+  <link href="/fonts.css" rel="stylesheet" />
+  <style>
+    :root {
+      /* Navy + gold — matches the PublicSafetyFactsHawaii logo and articles. */
+      --navy: #0F1F3D;
+      --navy-mid: #1A3260;
+      --gold: #C9A84C;          /* bright gold — on dark surfaces only */
+      --gold-light: #E8C97A;
+      --gold-ink: #8A6A20;      /* darker gold — AA-safe for labels on light */
+      --gold-pale: #F7EED6;
+      --cream: #FAF8F3;
+      --text: #1C1C1C;
+      --muted: #5A5A5A;
+      --rule: #D6C9A0;
+      --danger: #A8331F;        /* restrained fire-red for the worst case */
+      --warn: #9C6A1E;          /* bronze for the mid grades */
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: rgba(201,168,76,0.4); color: var(--navy); }
+
+    a:focus-visible,
+    button:focus-visible,
+    .skip:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 2px;
+      border-radius: 3px;
+    }
+
+    /* Skip link */
+    .skip {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 16px;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      z-index: 20;
+    }
+    .skip:focus { left: 0; }
+
+    /* ---- NAV ---- */
+    .topbar {
+      background: var(--navy);
+      padding: 12px 32px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .topbar a {
+      color: var(--gold-light);
+      text-decoration: none;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      transition: opacity 0.2s;
+    }
+    .topbar a:hover { opacity: 1; }
+    .topbar span { color: var(--gold); opacity: 0.4; font-size: 12px; }
+
+    /* ---- HERO ---- */
+    .hero {
+      background: var(--navy);
+      padding: 70px 32px 60px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 40px,
+        rgba(201,168,76,0.03) 40px,
+        rgba(201,168,76,0.03) 41px
+      );
+    }
+    .hero-inner { position: relative; }
+    .hero-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(30px, 5vw, 54px);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      max-width: 760px;
+      margin: 0 auto 22px;
+      letter-spacing: -0.01em;
+    }
+    .hero h1 em { color: var(--gold-light); font-style: italic; }
+    .hero-sub {
+      font-size: 17px;
+      color: rgba(255,255,255,0.62);
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.65;
+      font-weight: 300;
+      font-style: italic;
+    }
+    .hero-rule {
+      width: 60px; height: 2px;
+      background: var(--gold);
+      margin: 34px auto 0;
+      opacity: 0.55;
+    }
+
+    /* ---- ARTICLE ---- */
+    .article {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .lead {
+      font-size: 20px;
+      line-height: 1.7;
+      color: var(--navy-mid);
+      margin-bottom: 40px;
+      border-left: 3px solid var(--gold);
+      padding-left: 22px;
+    }
+    .section { margin: 52px 0; }
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-ink);
+      margin-bottom: 8px;
+      display: block;
+    }
+    h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(24px, 3.4vw, 30px);
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .section-intro {
+      font-size: 16px;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 26px;
+    }
+
+    /* ---- KEY STATS ---- */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 34px 0 8px;
+    }
+    .stat {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-top: 3px solid var(--gold);
+      border-radius: 6px;
+      padding: 22px 16px;
+      text-align: center;
+    }
+    .stat.navy { border-top-color: var(--navy); }
+    .stat.danger { border-top-color: var(--danger); }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 6vw, 42px);
+      font-weight: 900;
+      line-height: 1;
+      color: var(--navy);
+    }
+    .stat.gold .stat-num { color: var(--gold-ink); }
+    .stat.danger .stat-num { color: var(--danger); }
+    .stat-label { font-size: 13px; font-weight: 600; color: var(--navy-mid); margin-top: 8px; }
+    .stat-sub { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 4px; }
+
+    /* ---- STUDY CARDS ---- */
+    .study {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-left: 4px solid var(--gold);
+      border-radius: 6px;
+      padding: 22px 24px;
+      margin-bottom: 18px;
+    }
+    .study.navy { border-left-color: var(--navy); }
+    .study.danger { border-left-color: var(--danger); }
+    .study .label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-ink);
+      margin-bottom: 8px;
+    }
+    .study.navy .label { color: var(--navy); }
+    .study.danger .label { color: var(--danger); }
+    .study p { font-size: 16px; line-height: 1.7; color: var(--text); margin: 0; }
+    .study strong { color: var(--navy); font-weight: 700; }
+
+    /* ---- BARS ---- */
+    .bar-row { margin-bottom: 18px; }
+    .bar-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+    .bar-name { font-size: 14px; font-weight: 600; color: var(--navy-mid); }
+    .bar-val { font-family: 'DM Mono', monospace; font-size: 14px; font-weight: 500; }
+    .bar-track {
+      height: 26px;
+      background: #ECE6D8;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .bar-fill { height: 100%; border-radius: 3px 0 0 3px; transition: width 0.8s ease; }
+    .fill-danger { background: var(--danger); }
+    .fill-warn   { background: var(--warn); }
+    .fill-navy   { background: var(--navy-mid); }
+    .fill-gold   { background: linear-gradient(90deg, var(--gold-ink), var(--gold)); }
+    .bar-danger .bar-val { color: var(--danger); }
+    .bar-warn .bar-val   { color: var(--warn); }
+    .bar-navy .bar-val   { color: var(--navy-mid); }
+    .bar-gold .bar-val   { color: var(--gold-ink); }
+
+    /* ---- DARK CALLOUT ---- */
+    .callout {
+      background: var(--navy);
+      color: #fff;
+      border-radius: 6px;
+      padding: 26px 28px;
+      margin: 26px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .callout .label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+      display: block;
+    }
+    .callout p { color: rgba(255,255,255,0.85); font-size: 16px; line-height: 1.7; margin: 0; }
+    .callout strong { color: var(--gold-light); font-weight: 600; }
+    .mw-row { display: flex; gap: 12px; margin-bottom: 12px; }
+    .mw-row:last-child { margin-bottom: 0; }
+    .mw-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 12px; font-weight: 500;
+      color: var(--navy);
+      background: var(--gold-light);
+      padding: 2px 9px; border-radius: 3px;
+      white-space: nowrap; align-self: flex-start;
+    }
+    .mw-desc { font-size: 14px; color: rgba(255,255,255,0.72); line-height: 1.5; }
+
+    .bottom-line {
+      background: var(--gold-pale);
+      border: 1px solid var(--rule);
+      border-left: 4px solid var(--danger);
+      border-radius: 6px;
+      padding: 18px 22px;
+      margin-top: 18px;
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--text);
+    }
+    .bottom-line strong { color: var(--danger); }
+
+    /* ---- TABLE ---- */
+    .table-wrap { overflow-x: auto; margin: 8px 0 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    caption {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--muted); text-align: left; margin-bottom: 10px;
+    }
+    thead th {
+      font-family: 'DM Mono', monospace;
+      background: var(--navy);
+      color: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      padding: 10px 12px;
+      text-align: center;
+    }
+    thead th:first-child { text-align: left; }
+    thead th.hl { color: var(--gold-light); }
+    tbody td { padding: 10px 12px; border-bottom: 1px solid var(--rule); text-align: center; }
+    tbody td:first-child { text-align: left; font-weight: 600; color: var(--navy); }
+    tbody tr:nth-child(even) { background: #fff; }
+    tbody td.hl { color: var(--gold-ink); font-weight: 700; }
+    td.bad { color: var(--danger); }
+    td.mid { color: var(--warn); }
+
+    .note {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      padding: 16px 20px;
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--text);
+    }
+    .note strong { color: var(--navy); }
+
+    /* ---- SOURCES ---- */
+    .source {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-left: 3px solid var(--navy);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+    }
+    .source .s-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 16px; color: var(--navy); margin-bottom: 4px; }
+    .source .s-meta { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--gold-ink); letter-spacing: 0.04em; margin-bottom: 7px; }
+    .source .s-detail { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    /* ---- FOOTERS ---- */
+    .article-footer {
+      border-top: 1px solid var(--rule);
+      padding-top: 28px;
+      margin-top: 56px;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .article-footer strong {
+      display: block;
+      color: var(--navy);
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .site-footer {
+      background: var(--navy);
+      padding: 26px 32px;
+      text-align: center;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.08em;
+    }
+    .site-footer a { color: var(--gold-light); text-decoration: none; opacity: 0.8; }
+    .site-footer a:hover { opacity: 1; }
+
+    @media (max-width: 600px) {
+      .stat-grid { grid-template-columns: 1fr; }
+      .hero { padding: 44px 20px 40px; }
+      .article { padding: 36px 18px 60px; }
+      .callout { padding: 22px 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto; }
+      .bar-fill { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="topbar">
+    <a href="/">&#8592; Back to PublicSafetyFactsHawaii</a>
+    <span>|</span>
+    <a href="/">Community Education</a>
+    <span>|</span>
+    <a href="/category/Public%20Safety">Public Safety</a>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Community Education &nbsp;·&nbsp; Staffing Data &nbsp;·&nbsp; Public Safety</div>
+      <h1>Why 5-Person Crews <em>Are the Standard</em></h1>
+      <p class="hero-sub">Compiled from federal NIST research, the Dallas Fire Department study, and USFA injury data.</p>
+      <div class="hero-rule"></div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <main id="main" class="article">
+
+    <p class="lead">
+      When a fire crew pulls up, the number of firefighters on it is not a budget line. It is a direct multiplier on how fast the fire is knocked down, how quickly a trapped person is reached, and how likely the crew is to go home. Here is what the federal research actually found.
+    </p>
+
+    <!-- KEY STATS -->
+    <section class="section" aria-labelledby="stats-h">
+      <span class="section-label">The Numbers</span>
+      <h2 id="stats-h">What five firefighters buy you</h2>
+      <div class="stat-grid">
+        <div class="stat gold">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Efficiency rating</div>
+          <div class="stat-sub">all 13 tasks, 5-person crews</div>
+        </div>
+        <div class="stat navy">
+          <div class="stat-num">22%</div>
+          <div class="stat-label">Faster to water on fire</div>
+          <div class="stat-sub">vs. 2-person crews (NIST)</div>
+        </div>
+        <div class="stat danger">
+          <div class="stat-num">&frac12;</div>
+          <div class="stat-label">The fire size faced</div>
+          <div class="stat-sub">5-person vs. 2-person arrival</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE STUDIES -->
+    <section class="section" aria-labelledby="studies-h">
+      <span class="section-label">The Research</span>
+      <h2 id="studies-h">Three federal findings point to five</h2>
+
+      <div class="study gold">
+        <div class="label">Dallas Fire Department Study</div>
+        <p>91 fireground simulations across single-family, apartment, and high-rise scenarios. <strong>Five-person crews achieved a 100% efficiency rating on all 13 tasks.</strong> Four-person crews showed measurable degradation on interior line advancement and search and rescue. Three-person crews degraded further. The study concluded five is the optimal crew size.</p>
+      </div>
+
+      <div class="study navy">
+        <div class="label">NIST / DHS Federal Study (2010)</div>
+        <p>More than 60 live-fire experiments, 22 timed tasks, crews of 2, 3, 4, and 5. <strong>Five-person crews were faster than four-person crews on several key tasks</strong> and faced a fire half the size: 1.1 MW vs. 2.1 MW. A 2.1 MW fire produces near-flashover conditions in a standard room. A 1.1 MW fire does not.</p>
+      </div>
+
+      <div class="study danger">
+        <div class="label">USFA / NFIRS Injury Data</div>
+        <p>Five years of national data from the National Fire Incident Reporting System establishes <strong>five as the injury equilibrium point</strong>, the crew size where firefighter injury rates are lowest. Below five, injuries rise. At six, injuries begin to rise again. Four is the legal minimum; five is the safety optimum.</p>
+      </div>
+    </section>
+
+    <!-- FIRE GROWTH -->
+    <section class="section" aria-labelledby="fire-h">
+      <span class="section-label">Fire Size at Time of Suppression</span>
+      <h2 id="fire-h">A smaller crew fights a bigger fire</h2>
+      <p class="section-intro">Fewer firefighters means more time to complete tasks, which means a larger fire by the time water is applied.</p>
+
+      <div class="bar-row bar-danger">
+        <div class="bar-head"><span class="bar-name">2-Person (late)</span><span class="bar-val">2.1 MW</span></div>
+        <div class="bar-track"><div class="bar-fill fill-danger" style="width:100%"></div></div>
+      </div>
+      <div class="bar-row bar-warn">
+        <div class="bar-head"><span class="bar-name">3-Person</span><span class="bar-val">1.7 MW</span></div>
+        <div class="bar-track"><div class="bar-fill fill-warn" style="width:81%"></div></div>
+      </div>
+      <div class="bar-row bar-navy">
+        <div class="bar-head"><span class="bar-name">4-Person</span><span class="bar-val">1.4 MW</span></div>
+        <div class="bar-track"><div class="bar-fill fill-navy" style="width:67%"></div></div>
+      </div>
+      <div class="bar-row bar-gold">
+        <div class="bar-head"><span class="bar-name">5-Person (early)</span><span class="bar-val">1.1 MW</span></div>
+        <div class="bar-track"><div class="bar-fill fill-gold" style="width:52%"></div></div>
+      </div>
+
+      <div class="callout">
+        <span class="label">What these numbers mean on the fireground</span>
+        <div class="mw-row"><span class="mw-tag">1.1 MW</span><span class="mw-desc">A fully involved upholstered chair at peak burn. Dangerous, but manageable.</span></div>
+        <div class="mw-row"><span class="mw-tag">2.1 MW</span><span class="mw-desc">Near-flashover conditions in a 12 by 16 ft room of origin. Lethal risk for interior crews.</span></div>
+      </div>
+
+      <div class="bottom-line">
+        <strong>Bottom line:</strong> a 5-person crew arriving early faces a fire nearly <strong>half the size</strong> of what a 2-person crew arriving late faces, even in the same structure, on the same call. Crew size is a direct multiplier on fire danger and firefighter safety.
+      </div>
+    </section>
+
+    <!-- TASK DATA -->
+    <section class="section" aria-labelledby="tasks-h">
+      <span class="section-label">Task Performance by Crew Size</span>
+      <h2 id="tasks-h">Every task gets done faster with five</h2>
+      <p class="section-intro">NIST timed 22 tasks over more than 60 live-fire experiments.</p>
+
+      <div class="callout" style="background:#fff;color:var(--text);border:1px solid var(--rule);">
+        <span class="label" style="color:var(--gold-ink);">Dallas Study &nbsp;&middot;&nbsp; Overall Efficiency Rating</span>
+        <div class="bar-row bar-navy" style="margin-top:6px;">
+          <div class="bar-head"><span class="bar-name">3-Person</span><span class="bar-val">68% &middot; critical tasks degraded</span></div>
+          <div class="bar-track"><div class="bar-fill fill-navy" style="width:68%"></div></div>
+        </div>
+        <div class="bar-row bar-navy">
+          <div class="bar-head"><span class="bar-name">4-Person</span><span class="bar-val">85% &middot; interior attack &amp; rescue reduced</span></div>
+          <div class="bar-track"><div class="bar-fill fill-navy" style="width:85%"></div></div>
+        </div>
+        <div class="bar-row bar-gold" style="margin-bottom:0;">
+          <div class="bar-head"><span class="bar-name">5-Person</span><span class="bar-val">100% &middot; all 13 tasks at full efficiency</span></div>
+          <div class="bar-track"><div class="bar-fill fill-gold" style="width:100%"></div></div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <caption>NIST: task completion by crew size</caption>
+          <thead>
+            <tr>
+              <th scope="col">Task</th>
+              <th scope="col">2-Person</th>
+              <th scope="col">3-Person</th>
+              <th scope="col">4-Person</th>
+              <th scope="col" class="hl">5-Person</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Water on Fire</td><td>Baseline</td><td>+10%</td><td>+16%</td><td class="hl">+22%</td></tr>
+            <tr><td>Search &amp; Rescue Start</td><td>Baseline</td><td>+24%</td><td>+30%</td><td class="hl">Fastest</td></tr>
+            <tr><td>Interior Line Advance</td><td class="bad">Degraded</td><td class="mid">Reduced</td><td class="mid">Reduced</td><td class="hl">100%</td></tr>
+            <tr><td>Laddering &amp; Ventilation</td><td class="bad">Degraded</td><td class="mid">Reduced</td><td class="mid">Reduced</td><td class="hl">100%</td></tr>
+            <tr><td>All 22 Tasks (combined)</td><td>Baseline</td><td>+25%</td><td>+30%</td><td class="hl">Fastest</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <strong>Note on 4-person crews:</strong> four meets the NFPA 1500 minimum and the OSHA 2-in/2-out standard. It is the legal floor, not the performance ceiling. Research consistently places the efficiency and injury-reduction optimum at <strong>five</strong>.
+      </div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="section" aria-labelledby="sources-h">
+      <span class="section-label">Primary Research Sources</span>
+      <h2 id="sources-h">Where this comes from</h2>
+
+      <div class="source">
+        <div class="s-title">Report on Residential Fireground Field Experiments</div>
+        <div class="s-meta">NIST &middot; 2010 &middot; Technical Note 1661</div>
+        <div class="s-detail">More than 60 live-fire experiments in a 2,000 sq ft residential structure. Crews of 2 to 5 timed on 22 tasks. Funded by DHS/FEMA. The foundational federal study on crew size and deployment.</div>
+      </div>
+      <div class="source">
+        <div class="s-title">Landmark High-Rise Fire Study, Crew Sizes and Elevator Use</div>
+        <div class="s-meta">NIST &middot; 2013 &middot; 13 DC-area departments</div>
+        <div class="s-detail">48 experiments in a 13-story building comparing 3 to 6 person crews. Five-person crews completed all critical tasks 21 minutes faster than 3-person crews.</div>
+      </div>
+      <div class="source">
+        <div class="s-title">Impact of Crew Size on Fire Attack in a Residential Structure</div>
+        <div class="s-meta">Dallas Fire Department &middot; 1984 &middot; O'Hagan; Webb EFO #26602</div>
+        <div class="s-detail">91 fireground simulations. 3, 4, and 5-person crews across single-family, apartment, and high-rise scenarios. Concluded 5-person equals 100% efficiency. Foundational crew-size study cited by USFA.</div>
+      </div>
+      <div class="source">
+        <div class="s-title">Optimal Staffing Levels for Firefighter Effectiveness and Mitigation of Injuries</div>
+        <div class="s-meta">U.S. Fire Administration / National Fire Academy &middot; 2000 &middot; USFA/FEMA</div>
+        <div class="s-detail">Synthesizes the Dallas and Ohio State studies. Establishes 5 as both the efficiency optimum and injury equilibrium point. NFIRS five-year data supports this finding.</div>
+      </div>
+      <div class="source">
+        <div class="s-title">Ohio State University Staffing Study</div>
+        <div class="s-meta">Ohio State University / Columbus Fire Department &middot; 1994 &middot; Webb, J., EFO #26602</div>
+        <div class="s-detail">404 structure fires analyzed. Firefighter injuries increase 46.7% at residential fires below 15 firefighters on scene, and 73.5% at large fire risks. Fire spread increases with reduced staffing.</div>
+      </div>
+
+      <div class="note" style="border-left:4px solid var(--gold);">
+        <strong>NFPA 1500 / OSHA standard:</strong> four firefighters is the legal minimum for interior structural attack (2-in/2-out). This is the floor, not the target. All research above places the performance and safety optimum at five.
+      </div>
+    </section>
+
+    <div class="article-footer">
+      <strong>Data compiled for community education</strong>
+      Figures drawn from published federal and municipal fire-service research (NIST, U.S. Fire Administration, Dallas Fire Department, Ohio State University). Presented for public education by PublicSafetyFactsHawaii.
+    </div>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    PublicSafetyFactsHawaii &nbsp;&middot;&nbsp; Community Education &nbsp;&middot;&nbsp; <a href="/">Home</a>
+  </footer>
+</body>
+</html>
