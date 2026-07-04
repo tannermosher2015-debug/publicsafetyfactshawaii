@@ -135,6 +135,23 @@ function Card({ item }: { item: Item }) {
   )
 }
 
+// A guided reading order for first-time visitors: the three articles that, in
+// sequence, explain the whole thesis. Slug -> one-line reason to read it.
+const START_HERE: { slug: string; why: string }[] = [
+  {
+    slug: 'the_federal_exemption_that_costs_hawaii_firefighters_millions',
+    why: 'The optional federal rule behind the paychecks.',
+  },
+  {
+    slug: 'hawaii_s_two-tier_public_safety_system',
+    why: 'How firefighter pay stacks up against police.',
+  },
+  {
+    slug: 'maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management',
+    why: "The county's own study, and who actually got the raises.",
+  },
+]
+
 export default function BlogPosts({
   title,
   posts,
@@ -166,6 +183,13 @@ export default function BlogPosts({
       : gridItems.filter((i) => i.topic === activeTopic)
 
   const featured = featuredPost ? postToItem(featuredPost) : undefined
+
+  const startItems = showFeatured
+    ? START_HERE.map((s) => {
+        const post = sorted.find((p) => p.slug === s.slug)
+        return post ? { slug: post.slug, title: post.title, why: s.why } : null
+      }).filter((x): x is { slug: string; title: string; why: string } => x !== null)
+    : []
 
   return (
     <>
@@ -247,6 +271,33 @@ export default function BlogPosts({
                 </div>
               </div>
             </Link>
+          </section>
+        )}
+
+        {startItems.length === 3 && (
+          <section className="psf-start" aria-labelledby="start-heading">
+            <h2 id="start-heading" className="psf-start-head">
+              New here? Start with these three.
+            </h2>
+            <ol className="psf-start-list">
+              {startItems.map((s, i) => (
+                <li key={s.slug}>
+                  <Link
+                    to="/posts/$slug"
+                    params={{ slug: s.slug }}
+                    className="psf-start-item"
+                  >
+                    <span className="psf-start-num" aria-hidden="true">
+                      {i + 1}
+                    </span>
+                    <span className="psf-start-body">
+                      <span className="psf-start-title">{s.title}</span>
+                      <span className="psf-start-why">{s.why}</span>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
           </section>
         )}
 

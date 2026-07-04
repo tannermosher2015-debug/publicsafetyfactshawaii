@@ -2135,3 +2135,70 @@ body {
   line-height: 1.6;
   color: var(--paper);
 }
+
+/* "Start here" guided path on the home page. */
+.psf-start {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 44px) clamp(20px, 4vw, 56px) 0;
+}
+.psf-start-head {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(20px, 2.4vw, 30px);
+  color: var(--smoke);
+  margin: 0 0 20px;
+}
+.psf-start-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.psf-start-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  height: 100%;
+  padding: 20px;
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: border-color 0.15s var(--ease), transform 0.15s var(--ease);
+}
+.psf-start-item:hover {
+  border-color: var(--ember);
+  transform: translateY(-2px);
+}
+.psf-start-num {
+  flex: none;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--ember);
+}
+.psf-start-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.psf-start-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.25;
+  color: var(--smoke);
+}
+.psf-start-why {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ash);
+}
+@media (max-width: 760px) {
+  .psf-start-list { grid-template-columns: 1fr; }
+}
