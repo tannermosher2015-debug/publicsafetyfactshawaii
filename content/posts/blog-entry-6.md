@@ -62,7 +62,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <h2 class="section-head">Why Ten Open Seats Matter More Than Ten Sounds Like</h2>
 
-<p>A fire company is not a headcount. It is a team that has to perform several life-safety tasks at once: advancing a hose line, searching for victims, forcing entry, and ventilating, all in the first minutes. National research on crew size is consistent that five-person crews complete those tasks faster and more safely than smaller ones, and that when crews thin out, the people who wait longer are the residents inside. (The staffing research is laid out on our <a href="/crew-data">staffing-data page</a>.)</p>
+<p>A fire company is not a headcount. It is a team that has to perform several life-safety tasks at once: advancing a hose line, searching for victims, forcing entry, and ventilating, all in the first minutes. National research on crew size is consistent that five-person crews complete those tasks faster and more safely than smaller ones, and that when crews thin out, the people who wait longer are the residents inside. (The staffing research is laid out on our <a href="/posts/why_5_person_fire_crews_are_the_standard">staffing-data page</a>.)</p>
 
 <p>Every vacant seat on a roster is absorbed somewhere: by overtime, by running a company short, or by a position held open. A three-percent vacancy rate in a growing department that cannot reliably refill itself does not stay at three percent by accident. It stays there because the people already on the job keep covering the gap, on a schedule that already runs well past a standard work week. What the roster shows today is manageable. What the pipeline behind it shows is a system running without much margin, in a place where help is never a county away.</p>
 
@@ -81,5 +81,5 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <li>Maui County Fire & Public Safety Commission, meeting minutes, January 15 and March 19, 2026 (department's characterization of vacancies as low; recruit-class cost)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, April 16, 2026 (Fire Chief on "unfunded" positions being held)</li>
   <li>Firefighter applicant-pool decline: see <a href="/posts/hawaii_firefighter_recruitment_collapse">The Line Out the Door Is Getting Shorter</a></li>
-  <li>Crew-size research (NIST, Dallas Fire Department, USFA/NFIRS): see our <a href="/crew-data">staffing-data page</a></li>
+  <li>Crew-size research (NIST, Dallas Fire Department, USFA/NFIRS): see our <a href="/posts/why_5_person_fire_crews_are_the_standard">staffing-data page</a></li>
 </ul>

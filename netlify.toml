@@ -73,6 +73,19 @@
   to = "/"
   status = 301
 
+# The staffing-data page is now a full article. Preserve the old indexed URL.
+[[redirects]]
+  from = "/crew-data"
+  to = "/posts/why_5_person_fire_crews_are_the_standard"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crew-data/*"
+  to = "/posts/why_5_person_fire_crews_are_the_standard"
+  status = 301
+  force = true
+
 # Canonical host: force the non-www apex domain so search engines index a
 # single authoritative origin.
 [[redirects]]

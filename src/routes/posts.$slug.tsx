@@ -45,6 +45,7 @@ const SLUG = {
   costOfLiving: 'cost_of_living_gap_hawaii_firefighter_pay',
   recruitment: 'hawaii_firefighter_recruitment_collapse',
   family: 'the_family_behind_the_firefighter_badge',
+  staffing: 'why_5_person_fire_crews_are_the_standard',
 } as const
 
 type RelatedLink = { to: string; title: string; summary: string; post?: boolean }
@@ -82,12 +83,7 @@ const RELATED: Record<string, RelatedLink[]> = {
   ],
   [SLUG.vacancies]: [
     { to: `/posts/${SLUG.costOfLiving}`, post: true, title: '', summary: '' },
-    {
-      to: '/crew-data',
-      title: 'Why 5-Person Crews Are the Standard',
-      summary:
-        'The federal staffing benchmarks behind safe fireground operations, laid out with the data.',
-    },
+    { to: `/posts/${SLUG.staffing}`, post: true, title: '', summary: '' },
   ],
   [SLUG.costOfLiving]: [
     { to: `/posts/${SLUG.twoTier}`, post: true, title: '', summary: '' },

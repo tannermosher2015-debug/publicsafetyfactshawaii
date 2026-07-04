@@ -21,7 +21,6 @@ const STATIC_PAGES = [
   { path: '/about', changefreq: 'yearly', priority: '0.5' },
   { path: '/disclaimer', changefreq: 'yearly', priority: '0.3' },
   { path: '/hawaii_firefighter_disciplines.html', changefreq: 'monthly', priority: '0.8' },
-  { path: '/crew-data', changefreq: 'monthly', priority: '0.8' },
 ]
 
 function buildSitemap(docs: SitemapDoc[]): string {

@@ -73,21 +73,6 @@ const EXTRA_ITEMS: Item[] = [
     statLabel: 'many disciplines most never see',
     photo: 'recognition.jpg',
   },
-  {
-    key: 'crew-data',
-    href: '/crew-data',
-    internal: false,
-    topic: 'Staffing',
-    title: 'The Staffing Numbers Behind the Headlines',
-    summary:
-      'The federal benchmarks for how many firefighters arrive on a crew, and what the research says about how crew size changes who gets rescued, and how fast.',
-    date: '2026-06-01',
-    byline: 'Federal Benchmarks · NFPA 1710',
-    readTime: '4 min read',
-    stat: '5',
-    statLabel: 'firefighters per crew, the NFPA benchmark',
-    photo: 'staffing.jpg',
-  },
 ]
 
 function CardMedia({ item }: { item: Item }) {
@@ -201,9 +186,13 @@ export default function BlogPosts({
           >
             The Facts
           </Link>
-          <a href="/crew-data" className="psf-topnav-link">
+          <Link
+            to="/posts/$slug"
+            params={{ slug: 'why_5_person_fire_crews_are_the_standard' }}
+            className="psf-topnav-link"
+          >
             Staffing Data
-          </a>
+          </Link>
           <Link to="/about" className="psf-topnav-link">
             About
           </Link>
@@ -287,7 +276,11 @@ export default function BlogPosts({
         </section>
 
         <section className="psf-cta" aria-label="Go deeper">
-          <a href="/crew-data" className="psf-cta-card psf-cta-dark">
+          <Link
+            to="/posts/$slug"
+            params={{ slug: 'why_5_person_fire_crews_are_the_standard' }}
+            className="psf-cta-card psf-cta-dark"
+          >
             <span className="psf-cta-label">Go deeper</span>
             <h2 className="psf-cta-title">
               See the staffing data behind the headlines
@@ -299,7 +292,7 @@ export default function BlogPosts({
                 firefighters per crew, the federal NFPA&nbsp;1710 benchmark
               </span>
             </div>
-          </a>
+          </Link>
           <div className="psf-cta-card psf-cta-quote">
             <blockquote>
               “All we ask is that our county acknowledges the sacrifices we are

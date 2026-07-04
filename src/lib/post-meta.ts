@@ -61,6 +61,12 @@ export const POST_META: Record<string, PostMeta> = {
     stat: '~5×',
     statLabel: "a starting firefighter's salary to afford Maui's median home",
   },
+  why_5_person_fire_crews_are_the_standard: {
+    topic: 'Staffing',
+    stat: '5',
+    statLabel: 'firefighters per crew, the federal safety optimum',
+    photo: 'staffing.jpg',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {
