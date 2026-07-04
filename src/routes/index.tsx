@@ -12,15 +12,15 @@ const FAQ: FaqItem[] = [
   },
   {
     q: 'Why are Maui firefighters considered underpaid?',
-    a: "In 2025 Maui County commissioned a professional compensation study that recommended substantial raises for management, citing the high cost of living and the need to stay competitive. The same arguments apply to firefighters, who negotiate under the BU-11 contract — yet those raises were not extended to them. The result is a widening gap between what the county pays its directors and its front-line public safety workers.",
+    a: "In 2025 Maui County commissioned a professional compensation study that recommended substantial raises for management, citing the high cost of living and the need to stay competitive. The same arguments apply to firefighters, who negotiate under the BU-11 contract, yet those raises were not extended to them. The result is a widening gap between what the county pays its directors and its front-line public safety workers.",
   },
   {
     q: 'What is the FLSA Section 7(k) exemption for firefighters?',
-    a: 'Section 7(k) of the federal Fair Labor Standards Act lets public employers use a work period of up to 28 days when calculating firefighter overtime. In practice a county can require up to 212 hours in a 28-day cycle — about 53 hours per week — before any overtime is owed. The exemption is optional: the county chooses to apply it. For Hawaii firefighters this means many hours of work that would be overtime in almost any other job are paid at straight time.',
+    a: 'Section 7(k) of the federal Fair Labor Standards Act lets public employers use a work period of up to 28 days when calculating firefighter overtime. In practice a county can require up to 212 hours in a 28-day cycle, about 53 hours per week, before any overtime is owed. The exemption is optional: the county chooses to apply it. For Hawaii firefighters this means many hours of work that would be overtime in almost any other job are paid at straight time.',
   },
   {
     q: 'How does Hawaii firefighter pay compare to police?',
-    a: "Both firefighters and police are sworn public safety employees of the same Hawaii county and state governments, working under the same state labor law. In recent bargaining, police secured the largest pay increase in nearly two decades, including annual raises and step increases. Firefighters received less than half that, paired with a four-year stretch with no step raises. Both outcomes are final — and the gap is now built into the pay schedules.",
+    a: "Both firefighters and police are sworn public safety employees of the same Hawaii county and state governments, working under the same state labor law. In recent bargaining, police secured the largest pay increase in nearly two decades, including annual raises and step increases. Firefighters received less than half that, paired with a four-year stretch with no step raises. Both outcomes are final, and the gap is now built into the pay schedules.",
   },
   {
     q: 'What is HFFA Local 1463?',

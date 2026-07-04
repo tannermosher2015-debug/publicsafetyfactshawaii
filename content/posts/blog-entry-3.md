@@ -162,7 +162,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
         <td class="right">$17.50</td>
         <td class="right">$1,138</td>
         <td class="right">$14,788</td>
-        <td class="right gold">$369,713</td>
+        <td class="right gold">$369,688</td>
       </tr>
       <tr>
         <td>$40 / hr</td>
