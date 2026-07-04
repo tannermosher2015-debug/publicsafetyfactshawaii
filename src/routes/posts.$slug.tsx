@@ -43,6 +43,8 @@ const SLUG = {
   fireCommission: 'maui_fire_commission_was_told_firefighters_do_fairly_well',
   vacancies: 'maui_firefighter_vacancies_county_roster',
   costOfLiving: 'cost_of_living_gap_hawaii_firefighter_pay',
+  recruitment: 'hawaii_firefighter_recruitment_collapse',
+  family: 'the_family_behind_the_firefighter_badge',
 } as const
 
 type RelatedLink = { to: string; title: string; summary: string; post?: boolean }
@@ -63,18 +65,16 @@ const RELATED: Record<string, RelatedLink[]> = {
     { to: `/posts/${SLUG.mgt}`, post: true, title: '', summary: '' },
   ],
   [SLUG.recognition]: [
-    {
-      to: '/crew-data',
-      title: 'Why 5-Person Crews Are the Standard',
-      summary:
-        'The federal staffing benchmarks behind safe fireground operations, laid out with the data.',
-    },
-    {
-      to: '/hawaii_firefighter_disciplines.html',
-      title: 'What Hawaii Firefighters Face for Us',
-      summary:
-        'The range of disciplines behind a single job title, and the hazards that come with each.',
-    },
+    { to: `/posts/${SLUG.recruitment}`, post: true, title: '', summary: '' },
+    { to: `/posts/${SLUG.family}`, post: true, title: '', summary: '' },
+  ],
+  [SLUG.recruitment]: [
+    { to: `/posts/${SLUG.costOfLiving}`, post: true, title: '', summary: '' },
+    { to: `/posts/${SLUG.vacancies}`, post: true, title: '', summary: '' },
+  ],
+  [SLUG.family]: [
+    { to: `/posts/${SLUG.recognition}`, post: true, title: '', summary: '' },
+    { to: `/posts/${SLUG.costOfLiving}`, post: true, title: '', summary: '' },
   ],
   [SLUG.fireCommission]: [
     { to: `/posts/${SLUG.mgt}`, post: true, title: '', summary: '' },

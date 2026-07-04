@@ -80,6 +80,6 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <li>County of Maui, FY2026 Program Budget, Department of Fire and Public Safety (Fire/Rescue Operations authorized positions: 288 in FY2023 rising to 325 in FY2026)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, January 15 and March 19, 2026 (department's characterization of vacancies as low; recruit-class cost)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, April 16, 2026 (Fire Chief on "unfunded" positions being held)</li>
-  <li>Firefighter applicant-pool decline: see <a href="/posts/recognition_without_compensation_is_just_words">Recognition Without Compensation Is Just Words</a></li>
+  <li>Firefighter applicant-pool decline: see <a href="/posts/hawaii_firefighter_recruitment_collapse">The Line Out the Door Is Getting Shorter</a></li>
   <li>Crew-size research (NIST, Dallas Fire Department, USFA/NFIRS): see our <a href="/crew-data">staffing-data page</a></li>
 </ul>

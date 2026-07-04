@@ -18,10 +18,21 @@ export const POST_META: Record<string, PostMeta> = {
     photo: 'pay-equity.jpg',
   },
   recognition_without_compensation_is_just_words: {
+    topic: 'Recognition',
+    stat: '"Just words"',
+    statLabel: 'a proclamation without a contract behind it',
+    photo: 'recognition.jpg',
+  },
+  hawaii_firefighter_recruitment_collapse: {
     topic: 'Recruitment',
     stat: '−73%',
-    statLabel: 'firefighter applicants since 2017',
+    statLabel: 'firefighter applicants since the 2017 peak',
     photo: 'recruitment.jpg',
+  },
+  the_family_behind_the_firefighter_badge: {
+    topic: 'Recognition',
+    stat: '1 in 3',
+    statLabel: 'days a firefighter spends away from home',
   },
   the_federal_exemption_that_costs_hawaii_firefighters_millions: {
     topic: 'Overtime Law',
