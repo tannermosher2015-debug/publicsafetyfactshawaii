@@ -193,14 +193,6 @@ export const Route = createFileRoute('/posts/$slug')({
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: loaderData.categories[0] ?? 'Public Safety',
-                item: `${SITE_URL}/category/${encodeURIComponent(
-                  loaderData.categories[0] ?? 'Public Safety',
-                )}`,
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
                 name: loaderData.title,
                 item: url,
               },
@@ -232,15 +224,7 @@ function RouteComponent() {
         <nav className="post-crumbs" aria-label="Breadcrumb">
           <Link to="/">The Facts</Link>
           <span className="crumb-sep">/</span>
-          <Link
-            to="/category/$category"
-            params={{ category }}
-            className="crumb-cat"
-          >
-            {category}
-          </Link>
-          <span className="crumb-sep">/</span>
-          <span className="crumb-current">{post.kicker ?? 'Article'}</span>
+          <span className="crumb-current">{post.kicker ?? category}</span>
         </nav>
 
         <div

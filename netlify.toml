@@ -86,6 +86,14 @@
   status = 301
   force = true
 
+# Category pages were removed (the home page already lists and filters every
+# post). Send any old /category/* URL back to the home listing.
+[[redirects]]
+  from = "/category/*"
+  to = "/"
+  status = 301
+  force = true
+
 # Canonical host: force the non-www apex domain so search engines index a
 # single authoritative origin.
 [[redirects]]

@@ -13,7 +13,6 @@ import { Route as DisclaimerRouteImport } from './routes/disclaimer'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PostsSlugRouteImport } from './routes/posts.$slug'
-import { Route as CategoryCategoryRouteImport } from './routes/category.$category'
 
 const DisclaimerRoute = DisclaimerRouteImport.update({
   id: '/disclaimer',
@@ -35,24 +34,17 @@ const PostsSlugRoute = PostsSlugRouteImport.update({
   path: '/posts/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const CategoryCategoryRoute = CategoryCategoryRouteImport.update({
-  id: '/category/$category',
-  path: '/category/$category',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
-  '/category/$category': typeof CategoryCategoryRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
-  '/category/$category': typeof CategoryCategoryRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesById {
@@ -60,33 +52,20 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
-  '/category/$category': typeof CategoryCategoryRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/about'
-    | '/disclaimer'
-    | '/category/$category'
-    | '/posts/$slug'
+  fullPaths: '/' | '/about' | '/disclaimer' | '/posts/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/disclaimer' | '/category/$category' | '/posts/$slug'
-  id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/disclaimer'
-    | '/category/$category'
-    | '/posts/$slug'
+  to: '/' | '/about' | '/disclaimer' | '/posts/$slug'
+  id: '__root__' | '/' | '/about' | '/disclaimer' | '/posts/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   DisclaimerRoute: typeof DisclaimerRoute
-  CategoryCategoryRoute: typeof CategoryCategoryRoute
   PostsSlugRoute: typeof PostsSlugRoute
 }
 
@@ -120,13 +99,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PostsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/category/$category': {
-      id: '/category/$category'
-      path: '/category/$category'
-      fullPath: '/category/$category'
-      preLoaderRoute: typeof CategoryCategoryRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
@@ -134,7 +106,6 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   DisclaimerRoute: DisclaimerRoute,
-  CategoryCategoryRoute: CategoryCategoryRoute,
   PostsSlugRoute: PostsSlugRoute,
 }
 export const routeTree = rootRouteImport
