@@ -203,6 +203,18 @@ export default function BlogPosts({
       </header>
 
       <main id="main">
+        {showFeatured && (
+          <section className="psf-hook-band" aria-label="What this site is about">
+            <p className="psf-hook">
+              In Hawaii, a firefighter can be required to work a 53-hour week
+              before earning a single dollar of overtime.
+              <span className="psf-hook-tag">
+                That&rsquo;s one story in the public record. We tell the rest.
+              </span>
+            </p>
+          </section>
+        )}
+
         {featured && (
           <section className="psf-hero-wrap" aria-label="Featured story">
             <Link

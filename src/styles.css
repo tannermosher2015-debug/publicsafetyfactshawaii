@@ -2079,3 +2079,30 @@ body {
   .post-aside-sticky { position: static; }
   .post-layout .article-body { max-width: none; }
 }
+
+/* Homepage hook — the site's opening statement, above the featured story. */
+.psf-hook-band {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px) clamp(20px, 4vw, 56px) clamp(6px, 1.5vw, 16px);
+}
+.psf-hook {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(26px, 3.4vw, 44px);
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: var(--smoke);
+  max-width: 28ch;
+}
+.psf-hook-tag {
+  display: block;
+  margin-top: 16px;
+  font-family: 'DM Mono', monospace;
+  font-weight: 400;
+  font-size: clamp(13px, 1.4vw, 16px);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--fire);
+  max-width: 48ch;
+}
