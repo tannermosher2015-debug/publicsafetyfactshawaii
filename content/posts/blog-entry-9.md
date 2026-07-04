@@ -2,6 +2,8 @@
 date: "2026-05-15"
 title: "The Family Behind the Badge"
 slug: "the_family_behind_the_firefighter_badge"
+seoTitle: "The Family Cost of a Firefighter's Schedule"
+metaDescription: "A firefighter on 24-hour shifts is away from home 1 day in 3. The families who carry the household, and what Hawaii's firefighter pay does to them."
 summary: "For every firefighter on a 24-hour shift, someone at home is running the household alone. They never get a title, a line item, or a place in a contract. They are not behind the scenes. They are the story."
 categories:
   - Recognition

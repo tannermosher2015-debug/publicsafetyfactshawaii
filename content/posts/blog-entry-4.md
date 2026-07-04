@@ -1,7 +1,9 @@
 ---
 date: "2026-05-26"
+updated: "2026-07-03"
 title: "Maui County Paid for a Study That Made the Case for Firefighter Raises, Then Gave the Raises Only to Management"
 slug: "maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management"
+metaDescription: "Maui County paid for a study that justified raises with cost of living and the wildfires, then applied it only to management, not to its firefighters."
 summary: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the firefighters those same leaders chose not to treat the same way."
 categories:
   - Governance

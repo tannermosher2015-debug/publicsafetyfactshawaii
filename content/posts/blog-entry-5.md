@@ -2,6 +2,8 @@
 date: "2026-06-18"
 title: "Maui's Fire Commission Was Told Firefighters Do \"Fairly Well.\" The County's Own Records Say Otherwise."
 slug: "maui_fire_commission_was_told_firefighters_do_fairly_well"
+seoTitle: "Maui Firefighter Pay: What the Commission Was Told"
+metaDescription: "Maui's fire chief told the commission firefighters are paid 'fairly well.' The county's own budget, roster, and arbitration award say otherwise."
 summary: "In a public meeting, the Fire Chief told Maui's oversight commission that firefighters rank \"fairly good to great\" on pay. Months later, the county's own arbitration award, budget, and compensation study told a different story. Both are in the official minutes."
 categories:
   - Governance

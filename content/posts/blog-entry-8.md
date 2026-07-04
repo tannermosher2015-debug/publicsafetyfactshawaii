@@ -2,6 +2,8 @@
 date: "2026-05-15"
 title: "The Line Out the Door Is Getting Shorter"
 slug: "hawaii_firefighter_recruitment_collapse"
+seoTitle: "Hawaii Firefighter Recruitment Collapse (73% Fewer)"
+metaDescription: "Maui firefighter applications fell 73%, from 2,500-plus to 682, and passing scores are dropping. Why the 'line out the door' argument no longer holds."
 summary: "For years, the argument against paying firefighters more was that everyone wants the job. Maui's own entrance-exam data shows the opposite: applications have fallen roughly 73 percent, and the passing scores are dropping with them."
 categories:
   - Recruitment

@@ -2,6 +2,7 @@
 date: "2026-06-25"
 title: "Where Maui's Firefighter Vacancies Are, According to the County's Own Roster"
 slug: "maui_firefighter_vacancies_county_roster"
+metaDescription: "The county's May 2026 roster names 10 firefighter vacancies, including the Lahaina ladder truck and two in Wailea. What the numbers actually show."
 summary: "The county's May 2026 staffing roster names ten open firefighter positions, including one on the Lahaina ladder company and two in Wailea. The current vacancy rate is low. The reason that should worry residents is what happens next."
 categories:
   - Staffing

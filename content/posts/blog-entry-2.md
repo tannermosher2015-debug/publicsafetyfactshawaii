@@ -1,7 +1,10 @@
 ---
 date: "2026-05-15"
+updated: "2026-07-03"
 title: "Recognition Without Compensation Is Just Words"
 slug: "recognition_without_compensation_is_just_words"
+seoTitle: "Hawaii Firefighter Pay: Recognition Without a Raise"
+metaDescription: "Hawaii counties issued firefighter proclamations the same year they finalized a below-inflation contract. The gap between recognition and real pay."
 summary: "On International Firefighters' Day, counties across Hawaii issued proclamations honoring their firefighters. In the same year, they finalized a below-inflation contract. Here is the difference between recognition and compensation."
 categories:
   - Recognition

@@ -35,6 +35,18 @@ function buildArticle(html: string): { html: string; toc: TocItem[] } {
   return { html: out, toc }
 }
 
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+]
+
+// Format an ISO date (YYYY-MM-DD) without Date() so SSR and client agree.
+function fmtDate(iso: string): string {
+  const [y, m, d] = iso.split('-').map(Number)
+  if (!y || !m || !d) return iso
+  return `${MONTHS[m - 1]} ${d}, ${y}`
+}
+
 // Slugs are generated from titles by content-collections.ts.
 const SLUG = {
   twoTier: 'hawaii_s_two-tier_public_safety_system',
@@ -116,11 +128,11 @@ export const Route = createFileRoute('/posts/$slug')({
     return {
       meta: [
         {
-          title: `${loaderData.title} | ${SITE_NAME}`,
+          title: `${loaderData.seoTitle ?? loaderData.title} | ${SITE_NAME}`,
         },
         {
           name: 'description',
-          content: loaderData.summary,
+          content: loaderData.metaDescription ?? loaderData.summary,
         },
         {
           name: 'keywords',
@@ -152,7 +164,7 @@ export const Route = createFileRoute('/posts/$slug')({
             headline: loaderData.title,
             description: loaderData.summary,
             datePublished: loaderData.date,
-            dateModified: loaderData.date,
+            dateModified: loaderData.updated ?? loaderData.date,
             url,
             image: OG_IMAGE,
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -241,6 +253,11 @@ function RouteComponent() {
             {post.subtitle && <p className="deck">{post.subtitle}</p>}
             <div className="post-byline-row">
               {post.byline && <span className="post-byline">{post.byline}</span>}
+              {post.updated && (
+                <span className="post-updated">
+                  Updated {fmtDate(post.updated)}
+                </span>
+              )}
               <ViewCounter
                 pagePath={`/posts/${post.slug}`}
                 label="reads"

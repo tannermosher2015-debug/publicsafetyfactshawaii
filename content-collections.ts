@@ -13,7 +13,7 @@ function deriveSlug(title: string): string {
     .replace(/[^\w-]+/g, '_')
 }
 
-type SitemapDoc = { slug: string; date: string }
+type SitemapDoc = { slug: string; date: string; updated?: string }
 
 // Static (non-post) pages, kept in sync here so the sitemap never drifts.
 const STATIC_PAGES = [
@@ -26,14 +26,15 @@ const STATIC_PAGES = [
 ]
 
 function buildSitemap(docs: SitemapDoc[]): string {
+  const mod = (d: SitemapDoc) => d.updated ?? d.date
   const latest =
-    docs.map((d) => d.date).sort().at(-1) ?? new Date(0).toISOString().slice(0, 10)
+    docs.map(mod).sort().at(-1) ?? new Date(0).toISOString().slice(0, 10)
 
   const postUrls = [...docs]
     .sort((a, b) => (a.date < b.date ? 1 : -1))
     .map(
       (d) =>
-        `  <url>\n    <loc>${SITE_URL}/posts/${d.slug}</loc>\n    <lastmod>${d.date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`,
+        `  <url>\n    <loc>${SITE_URL}/posts/${d.slug}</loc>\n    <lastmod>${mod(d)}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`,
     )
 
   const staticUrls = STATIC_PAGES.map(
@@ -55,7 +56,10 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     titleHtml: z.string().optional(),
+    seoTitle: z.string().optional(),
     summary: z.string(),
+    metaDescription: z.string().optional(),
+    updated: z.string().optional(),
     categories: z.array(z.string()),
     slug: z.string().optional(),
     image: z.string(),

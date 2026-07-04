@@ -1,8 +1,11 @@
 ---
 date: "2026-04-17"
+updated: "2026-07-03"
 title: "Hawaii's Two-Tier Public Safety System"
 titleHtml: "Hawaii's <em>Two-Tier</em> Public Safety System"
 slug: "hawaii_s_two-tier_public_safety_system"
+seoTitle: "Hawaii Firefighter Pay vs. Police: Half the Raise"
+metaDescription: "Hawaii police won 5% annual raises with step increases. Firefighters got half that and a four-year step freeze. The official numbers, side by side."
 summary: "Police officers just won the largest pay increase in nearly two decades. Hawaii's firefighters received less than half that - with no step raises for four years. Both outcomes are now final. Here's what the numbers actually say."
 categories:
   - Pay Equity

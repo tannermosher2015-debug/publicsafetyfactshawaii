@@ -2,6 +2,7 @@
 date: "2026-06-30"
 title: "The Cost-of-Living Gap: What a Firefighter's Paycheck Actually Buys in Hawaii"
 slug: "cost_of_living_gap_hawaii_firefighter_pay"
+metaDescription: "A starting Maui firefighter earns about $69,000; the median home costs $1.2M. What firefighter pay really buys against Hawaii's cost of living."
 summary: "Hawaii is the most expensive place in the country to live, and firefighter wages have not kept pace with it. Here is what the numbers look like against rent, groceries, and a median home, in plain dollars."
 categories:
   - Cost of Living
