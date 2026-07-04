@@ -6,7 +6,6 @@ import SiteHeader from '@/components/SiteHeader'
 import { POST_META as META } from '@/lib/post-meta'
 import ViewCounter from '@/components/ViewCounter'
 import NewsletterSignup from '@/components/NewsletterSignup'
-import SocialFeed from '@/components/SocialFeed'
 import SiteFooter from '@/components/SiteFooter'
 
 export type FaqItem = { q: string; a: string }
@@ -337,8 +336,6 @@ export default function BlogPosts({
             <cite>- A Hawaii firefighter, quoted in our reporting</cite>
           </div>
         </section>
-
-        {showFeatured && <SocialFeed />}
 
         <div id="newsletter">
           <NewsletterSignup
