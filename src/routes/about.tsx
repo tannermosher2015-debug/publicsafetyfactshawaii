@@ -95,7 +95,12 @@ function AboutPage() {
             standards like NFPA 1710, and established Hawaii news organizations.
             Dollar figures for multi-year scenarios are clearly labeled as
             estimates. Each article identifies the sources behind its claims so
-            readers can verify the information independently.
+            readers can verify the information independently. For the full
+            standard, see{' '}
+            <Link to="/how-we-source" className="disclaimer-link">
+              how we source this
+            </Link>
+            .
           </p>
 
           <h2>Independence</h2>

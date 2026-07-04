@@ -19,6 +19,7 @@ type SitemapDoc = { slug: string; date: string }
 const STATIC_PAGES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
   { path: '/about', changefreq: 'yearly', priority: '0.5' },
+  { path: '/how-we-source', changefreq: 'yearly', priority: '0.5' },
   { path: '/disclaimer', changefreq: 'yearly', priority: '0.3' },
   { path: '/hawaii_firefighter_disciplines.html', changefreq: 'monthly', priority: '0.8' },
 ]
