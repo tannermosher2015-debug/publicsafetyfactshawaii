@@ -210,13 +210,6 @@ export default function BlogPosts({
           >
             The Facts
           </Link>
-          <Link
-            to="/posts/$slug"
-            params={{ slug: 'why_5_person_fire_crews_are_the_standard' }}
-            className="psf-topnav-link"
-          >
-            Staffing Data
-          </Link>
           <Link to="/about" className="psf-topnav-link">
             About
           </Link>
