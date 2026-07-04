@@ -10,7 +10,7 @@ export const Route = createFileRoute('/about')({
       {
         name: 'description',
         content:
-          'PublicSafetyFactsHawaii is an independent community education project on Hawaii firefighter pay, overtime, and labor rights — built from public records and cited sources.',
+          'PublicSafetyFactsHawaii is an independent community education project on Hawaii firefighter pay, overtime, and labor rights, built from public records and cited sources.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/about` },
@@ -58,7 +58,7 @@ function AboutPage() {
         <h1>About This Site</h1>
         <p className="deck">
           An independent community education project on Hawaii firefighter pay,
-          overtime, and labor rights — written for the public, built from public
+          overtime, and labor rights, written for the public, built from public
           records.
         </p>
         <div className="byline">
@@ -70,7 +70,7 @@ function AboutPage() {
         <div className="article-body">
           <p>
             PublicSafetyFactsHawaii exists to help residents understand how
-            Hawaii's firefighters are paid, scheduled, and staffed — and how
+            Hawaii's firefighters are paid, scheduled, and staffed, and how
             those decisions compare to the standards set for other public safety
             workers. Public safety compensation is shaped by binding arbitration
             awards, county budgets, union contracts, and federal labor law. Most
@@ -83,7 +83,7 @@ function AboutPage() {
             We write for Hawaii residents, Maui community members, journalists,
             policymakers, and anyone who wants to understand the facts behind
             firefighter pay and staffing. The goal is public understanding, not
-            outrage. We are educators, not complainers — and we try to explain
+            outrage. We are educators, not complainers, and we try to explain
             each topic the way you would to a neighbor.
           </p>
 
