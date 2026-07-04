@@ -137,7 +137,12 @@ function HowWeSourcePage() {
               Hawaii State Legislature
             </a>
             , and federal wage law through the U.S. Department of Labor. If you
-            find something you believe we got wrong, we want to know.
+            find something you believe we got wrong, we want to know. New to the
+            terminology? See the{' '}
+            <Link to="/glossary" className="disclaimer-link">
+              plain-language glossary
+            </Link>
+            .
           </p>
 
           <h2>Independence</h2>

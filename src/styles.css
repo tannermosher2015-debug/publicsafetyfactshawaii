@@ -2202,3 +2202,23 @@ body {
 @media (max-width: 760px) {
   .psf-start-list { grid-template-columns: 1fr; }
 }
+
+/* Glossary definition list. */
+.article-body .glossary { margin: 8px 0 32px; }
+.article-body .glossary-item {
+  padding: 18px 0;
+  border-top: 1px solid var(--rule);
+}
+.article-body .glossary-item dt {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--smoke);
+  margin-bottom: 6px;
+}
+.article-body .glossary-item dd {
+  margin: 0;
+  font-size: clamp(15px, 1.7vw, 17px);
+  line-height: 1.6;
+  color: var(--ash);
+}
