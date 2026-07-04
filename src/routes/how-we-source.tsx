@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 
 import SiteFooter from '@/components/SiteFooter'
+import SiteHeader from '@/components/SiteHeader'
 import { SITE_NAME, SITE_URL } from '@/lib/site'
 
 export const Route = createFileRoute('/how-we-source')({
@@ -36,7 +37,7 @@ export const Route = createFileRoute('/how-we-source')({
 function HowWeSourcePage() {
   return (
     <>
-      <div className="masthead">PublicSafetyFactsHawaii</div>
+      <SiteHeader />
 
       <nav className="back-nav">
         <Link to="/" className="back-link">
@@ -164,15 +165,7 @@ function HowWeSourcePage() {
         </div>
       </div>
 
-      <SiteFooter>
-        PublicSafetyFactsHawaii &nbsp;·&nbsp; Independent Community Education
-        &nbsp;·&nbsp; publicsafetyfactshawaii.org
-        <div className="footer-disclaimer">
-          <Link to="/disclaimer" className="disclaimer-link">
-            Disclaimer
-          </Link>
-        </div>
-      </SiteFooter>
+      <SiteFooter />
     </>
   )
 }

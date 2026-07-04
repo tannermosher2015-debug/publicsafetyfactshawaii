@@ -22,8 +22,9 @@ export const Route = createRootRoute({
       { name: 'twitter:image', content: OG_IMAGE },
     ],
     links: [
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       { rel: 'icon', type: 'image/jpeg', href: '/logo.jpg' },
-      { rel: 'apple-touch-icon', href: '/logo.jpg' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
     ],
   }),
   shellComponent: RootDocument,

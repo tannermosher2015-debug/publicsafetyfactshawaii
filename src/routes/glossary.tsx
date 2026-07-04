@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 
 import SiteFooter from '@/components/SiteFooter'
+import SiteHeader from '@/components/SiteHeader'
 import { SITE_NAME, SITE_URL } from '@/lib/site'
 
 const TERMS: { term: string; def: string }[] = [
@@ -104,7 +105,7 @@ export const Route = createFileRoute('/glossary')({
 function GlossaryPage() {
   return (
     <>
-      <div className="masthead">PublicSafetyFactsHawaii</div>
+      <SiteHeader />
 
       <nav className="back-nav">
         <Link to="/" className="back-link">
@@ -148,15 +149,7 @@ function GlossaryPage() {
         </div>
       </div>
 
-      <SiteFooter>
-        PublicSafetyFactsHawaii &nbsp;·&nbsp; Independent Community Education
-        &nbsp;·&nbsp; publicsafetyfactshawaii.org
-        <div className="footer-disclaimer">
-          <Link to="/disclaimer" className="disclaimer-link">
-            Disclaimer
-          </Link>
-        </div>
-      </SiteFooter>
+      <SiteFooter />
     </>
   )
 }

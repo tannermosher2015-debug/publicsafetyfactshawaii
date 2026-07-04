@@ -7,6 +7,7 @@ import ArticleToc, { type TocItem } from '@/components/ArticleToc'
 import ActionCta from '@/components/ActionCta'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
+import SiteHeader from '@/components/SiteHeader'
 import { getPostMeta } from '@/lib/post-meta'
 import { OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/site'
 
@@ -229,9 +230,7 @@ function RouteComponent() {
 
   return (
     <>
-      <div className="masthead">
-        {post.masthead ?? 'PublicSafetyFactsHawaii'}
-      </div>
+      <SiteHeader />
 
       <header className="post-header">
         <nav className="post-crumbs" aria-label="Breadcrumb">

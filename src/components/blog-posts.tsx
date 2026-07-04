@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from '@tanstack/react-router'
 
 import { type Post } from 'content-collections'
-import { SITE_NAME } from '@/lib/site'
+import SiteHeader from '@/components/SiteHeader'
 import { POST_META as META } from '@/lib/post-meta'
 import ViewCounter from '@/components/ViewCounter'
 import NewsletterSignup from '@/components/NewsletterSignup'
@@ -197,27 +197,7 @@ export default function BlogPosts({
         Skip to content
       </a>
 
-      <header className="psf-topbar">
-        <Link to="/" className="psf-brand" activeOptions={{ exact: true }}>
-          <span className="psf-brand-name">{SITE_NAME}</span>
-          <span className="psf-brand-tag">Community Education Series</span>
-        </Link>
-        <nav className="psf-topnav" aria-label="Primary">
-          <Link
-            to="/"
-            className="psf-topnav-link"
-            activeOptions={{ exact: true }}
-          >
-            The Facts
-          </Link>
-          <Link to="/about" className="psf-topnav-link">
-            About
-          </Link>
-        </nav>
-        <a href="#newsletter" className="psf-subscribe">
-          Get updates
-        </a>
-      </header>
+      <SiteHeader />
 
       <main id="main">
         {showFeatured && (
@@ -384,22 +364,7 @@ export default function BlogPosts({
         )}
       </main>
 
-      <SiteFooter social>
-        PublicSafetyFactsHawaii &nbsp;·&nbsp; Community Education
-        <div className="footer-disclaimer">
-          <Link to="/about" className="disclaimer-link">
-            About
-          </Link>
-          &nbsp;·&nbsp;
-          <Link to="/disclaimer" className="disclaimer-link">
-            Disclaimer
-          </Link>
-        </div>
-        <div className="footer-credits">
-          Photos: U.S. Navy, U.S. Marine Corps, U.S. Coast Guard, FEMA &amp;
-          National Park Service (public domain)
-        </div>
-      </SiteFooter>
+      <SiteFooter />
     </>
   )
 }

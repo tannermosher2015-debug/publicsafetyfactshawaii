@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 
 import SiteFooter from '@/components/SiteFooter'
+import SiteHeader from '@/components/SiteHeader'
 import { SITE_URL } from '@/lib/site'
 
 export const Route = createFileRoute('/disclaimer')({
@@ -34,7 +35,7 @@ export const Route = createFileRoute('/disclaimer')({
 function DisclaimerPage() {
   return (
     <>
-      <div className="masthead">PublicSafetyFactsHawaii</div>
+      <SiteHeader />
 
       <nav className="back-nav">
         <Link to="/" className="back-link">
@@ -165,10 +166,7 @@ function DisclaimerPage() {
         </div>
       </div>
 
-      <SiteFooter social>
-        PublicSafetyFactsHawaii &nbsp;·&nbsp; Independent Community Education
-        &nbsp;·&nbsp; publicsafetyfactshawaii.org
-      </SiteFooter>
+      <SiteFooter />
     </>
   )
 }
