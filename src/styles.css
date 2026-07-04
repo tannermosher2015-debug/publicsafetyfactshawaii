@@ -2106,3 +2106,32 @@ body {
   color: var(--fire);
   max-width: 48ch;
 }
+
+/* Standard end-of-article call to action. */
+.post-cta {
+  max-width: 900px;
+  margin: 8px auto 0;
+  padding: 0 clamp(20px, 4vw, 56px);
+}
+.post-cta-inner {
+  background: var(--smoke);
+  color: var(--paper);
+  border-left: 5px solid var(--ember);
+  border-radius: 16px;
+  padding: clamp(24px, 3vw, 40px);
+}
+.post-cta-label {
+  display: block;
+  margin-bottom: 12px;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ember);
+}
+.post-cta-text {
+  margin: 0;
+  font-size: clamp(16px, 1.8vw, 19px);
+  line-height: 1.6;
+  color: var(--paper);
+}

@@ -4,6 +4,7 @@ import { allPosts } from 'content-collections'
 import ViewCounter from '@/components/ViewCounter'
 import ShareBar from '@/components/ShareBar'
 import ArticleToc, { type TocItem } from '@/components/ArticleToc'
+import ActionCta from '@/components/ActionCta'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
 import { getPostMeta } from '@/lib/post-meta'
@@ -283,6 +284,8 @@ function RouteComponent() {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
+
+      <ActionCta />
 
       <NewsletterSignup />
 
