@@ -1883,3 +1883,199 @@ body {
 }
 .stat-box.featured { border-top: 3px solid var(--ember); }
 .bar-fill.fire-bar { background: var(--ember); color: var(--smoke); }
+
+/* ============================================================
+   ARTICLE DETAIL — editorial layout (breadcrumb + split header
+   + sticky "In this Article" sidebar). Shared by every post.
+   ============================================================ */
+.post-header {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding: 40px clamp(20px, 4vw, 56px) 48px;
+  background: linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.post-header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--fire) 0%, var(--ember) 50%, var(--fire) 100%);
+}
+.post-crumbs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash);
+  margin-bottom: 28px;
+}
+.post-crumbs a { color: var(--ash); text-decoration: none; }
+.post-crumbs a:hover { color: var(--fire); }
+.post-crumbs .crumb-sep { color: var(--rule); }
+.post-crumbs .crumb-current { color: var(--smoke); }
+
+.post-header-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+}
+.post-header-grid--solo { grid-template-columns: 1fr; }
+.post-header-grid--solo .post-header-main { max-width: 780px; }
+.post-header-main { text-align: left; }
+.post-header-main .kicker { margin-bottom: 20px; }
+.post-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(30px, 4vw, 54px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--smoke);
+  margin: 0 0 20px;
+}
+.post-header h1 em { font-style: italic; color: var(--fire); }
+.post-header .deck {
+  text-align: left;
+  margin: 0 0 24px;
+  max-width: none;
+  color: var(--ash);
+  font-size: clamp(15px, 1.6vw, 18px);
+  line-height: 1.6;
+}
+.post-header .deck::after { display: none; }
+.post-byline-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ash);
+}
+.post-byline { color: var(--smoke); }
+
+.post-hero-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  box-shadow: var(--shadow-md);
+}
+.post-hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  aspect-ratio: 16 / 10;
+  background: var(--smoke);
+  color: var(--paper);
+  border-radius: 16px;
+  padding: clamp(24px, 3vw, 40px);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+.post-hero-stat::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 5px;
+  background: var(--ember);
+}
+/* The sidebar block already has its own "Share this Article" heading, so hide
+   the ShareBar's built-in "Share" label here to avoid a doubled label. */
+.post-aside-block .share-bar-label { display: none; }
+.post-hero-stat-topic {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ember);
+}
+.post-hero-stat-num {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(40px, 5.5vw, 72px);
+  line-height: 1.02;
+  color: var(--paper);
+  overflow-wrap: anywhere;
+}
+.post-hero-stat-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.66);
+  max-width: 34ch;
+}
+
+.post-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px clamp(20px, 4vw, 56px) 72px;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+.post-aside-sticky {
+  position: sticky;
+  top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.post-aside-label,
+.post-toc-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--smoke);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.post-toc {
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 22px 22px 10px;
+}
+.post-toc-list { list-style: none; margin: 0; padding: 0; }
+.post-toc-list li { margin-bottom: 14px; line-height: 1.4; }
+.post-toc-list a {
+  display: flex;
+  gap: 8px;
+  color: var(--ash);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.15s var(--ease);
+}
+.post-toc-list a:hover { color: var(--smoke); }
+.post-toc-num { color: var(--rule); font-variant-numeric: tabular-nums; }
+.post-toc-list li.is-active a { color: var(--fire); font-weight: 600; }
+.post-toc-list li.is-active .post-toc-num { color: var(--fire); }
+.post-layout .article-body { max-width: 720px; }
+
+/* Long stat values (phrases, dollar figures) must wrap, not clip. */
+.stat-box .stat-num {
+  font-size: clamp(28px, 4vw, 48px);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+@media (max-width: 900px) {
+  .post-header-grid { grid-template-columns: 1fr; }
+  .post-layout { grid-template-columns: 1fr; gap: 28px; }
+  .post-aside-sticky { position: static; }
+  .post-layout .article-body { max-width: none; }
+}

@@ -53,6 +53,7 @@ const posts = defineCollection({
   include: '**/*.md',
   schema: z.object({
     title: z.string(),
+    titleHtml: z.string().optional(),
     summary: z.string(),
     categories: z.array(z.string()),
     slug: z.string().optional(),

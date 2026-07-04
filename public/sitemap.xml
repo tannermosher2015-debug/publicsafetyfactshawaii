@@ -3,9 +3,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://publicsafetyfactshawaii.org/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://publicsafetyfactshawaii.org/posts/cost_of_living_gap_hawaii_firefighter_pay</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://publicsafetyfactshawaii.org/posts/maui_firefighter_vacancies_county_roster</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://publicsafetyfactshawaii.org/posts/maui_fire_commission_was_told_firefighters_do_fairly_well</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://publicsafetyfactshawaii.org/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management</loc>
@@ -33,25 +51,25 @@
   </url>
   <url>
     <loc>https://publicsafetyfactshawaii.org/about</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://publicsafetyfactshawaii.org/disclaimer</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://publicsafetyfactshawaii.org/hawaii_firefighter_disciplines.html</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://publicsafetyfactshawaii.org/crew-data</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

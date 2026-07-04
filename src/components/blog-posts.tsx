@@ -3,6 +3,7 @@ import { Link } from '@tanstack/react-router'
 
 import { type Post } from 'content-collections'
 import { SITE_NAME } from '@/lib/site'
+import { POST_META as META } from '@/lib/post-meta'
 import ViewCounter from '@/components/ViewCounter'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SocialFeed from '@/components/SocialFeed'
@@ -10,39 +11,8 @@ import SiteFooter from '@/components/SiteFooter'
 
 export type FaqItem = { q: string; a: string }
 
-// Presentation metadata keyed by slug: a plain-language topic (used for the
-// filter tabs + card chip) and a headline stat rendered on the card media
-// panel, standing in for the photography a data-journalism site doesn't have.
-// Unknown slugs fall back to the post's own first category + a neutral panel.
-const META: Record<
-  string,
-  { topic: string; stat: string; statLabel: string; photo?: string }
-> = {
-  'hawaii_s_two-tier_public_safety_system': {
-    topic: 'Pay Equity',
-    stat: '2×',
-    statLabel: 'the raise police won vs. firefighters',
-    photo: 'pay-equity.jpg',
-  },
-  recognition_without_compensation_is_just_words: {
-    topic: 'Recruitment',
-    stat: '−73%',
-    statLabel: 'firefighter applicants since 2017',
-    photo: 'recruitment.jpg',
-  },
-  the_federal_exemption_that_costs_hawaii_firefighters_millions: {
-    topic: 'Overtime Law',
-    stat: '53 hrs',
-    statLabel: 'a week before overtime is owed',
-    photo: 'overtime.jpg',
-  },
-  maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management:
-    {
-      topic: 'Governance',
-      stat: '$0',
-      statLabel: "of the study's logic applied to firefighters",
-    },
-}
+// Presentation metadata (topic + headline stat per slug) lives in @/lib/post-meta
+// so the home listing and the article header read from one source (imported above).
 
 // Rough reading time from the rendered HTML (strip tags, ~200 wpm).
 function readTime(html: string): string {

@@ -3,9 +3,36 @@ import { createFileRoute, Link } from '@tanstack/react-router'
 import { allPosts } from 'content-collections'
 import ViewCounter from '@/components/ViewCounter'
 import ShareBar from '@/components/ShareBar'
+import ArticleToc, { type TocItem } from '@/components/ArticleToc'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
+import { getPostMeta } from '@/lib/post-meta'
 import { OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/site'
+
+// Give each <h2> a stable id and collect the section list for the sidebar TOC.
+function buildArticle(html: string): { html: string; toc: TocItem[] } {
+  const toc: TocItem[] = []
+  const out = html.replace(
+    /<h2\b([^>]*)>([\s\S]*?)<\/h2>/g,
+    (match, attrs: string, inner: string) => {
+      const text = inner
+        .replace(/<[^>]+>/g, '')
+        .replace(/&amp;/g, '&')
+        .replace(/\s+/g, ' ')
+        .trim()
+      const id =
+        text
+          .toLowerCase()
+          .replace(/&[a-z]+;/g, '')
+          .replace(/[^\w]+/g, '-')
+          .replace(/^-+|-+$/g, '')
+          .slice(0, 60) || `section-${toc.length + 1}`
+      toc.push({ id, text })
+      return /\bid=/.test(attrs) ? match : `<h2${attrs} id="${id}">${inner}</h2>`
+    },
+  )
+  return { html: out, toc }
+}
 
 // Slugs are generated from titles by content-collections.ts.
 const SLUG = {
@@ -13,6 +40,9 @@ const SLUG = {
   recognition: 'recognition_without_compensation_is_just_words',
   flsa: 'the_federal_exemption_that_costs_hawaii_firefighters_millions',
   mgt: 'maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management',
+  fireCommission: 'maui_fire_commission_was_told_firefighters_do_fairly_well',
+  vacancies: 'maui_firefighter_vacancies_county_roster',
+  costOfLiving: 'cost_of_living_gap_hawaii_firefighter_pay',
 } as const
 
 type RelatedLink = { to: string; title: string; summary: string; post?: boolean }
@@ -43,8 +73,25 @@ const RELATED: Record<string, RelatedLink[]> = {
       to: '/hawaii_firefighter_disciplines.html',
       title: 'What Hawaii Firefighters Face for Us',
       summary:
-        'The range of disciplines behind a single job title — and the hazards that come with each.',
+        'The range of disciplines behind a single job title, and the hazards that come with each.',
     },
+  ],
+  [SLUG.fireCommission]: [
+    { to: `/posts/${SLUG.mgt}`, post: true, title: '', summary: '' },
+    { to: `/posts/${SLUG.twoTier}`, post: true, title: '', summary: '' },
+  ],
+  [SLUG.vacancies]: [
+    { to: `/posts/${SLUG.costOfLiving}`, post: true, title: '', summary: '' },
+    {
+      to: '/crew-data',
+      title: 'Why 5-Person Crews Are the Standard',
+      summary:
+        'The federal staffing benchmarks behind safe fireground operations, laid out with the data.',
+    },
+  ],
+  [SLUG.costOfLiving]: [
+    { to: `/posts/${SLUG.twoTier}`, post: true, title: '', summary: '' },
+    { to: `/posts/${SLUG.fireCommission}`, post: true, title: '', summary: '' },
   ],
 }
 
@@ -144,12 +191,20 @@ export const Route = createFileRoute('/posts/$slug')({
               {
                 '@type': 'ListItem',
                 position: 1,
-                name: 'Home',
+                name: 'The Facts',
                 item: `${SITE_URL}/`,
               },
               {
                 '@type': 'ListItem',
                 position: 2,
+                name: loaderData.categories[0] ?? 'Public Safety',
+                item: `${SITE_URL}/category/${encodeURIComponent(
+                  loaderData.categories[0] ?? 'Public Safety',
+                )}`,
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
                 name: loaderData.title,
                 item: url,
               },
@@ -167,6 +222,9 @@ function RouteComponent() {
   const post = Route.useLoaderData()
   const related = resolveRelated(post.slug)
   const shareUrl = `${SITE_URL}/posts/${post.slug}`
+  const meta = getPostMeta(post.slug)
+  const category = post.categories[0] ?? 'Public Safety'
+  const { html, toc } = buildArticle(post.html)
 
   return (
     <>
@@ -174,33 +232,76 @@ function RouteComponent() {
         {post.masthead ?? 'PublicSafetyFactsHawaii'}
       </div>
 
-      <nav className="back-nav">
-        <Link to="/" className="back-link">
-          ← Back to Home
-        </Link>
-      </nav>
+      <header className="post-header">
+        <nav className="post-crumbs" aria-label="Breadcrumb">
+          <Link to="/">The Facts</Link>
+          <span className="crumb-sep">/</span>
+          <Link
+            to="/category/$category"
+            params={{ category }}
+            className="crumb-cat"
+          >
+            {category}
+          </Link>
+          <span className="crumb-sep">/</span>
+          <span className="crumb-current">{post.kicker ?? 'Article'}</span>
+        </nav>
 
-      <header className="hero">
-        {post.kicker && <div className="kicker">{post.kicker}</div>}
-        <h1
-          dangerouslySetInnerHTML={{
-            __html: post.title.replace('Two-Tier', '<em>Two-Tier</em>'),
-          }}
-        />
-        {post.subtitle && <p className="deck">{post.subtitle}</p>}
-        {post.byline && <div className="byline">{post.byline}</div>}
-        <div className="byline" style={{ marginTop: '12px' }}>
-          <ViewCounter pagePath={`/posts/${post.slug}`} label="reads" trackView />
+        <div
+          className={`post-header-grid${meta ? '' : ' post-header-grid--solo'}`}
+        >
+          <div className="post-header-main">
+            {post.kicker && <div className="kicker">{post.kicker}</div>}
+            {post.titleHtml ? (
+              <h1 dangerouslySetInnerHTML={{ __html: post.titleHtml }} />
+            ) : (
+              <h1>{post.title}</h1>
+            )}
+            {post.subtitle && <p className="deck">{post.subtitle}</p>}
+            <div className="post-byline-row">
+              {post.byline && <span className="post-byline">{post.byline}</span>}
+              <ViewCounter
+                pagePath={`/posts/${post.slug}`}
+                label="reads"
+                trackView
+              />
+            </div>
+          </div>
+
+          {meta && (
+            <div className="post-header-media" aria-hidden="true">
+              {meta.photo ? (
+                <img
+                  src={`/photos/${meta.photo}`}
+                  alt=""
+                  className="post-hero-img"
+                />
+              ) : (
+                <div className="post-hero-stat">
+                  <span className="post-hero-stat-topic">{meta.topic}</span>
+                  <span className="post-hero-stat-num">{meta.stat}</span>
+                  <span className="post-hero-stat-label">{meta.statLabel}</span>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </header>
 
-      <div className="article-wrap">
-        <ShareBar url={shareUrl} title={post.title} />
+      <div className="post-layout">
+        <aside className="post-aside">
+          <div className="post-aside-sticky">
+            <div className="post-aside-block">
+              <div className="post-aside-label">Share this Article</div>
+              <ShareBar url={shareUrl} title={post.title} />
+            </div>
+            <ArticleToc items={toc} />
+          </div>
+        </aside>
         <div
           className="article-body"
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
-        <ShareBar url={shareUrl} title={post.title} />
       </div>
 
       <NewsletterSignup />
