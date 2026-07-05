@@ -5,10 +5,24 @@ import { eq, sql } from "drizzle-orm";
 
 export default async (req: Request, context: Context) => {
   if (req.method === "POST") {
-    const { pagePath } = await req.json();
+    let body: unknown;
+    try {
+      body = await req.json();
+    } catch {
+      return Response.json({ error: "Invalid JSON body" }, { status: 400 });
+    }
+    const pagePath = (body as { pagePath?: unknown } | null)?.pagePath;
 
-    if (!pagePath || typeof pagePath !== "string") {
-      return Response.json({ error: "pagePath is required" }, { status: 400 });
+    if (
+      !pagePath ||
+      typeof pagePath !== "string" ||
+      !pagePath.startsWith("/") ||
+      pagePath.length > 200
+    ) {
+      return Response.json(
+        { error: "pagePath must start with / and be <=200 chars" },
+        { status: 400 },
+      );
     }
 
     const [result] = await db

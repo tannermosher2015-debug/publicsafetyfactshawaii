@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 
 import { allPosts } from 'content-collections'
 import ViewCounter from '@/components/ViewCounter'
@@ -120,7 +120,7 @@ export const Route = createFileRoute('/posts/$slug')({
   loader: async ({ params }) => {
     const post = allPosts.find((post) => post.slug === params.slug)
     if (!post) {
-      throw new Error('Post not found')
+      throw notFound()
     }
     return post
   },

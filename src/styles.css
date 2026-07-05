@@ -2391,3 +2391,22 @@ body {
   border-radius: 999px;
   padding: 3px 10px;
 }
+
+/* SKIP LINK
+   Hidden until focused, then pinned to the top-left so keyboard users can
+   jump straight to the main content. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+}

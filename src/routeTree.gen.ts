@@ -9,11 +9,23 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as HowWeSourceRouteImport } from './routes/how-we-source'
+import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as DisclaimerRouteImport } from './routes/disclaimer'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PostsSlugRouteImport } from './routes/posts.$slug'
 
+const HowWeSourceRoute = HowWeSourceRouteImport.update({
+  id: '/how-we-source',
+  path: '/how-we-source',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GlossaryRoute = GlossaryRouteImport.update({
+  id: '/glossary',
+  path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DisclaimerRoute = DisclaimerRouteImport.update({
   id: '/disclaimer',
   path: '/disclaimer',
@@ -39,12 +51,16 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
+  '/glossary': typeof GlossaryRoute
+  '/how-we-source': typeof HowWeSourceRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
+  '/glossary': typeof GlossaryRoute
+  '/how-we-source': typeof HowWeSourceRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesById {
@@ -52,25 +68,62 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/disclaimer': typeof DisclaimerRoute
+  '/glossary': typeof GlossaryRoute
+  '/how-we-source': typeof HowWeSourceRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/disclaimer' | '/posts/$slug'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/disclaimer'
+    | '/glossary'
+    | '/how-we-source'
+    | '/posts/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/disclaimer' | '/posts/$slug'
-  id: '__root__' | '/' | '/about' | '/disclaimer' | '/posts/$slug'
+  to:
+    | '/'
+    | '/about'
+    | '/disclaimer'
+    | '/glossary'
+    | '/how-we-source'
+    | '/posts/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/disclaimer'
+    | '/glossary'
+    | '/how-we-source'
+    | '/posts/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   DisclaimerRoute: typeof DisclaimerRoute
+  GlossaryRoute: typeof GlossaryRoute
+  HowWeSourceRoute: typeof HowWeSourceRoute
   PostsSlugRoute: typeof PostsSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/how-we-source': {
+      id: '/how-we-source'
+      path: '/how-we-source'
+      fullPath: '/how-we-source'
+      preLoaderRoute: typeof HowWeSourceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/glossary': {
+      id: '/glossary'
+      path: '/glossary'
+      fullPath: '/glossary'
+      preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/disclaimer': {
       id: '/disclaimer'
       path: '/disclaimer'
@@ -106,6 +159,8 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   DisclaimerRoute: DisclaimerRoute,
+  GlossaryRoute: GlossaryRoute,
+  HowWeSourceRoute: HowWeSourceRoute,
   PostsSlugRoute: PostsSlugRoute,
 }
 export const routeTree = rootRouteImport
