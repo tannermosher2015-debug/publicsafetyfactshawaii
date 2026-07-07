@@ -1,16 +1,16 @@
 ---
 date: "2026-05-26"
 updated: "2026-07-03"
-title: "Maui County Paid for a Study That Made the Case for Firefighter Raises, Then Gave the Raises Only to Management"
+title: "Maui County's Own Study Made the Case for Firefighter Raises"
 slug: "maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management"
-metaDescription: "Maui County paid for a study that justified raises with cost of living and the wildfires, then applied it only to management, not to its firefighters."
-summary: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the firefighters those same leaders chose not to treat the same way."
+metaDescription: "Maui County's own compensation study justified raises using cost of living and the wildfires. The same reasoning applies, point by point, to its firefighters."
+summary: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the county's BU-11 firefighters."
 categories:
   - Governance
   - Hawaii
 image: placeholder.png
 kicker: "Public Safety Fact Check"
-subtitle: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the firefighters those same leaders chose not to treat the same way."
+subtitle: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the county's BU-11 firefighters."
 byline: "Based on Maui County's Own Commissioned Compensation Study & Public Records"
 masthead: "Community Education · Maui County · May 2026 · Public Safety Compensation Series"
 featured: true
@@ -28,7 +28,7 @@ featured: true
 
 <p>Before going further, context matters. The MGT study covered Directors and Deputy Directors only, not frontline employees or bargaining-unit members. It was not a study of firefighter compensation and was not commissioned for that purpose. A full-report keyword search turns up no Firefighter, Captain, or Battalion Chief classifications anywhere in it. The only fire positions it prices are Fire Chief and Deputy Fire Chief.</p>
 
-<p>But the reasoning MGT used to justify those raises, the logic, the data, the arguments, is not management-specific. Cost of living does not care what title is on your badge. A shrinking applicant pool affects entry-level hiring the same way it affects executive recruitment. Post-fire hardship was not experienced primarily by the people who managed the response from an office.</p>
+<p>But the reasoning MGT used to justify those raises, the logic, the data, the arguments, is not management-specific. Cost of living does not care what title is on your badge. A shrinking applicant pool affects entry-level hiring the same way it affects executive recruitment. Post-fire hardship was felt most acutely by the people who were physically on the fire, not only by those who administered the response.</p>
 
 <p>What follows is a direct reading of the study, with the obvious question asked at every step: if this argument justifies a raise for a Director, why does the same argument not justify a raise for a firefighter?</p>
 
@@ -86,7 +86,7 @@ featured: true
 
 <div class="callout-dark">
   <span class="callout-label">The Same Argument Applied to BU-11 Firefighters, Stronger Here</span>
-  <p>MFD entrance-exam applicant pools have collapsed, and passing scores are dropping, documented signals that the pipeline of qualified candidates is narrowing. A firefighter cannot be onboarded in weeks the way an administrative hire sometimes can; the training pipeline alone takes years. An experienced Maui firefighter carries institutional knowledge that cannot be quickly reconstructed: familiarity with the island's roads, topography, communities, and water systems. The retention argument MGT made for management applies with greater urgency to the people who actually fight the fires. (See <a href="/posts/hawaii_firefighter_recruitment_collapse">The Line Out the Door Is Getting Shorter</a>.)</p>
+  <p>MFD entrance-exam applicant pools have collapsed, and passing scores are dropping, documented signals that the pipeline of qualified candidates is narrowing. A firefighter cannot be onboarded in weeks the way an administrative hire sometimes can; the training pipeline alone takes years. An experienced Maui firefighter carries institutional knowledge that cannot be quickly reconstructed: familiarity with the island's roads, topography, communities, and water systems. The retention argument MGT made for management applies with greater urgency to the people who actually fight the fires. (See <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a>.)</p>
 </div>
 
 <div class="divider">— ◆ —</div>
@@ -104,7 +104,7 @@ featured: true
 </div>
 
 <div class="pull-quote">
-  <p>The county built the argument. Then decided it only applied to management.</p>
+  <p>The county's own study built the case for competitive pay. The same case applies to its firefighters.</p>
   <cite>Based on the MGT Draft Classification and Compensation Study, County of Maui (March 3, 2025)</cite>
 </div>
 
@@ -135,10 +135,10 @@ featured: true
 
 <div class="callout-dark">
   <span class="callout-label">The Firefighter Track</span>
-  <p>Over the same window, the BU-11 firefighters' contract went to binding arbitration and came back with across-the-board raises of 3, 3, 2.5, and 2.5 percent over four years and <strong>no step advancement</strong>, an outcome the Fire Chief himself described to the Commission as "lower than most" contracts arbitrated that year. Adjusted for cost of living, firefighter pay sits below the 40th percentile nationally. What the Commission was told about that gap, and what the records show, is its own story: <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">Maui's Fire Commission Was Told Firefighters Do "Fairly Well."</a></p>
+  <p>Over the same window, the BU-11 firefighters' contract went to binding arbitration and came back with across-the-board raises of 3, 3, 2.5, and 2.5 percent over four years and <strong>no step advancement</strong>, an outcome the Fire Chief himself described to the Commission as "lower than most" contracts arbitrated that year. Adjusted for cost of living, firefighter pay sits below the 40th percentile nationally. What the Commission was told about that gap, and what the records show, is its own story: <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">What the Fire Commission Was Told About Firefighter Pay</a>.</p>
 </div>
 
-<p>Same study. Same cost of living. Same wildfire. The county applied the 75th-percentile, cost-of-living, post-fire logic to its department heads and left the firefighters to arbitration. That is the whole point.</p>
+<p>Same study. Same cost of living. Same wildfire. The county applied the 75th-percentile, cost-of-living, post-fire logic to its department heads; the firefighters' pay was set separately, through binding arbitration. That contrast is the heart of the matter.</p>
 
 <div class="divider">— ◆ —</div>
 

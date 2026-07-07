@@ -147,7 +147,7 @@ const START_HERE: { slug: string; why: string }[] = [
   },
   {
     slug: 'maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management',
-    why: "The county's own study, and who actually got the raises.",
+    why: "The county's own study, and how its logic applies to firefighters.",
   },
 ]
 

@@ -56,7 +56,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <div class="callout-dark">
   <span class="callout-label">The Piece That Does Not Show Up in the Vacancy Count</span>
-  <p>There is also a category the three-percent figure misses entirely. At an April 2026 commission meeting, the Fire Chief explained that the department had "unfunded some positions" it is "still holding," setting them aside until facilities like new stations are ready. Those held positions are real gaps in the department's designed strength, but they are not counted as vacancies because they are not currently funded. The true distance between the department the county designed and the one that shows up to emergencies is wider than the vacancy line alone.</p>
+  <p>There is also a category the three-percent figure misses entirely. At an April 2026 commission meeting, the department explained that it had "unfunded some positions" it is "still holding," setting them aside until facilities like new stations are ready. Those held positions are real gaps in the department's designed strength, but they are not counted as vacancies because they are not currently funded. The true distance between the department the county designed and the one that shows up to emergencies is wider than the vacancy line alone.</p>
 </div>
 
 <div class="divider">— ◆ —</div>
@@ -80,7 +80,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <li>Maui Fire Department, Employee Roster and Phone List, effective May 1, 2026 (ten named line vacancies; Ladder 3 Lahaina; Engine 14 Wailea; Health and Safety Bureau specialist)</li>
   <li>County of Maui, FY2026 Program Budget, Department of Fire and Public Safety (Fire/Rescue Operations authorized positions: 288 in FY2023 rising to 325 in FY2026)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, January 15 and March 19, 2026 (department's characterization of vacancies as low; recruit-class cost)</li>
-  <li>Maui County Fire & Public Safety Commission, meeting minutes, April 16, 2026 (Fire Chief on "unfunded" positions being held)</li>
-  <li>Firefighter applicant-pool decline: see <a href="/posts/hawaii_firefighter_recruitment_collapse">The Line Out the Door Is Getting Shorter</a></li>
+  <li>Maui County Fire & Public Safety Commission, meeting minutes, April 16, 2026 (department on "unfunded" positions being held)</li>
+  <li>Firefighter applicant-pool decline: see <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a></li>
   <li>Crew-size research (NIST, Dallas Fire Department, USFA/NFIRS): see our <a href="/posts/why_5_person_fire_crews_are_the_standard">staffing-data page</a></li>
 </ul>

@@ -42,7 +42,7 @@ export const Route = createFileRoute('/')({
       {
         name: 'description',
         content:
-          "Independent fact-based reporting on Hawaii firefighter pay, overtime, and labor rights. Plain-language data on wages your county isn't publicizing.",
+          'Independent fact-based reporting on Hawaii firefighter pay, overtime, and labor rights. Plain-language data drawn from official public records.',
       },
       {
         name: 'keywords',
@@ -58,7 +58,7 @@ export const Route = createFileRoute('/')({
       {
         property: 'og:description',
         content:
-          "Independent community education on Hawaii firefighter pay, overtime, and labor rights. Plain-language facts on what your county isn't saying.",
+          'Independent community education on Hawaii firefighter pay, overtime, and labor rights. Plain-language facts drawn from official public records.',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
@@ -68,7 +68,7 @@ export const Route = createFileRoute('/')({
       {
         name: 'twitter:description',
         content:
-          "Independent community education on Hawaii firefighter pay, overtime, and labor rights. Plain-language facts on what your county isn't saying.",
+          'Independent community education on Hawaii firefighter pay, overtime, and labor rights. Plain-language facts drawn from official public records.',
       },
       {
         'script:ld+json': {

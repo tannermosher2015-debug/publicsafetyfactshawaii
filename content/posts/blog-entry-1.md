@@ -17,9 +17,9 @@ byline: "Based on Official State Records, Arbitration Awards & Published Governm
 masthead: "Community Education · State of Hawaii · April 2026 · Public Safety Compensation Series"
 ---
 
-<p class="lead-p">When a wildfire sweeps through a neighborhood, or a family needs to be pulled from a burning home, Hawaii's residents don't ask whether it's a police officer or a firefighter who shows up. They just need help. Both groups are sworn public safety employees. Both are employed by the same county and state governments. Both operate under the same state labor law. But when it comes to pay, Hawaii's elected officials and administrators are now treating them very differently - and the numbers make that gap impossible to ignore.</p>
+<p class="lead-p">When a wildfire sweeps through a neighborhood, or a family needs to be pulled from a burning home, Hawaii's residents don't ask whether it's a police officer or a firefighter who shows up. They just need help. Both groups are sworn public safety employees. Both are employed by the same county and state governments. Both operate under the same state labor law. But when it comes to pay, the outcomes for the two are now very different - and the numbers show exactly how wide the gap is.</p>
 
-<p>This article is not a complaint. It is a fact sheet. Every figure cited here comes from official government records, binding arbitration awards, or established Hawaii news organizations. We're sharing it because the public deserves to understand exactly what their elected officials have decided firefighters are worth - and how that compares to the standard set for police just months ago.</p>
+<p>This article is not a complaint. It is a fact sheet. Every figure cited here comes from official government records, binding arbitration awards, or established Hawaii news organizations. We're sharing it because the public deserves to understand exactly what the awarded contract says firefighters are worth - and how that compares to the standard set for police just months ago.</p>
 
 <div class="divider">— ◆ —</div>
 
@@ -149,7 +149,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <h2 class="section-head">What the Community Can Take Away</h2>
 
-<p>This document is not asking anyone to be angry. It's asking the community to be informed. The firefighter contract is settled - final and binding as of March 30, 2026. The decisions that produced this outcome were made by arbitrators, county mayors, and state administrators. The same governments whose elected officials oversee both police and firefighter contracts, funded with your tax dollars, made the call that these two public safety workforces merit dramatically different compensation trajectories. That decision is already done. But the people who made it are still in office, still making budget decisions, and still shaping what the next contract cycle will look like.</p>
+<p>This document is not asking anyone to be angry. It's asking the community to be informed. The firefighter contract is settled - final and binding as of March 30, 2026. The decisions that produced this outcome were made by arbitrators, county mayors, and state administrators. Across the same governments that fund both contracts with public dollars, the two public safety workforces ended up on dramatically different compensation trajectories. That outcome is already settled. But the officials who shaped it are still in office, still making budget decisions, and still shaping what the next contract cycle will look like.</p>
 
 <p>As shown above, a starting Firefighter I earns approximately $69,000 per year - and under the awarded contract stays frozen at that step for up to four full years with no advancement. Promotion typically takes eight to ten years. The housing numbers make clear what that means on the ground: a firefighter can spend nearly a decade unable to qualify for a mortgage on the island where they work, while the compensation gap with their police counterparts widens every single year.</p>
 
@@ -160,7 +160,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <p>Hawaii's firefighters respond to wildfires, structure fires, medical emergencies, water rescues, and hazardous materials incidents across every island in the state. From the 2023 Maui wildfires - one of the deadliest natural disasters in American history - to daily emergencies on Oahu, Hawaii Island, and Kauai, these are the men and women who run toward danger when everyone else runs away. They work extended shifts, live away from their families, and accept serious physical risk as a condition of employment. This is a statewide workforce. This is a statewide issue.</p>
 
-<p>The question this comparison raises is simple: <strong>Did the arbitrators and officials who decided this contract believe firefighter work is worth roughly half of what police work is worth?</strong> The awarded numbers say yes. <strong>Does the community - the taxpayers who fund these salaries - agree?</strong> That's a question only you can answer, and it matters for what comes next.</p>
+<p>The comparison comes down to one gap: for the same employer, under the same state law, in the same economy, the awarded firefighter package grew base pay by roughly half of what police received, and froze steps for four years. <strong>Whether that gap reflects the relative value of the work is a question the community is entitled to weigh</strong> - and it matters for what comes next.</p>
 
 <div class="data-callout">
   <div class="callout-label">Bottom Line for Community Members</div>
@@ -169,7 +169,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <div class="data-callout">
   <div class="callout-label">Go Deeper</div>
-  <p>Why firefighter pay lags even beyond the raise gap: <a href="/posts/the_federal_exemption_that_costs_hawaii_firefighters_millions">The Federal Exemption That Costs Hawaii Firefighters Millions</a>. The county study that justified raises, then applied them only to management: <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">Maui County Paid for a Study That Made the Case for Firefighter Raises</a>. And what the Fire Commission was told about all of it: <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">Maui's Fire Commission Was Told Firefighters Do "Fairly Well."</a></p>
+  <p>Why firefighter pay lags even beyond the raise gap: <a href="/posts/the_federal_exemption_that_costs_hawaii_firefighters_millions">The Federal Exemption That Costs Hawaii Firefighters Millions</a>. What the county's own compensation study says about firefighter pay: <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">What Maui County's Own Compensation Study Says About Firefighter Pay</a>. And what the Fire Commission was told, next to what the records show: <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">What the Fire Commission Was Told About Firefighter Pay</a>.</p>
 </div>
 
 <div class="sources">

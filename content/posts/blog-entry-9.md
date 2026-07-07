@@ -52,7 +52,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>That is not a side effect of the job. It is a direct consequence of a paycheck that has fallen behind the cost of living in the community it serves. The wages-versus-prices math that pushes firefighters into second jobs is laid out in <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a>.</p>
 
-<p><strong>You are not the person behind the scenes. You are the story.</strong> And the compensation package our counties offered is a statement about what that story is worth to them.</p>
+<p><strong>You are not the person behind the scenes. You are the story.</strong> And what a contract provides for that family reflects how the work, and the household behind it, is valued.</p>
 
 <div class="callout-dark">
   <span class="callout-label">Plain English</span>
@@ -65,6 +65,6 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <ul>
   <li>Shift-schedule and days-away figures based on the standard 24-hour-shift rotations used by Hawaii fire departments</li>
-  <li>Second-job and cost-of-living context: see <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a> and <a href="/posts/recognition_without_compensation_is_just_words">Recognition Without Compensation Is Just Words</a></li>
+  <li>Second-job and cost-of-living context: see <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a> and <a href="/posts/recognition_without_compensation_is_just_words">The Distance Between Recognition and Compensation</a></li>
   <li>Part of the PublicSafetyFactsHawaii Public Safety Compensation Series</li>
 </ul>

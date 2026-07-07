@@ -207,7 +207,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Some jurisdictions across the country have made exactly that choice. Others have negotiated collective bargaining agreements that contractually reduce the work period or lower the overtime threshold, partially offsetting the exemption's impact even without eliminating it. The range of outcomes is wide, and it is determined by employer policy - not federal mandate.</p>
 
-<p>In Hawaii, all four counties currently apply the full 7(k) exemption, using the maximum 28-day work period and the 212-hour threshold. That is a deliberate policy choice made by each county administration. It saves counties money. It costs firefighters money. And it happens quietly, year after year, without ever being described that way in a budget hearing or a proclamation.</p>
+<p>In Hawaii, all four counties currently apply the full 7(k) exemption, using the maximum 28-day work period and the 212-hour threshold. That is a policy choice made by each county administration. It saves counties money. It costs firefighters money. And it rarely comes up in that form in a budget hearing or a proclamation.</p>
 
 <div class="pull-quote">
   <p>"The exemption is optional. Counties choose to apply it. Nothing in federal law requires them to. The decision is made by management - and it directly determines how much overtime pay a firefighter receives."</p>
@@ -265,7 +265,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Hawaii's firefighters became firefighters because they love these communities. They will keep showing up because that is who they are. They are not asking the public to fight their battles for them.</p>
 
-<p>They are asking the public to understand what it actually means when a county says it "values" its firefighters - and then quietly applies a federal exemption that allows those same firefighters to work 53-hour weeks without earning overtime. To understand that the exemption is optional. That the schedule is optional. That every one of these outcomes is the result of a policy choice made by someone who answers to the public.</p>
+<p>They are asking the public to understand what it means when a county says it values its firefighters and also applies a federal exemption that allows those same firefighters to work 53-hour weeks without earning overtime. To understand that the exemption is optional. That the schedule is optional. That every one of these outcomes is the result of a policy choice made by someone who answers to the public.</p>
 
 <ul class="article-list">
   <li>Congress created Section 7(k) in 1974 to reduce costs for public employers. Not to benefit firefighters.</li>
@@ -281,7 +281,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <div class="data-callout">
   <div class="callout-label">How This Fits the Bigger Picture</div>
-  <p>The overtime gap is one piece of the compensation story. How firefighter pay compares to police is in <a href="/posts/hawaii_s_two-tier_public_safety_system">Hawaii's Two-Tier Public Safety System</a>. What that pay actually buys against Hawaii's cost of living is in <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a>. And the county study that made the case for raises, then applied it only to management, is in <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">Maui County Paid for a Study That Made the Case for Firefighter Raises</a>.</p>
+  <p>The overtime gap is one piece of the compensation story. How firefighter pay compares to police is in <a href="/posts/hawaii_s_two-tier_public_safety_system">Hawaii's Two-Tier Public Safety System</a>. What that pay actually buys against Hawaii's cost of living is in <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a>. And what the county's own compensation study says about firefighter pay is in <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">What Maui County's Own Compensation Study Says About Firefighter Pay</a>.</p>
 </div>
 
 <div class="divider">— ◆ —</div>

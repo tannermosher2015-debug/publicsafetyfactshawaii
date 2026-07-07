@@ -19,8 +19,8 @@ export const POST_META: Record<string, PostMeta> = {
   },
   recognition_without_compensation_is_just_words: {
     topic: 'Recognition',
-    stat: '"Just words"',
-    statLabel: 'a proclamation without a contract behind it',
+    stat: 'Both',
+    statLabel: 'firefighters are asking for recognition and a contract',
     photo: 'recognition.jpg',
   },
   hawaii_firefighter_recruitment_collapse: {
@@ -50,8 +50,8 @@ export const POST_META: Record<string, PostMeta> = {
     },
   maui_fire_commission_was_told_firefighters_do_fairly_well: {
     topic: 'Governance',
-    stat: '"Fairly well"',
-    statLabel: "what the commission was told, vs. the county's own records",
+    stat: '<40th',
+    statLabel: 'where firefighter pay ranks nationally after cost of living',
     photo: 'commission.jpg',
   },
   maui_firefighter_vacancies_county_roster: {
