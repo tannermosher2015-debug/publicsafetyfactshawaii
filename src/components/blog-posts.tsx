@@ -168,10 +168,13 @@ export default function BlogPosts({
   // The hero is always the most recent article (sorted is newest-first).
   const featuredPost = showFeatured ? sorted[0] : undefined
 
+  // Grid stays strictly newest-first by date, including the non-post
+  // EXTRA_ITEMS cards. Topic filters below just filter this list, so they
+  // inherit the same newest-first order.
   const gridItems: Item[] = [
     ...sorted.filter((p) => p !== featuredPost).map(postToItem),
     ...(showFeatured ? EXTRA_ITEMS : []),
-  ]
+  ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   const topics = ['All', ...new Set(gridItems.map((i) => i.topic))]
   const [activeTopic, setActiveTopic] = useState('All')
