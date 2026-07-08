@@ -72,6 +72,12 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'firefighters per crew, the federal safety optimum',
     photo: 'staffing.jpg',
   },
+  behind_every_siren: {
+    topic: 'Recognition',
+    stat: '$43K',
+    statLabel: 'starting pay for the clerks who keep the department running',
+    photo: 'behind-every-siren.jpg',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {
