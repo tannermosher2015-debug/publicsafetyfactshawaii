@@ -13,7 +13,6 @@ kicker: "Public Safety Fact Check"
 subtitle: "In March 2025, Maui County commissioned a professional compensation study for its directors. Every argument the consultants used to justify those raises applies equally, in most cases more forcefully, to the county's BU-11 firefighters."
 byline: "Based on Maui County's Own Commissioned Compensation Study & Public Records"
 masthead: "Community Education · Maui County · May 2026 · Public Safety Compensation Series"
-featured: true
 ---
 
 <p class="lead-p">In March 2025, Maui County contracted MGT Consulting, a Tampa-based compensation firm, to conduct a Classification and Compensation Study for county Directors and Deputy Directors. The report, a 90-page draft, surveyed comparable jurisdictions across the western United States, analyzed salary ranges at the 50th through 80th percentiles, and recommended substantial pay increases for the county's top management tier.</p>

@@ -165,9 +165,8 @@ export default function BlogPosts({
   const sorted = [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   )
-  const featuredPost = showFeatured
-    ? sorted.find((p) => p.featured)
-    : undefined
+  // The hero is always the most recent article (sorted is newest-first).
+  const featuredPost = showFeatured ? sorted[0] : undefined
 
   const gridItems: Item[] = [
     ...sorted.filter((p) => p !== featuredPost).map(postToItem),

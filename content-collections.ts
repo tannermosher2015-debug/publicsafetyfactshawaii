@@ -69,7 +69,6 @@ const posts = defineCollection({
     subtitle: z.string().optional(),
     byline: z.string().optional(),
     masthead: z.string().optional(),
-    featured: z.boolean().optional(),
   }),
   // Render markdown to HTML at build time so the `marked` parser never ships to
   // the browser. `content` (raw markdown) is dropped from the output in favour
