@@ -33,7 +33,7 @@ export const POST_META: Record<string, PostMeta> = {
     topic: 'Recognition',
     stat: '1 in 3',
     statLabel: 'days a firefighter spends away from home',
-    photo: 'family.jpg',
+    photo: 'firefighter-family.jpg',
   },
   the_federal_exemption_that_costs_hawaii_firefighters_millions: {
     topic: 'Overtime Law',

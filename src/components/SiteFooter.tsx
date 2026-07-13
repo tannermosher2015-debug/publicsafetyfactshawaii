@@ -57,7 +57,7 @@ export default function SiteFooter({
         <span>&copy; 2026 Public Safety Facts Hawai&#699;i</span>
         <span className="footer-credits">
           Photos: U.S. Navy, U.S. Marine Corps, U.S. Coast Guard, FEMA &amp;
-          National Park Service (public domain)
+          National Park Service (public domain), plus stock imagery via Pexels
         </span>
       </div>
     </footer>

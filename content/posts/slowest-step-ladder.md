@@ -24,7 +24,7 @@ masthead: "Community Education · Firefighter Pay Progression · Public Safety"
   </div>
   <div class="stat-box">
     <div class="stat-num">1.5%/yr</div>
-    <div class="stat-label">Base-pay growth per year, the lowest of the 37 and under a quarter of the national median</div>
+    <div class="stat-label">Base-pay growth per year, the lowest of the 37 and under a quarter of the survey median</div>
   </div>
   <div class="stat-box">
     <div class="stat-num">~3 yrs</div>
@@ -61,7 +61,7 @@ masthead: "Community Education · Firefighter Pay Progression · Public Safety"
   </div>
 </div>
 
-<p class="table-note">Years from entry to the top step of the base firefighter rank. "Survey median" is the midpoint of the 37 ranked departments.</p>
+<p class="table-note">Years from entry to the top step of the base firefighter rank. "Survey median" is the median years to the top across the 37 departments.</p>
 
 <h2>Every step ladder in the survey, slowest first</h2>
 
