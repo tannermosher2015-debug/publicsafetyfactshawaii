@@ -4,7 +4,7 @@ type Status = 'idle' | 'submitting' | 'success' | 'error'
 
 export default function NewsletterSignup({
   heading = 'Get the updates',
-  blurb = 'One short email when there is real news to share — no spam, unsubscribe anytime.',
+  blurb = 'One short email when there is real news to share, no spam, unsubscribe anytime.',
 }: {
   heading?: string
   blurb?: string
@@ -21,12 +21,15 @@ export default function NewsletterSignup({
 
     setStatus('submitting')
     try {
-      // POST to the static skeleton, not '/', so the request reaches Netlify's
-      // form handler instead of the TanStack Start SSR catch-all.
-      const res = await fetch('/__forms.html', {
+      // Server-side function adds the address to MailerLite; the API key stays
+      // in Netlify env, never in the browser.
+      const res = await fetch('/api/subscribe', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(data as unknown as string[][]).toString(),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          'bot-field': (data.get('bot-field') as string | null) ?? '',
+        }),
       })
       if (!res.ok) throw new Error(`Unexpected response: ${res.status}`)
       setStatus('success')
@@ -59,15 +62,7 @@ export default function NewsletterSignup({
       </h2>
       <p className="newsletter-blurb">{blurb}</p>
 
-      <form
-        name="newsletter"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-        className="newsletter-form"
-      >
-        <input type="hidden" name="form-name" value="newsletter" />
+      <form onSubmit={handleSubmit} className="newsletter-form">
         <p className="newsletter-hp" aria-hidden="true">
           <label>
             Don&rsquo;t fill this out: <input name="bot-field" tabIndex={-1} autoComplete="off" />

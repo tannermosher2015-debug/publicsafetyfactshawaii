@@ -1,0 +1,95 @@
+{
+  "version": "8",
+  "dialect": "postgres",
+  "id": "b1cf8718-b8fb-420d-8af6-2146e5779921",
+  "prevIds": [
+    "b324850b-6d2b-44a8-a566-524ebdee32d0"
+  ],
+  "ddl": [
+    {
+      "isRlsEnabled": false,
+      "name": "newsletter_sends",
+      "entityType": "tables",
+      "schema": "public"
+    },
+    {
+      "isRlsEnabled": false,
+      "name": "page_views",
+      "entityType": "tables",
+      "schema": "public"
+    },
+    {
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "slug",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "newsletter_sends"
+    },
+    {
+      "type": "timestamp",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "now()",
+      "generated": null,
+      "identity": null,
+      "name": "sent_at",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "newsletter_sends"
+    },
+    {
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "page_path",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "page_views"
+    },
+    {
+      "type": "integer",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "0",
+      "generated": null,
+      "identity": null,
+      "name": "view_count",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "page_views"
+    },
+    {
+      "columns": [
+        "slug"
+      ],
+      "nameExplicit": false,
+      "name": "newsletter_sends_pkey",
+      "schema": "public",
+      "table": "newsletter_sends",
+      "entityType": "pks"
+    },
+    {
+      "columns": [
+        "page_path"
+      ],
+      "nameExplicit": false,
+      "name": "page_views_pkey",
+      "schema": "public",
+      "table": "page_views",
+      "entityType": "pks"
+    }
+  ],
+  "renames": []
+}

@@ -78,6 +78,12 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'starting pay for the clerks who keep the department running',
     photo: 'behind-every-siren.jpg',
   },
+  the_slowest_firefighter_step_ladder_in_the_nation: {
+    topic: 'Pay Equity',
+    stat: '28 yrs',
+    statLabel: 'to reach top pay, the longest of 37 U.S. departments',
+    photo: 'slowest-step-ladder.jpg',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {

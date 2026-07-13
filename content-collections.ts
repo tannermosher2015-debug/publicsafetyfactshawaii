@@ -25,6 +25,35 @@ const STATIC_PAGES = [
   { path: '/hawaii_firefighter_disciplines.html', changefreq: 'monthly', priority: '0.8' },
 ]
 
+function xmlEscape(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;')
+}
+
+type RssDoc = { slug: string; date: string; title: string; summary: string }
+
+// RSS 2.0 feed of every post, newest first. MailerLite's RSS-to-email campaign
+// polls this and sends each new <item> to subscribers, so the feed IS the
+// auto-newsletter. Dates are date-only in frontmatter; treat them as UTC midnight.
+function buildRss(docs: RssDoc[]): string {
+  const sorted = [...docs].sort((a, b) => (a.date < b.date ? 1 : -1))
+  const rfc822 = (d: string) => new Date(`${d}T00:00:00Z`).toUTCString()
+  const lastBuild = sorted[0] ? rfc822(sorted[0].date) : new Date(0).toUTCString()
+
+  const items = sorted
+    .map((d) => {
+      const url = `${SITE_URL}/posts/${d.slug}`
+      return `    <item>\n      <title>${xmlEscape(d.title)}</title>\n      <link>${url}</link>\n      <guid isPermaLink="true">${url}</guid>\n      <pubDate>${rfc822(d.date)}</pubDate>\n      <description>${xmlEscape(d.summary)}</description>\n    </item>`
+    })
+    .join('\n')
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<!-- Generated at build time from content/posts — do not edit by hand. -->\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>PublicSafetyFactsHawaii</title>\n    <link>${SITE_URL}/</link>\n    <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />\n    <description>Records-based community education on Hawaii firefighter pay, overtime, and labor rights.</description>\n    <language>en-us</language>\n    <lastBuildDate>${lastBuild}</lastBuildDate>\n${items}\n  </channel>\n</rss>\n`
+}
+
 function buildSitemap(docs: SitemapDoc[]): string {
   const mod = (d: SitemapDoc) => d.updated ?? d.date
   const latest =
@@ -81,9 +110,11 @@ const posts = defineCollection({
       html: await marked.parse(content),
     }
   },
-  // Regenerate sitemap.xml from the posts on every build so it never drifts.
+  // Regenerate sitemap.xml + rss.xml from the posts on every build so they never
+  // drift. rss.xml is what MailerLite polls to auto-email new articles.
   onSuccess: async (documents) => {
     await writeFile('public/sitemap.xml', buildSitemap(documents), 'utf8')
+    await writeFile('public/rss.xml', buildRss(documents), 'utf8')
   },
 })
 
