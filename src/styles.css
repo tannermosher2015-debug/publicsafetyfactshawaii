@@ -173,10 +173,15 @@ body {
 }
 .masthead-cta:hover { background: var(--fire); }
 @media (max-width: 680px) {
-  .site-masthead { gap: 14px; padding: 10px 18px; }
+  .site-masthead { gap: 10px; padding: 10px 16px; }
   .masthead-nav { display: none; }
-  .brand-name { font-size: 18px; }
-  .brand-sub { font-size: 9px; letter-spacing: 0.18em; }
+  .site-masthead .brand { gap: 9px; }
+  .brand-name { font-size: 17px; }
+  /* Keep the tagline on one line: tighter tracking + slightly smaller so
+     "Hawaiʻi · Public Records" fits beside the wordmark instead of wrapping.
+     The CTA and gaps shrink a touch to free the horizontal room. */
+  .brand-sub { white-space: nowrap; font-size: 8.5px; letter-spacing: 0.1em; }
+  .masthead-cta { padding: 9px 13px; font-size: 11px; letter-spacing: 0.05em; }
 }
 @media (prefers-reduced-motion: reduce) {
   .masthead-nav a, .masthead-cta { transition: none; }
