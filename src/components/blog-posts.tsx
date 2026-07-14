@@ -7,6 +7,7 @@ import { POST_META as META } from '@/lib/post-meta'
 import ViewCounter from '@/components/ViewCounter'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
+import Photo from '@/components/Photo'
 
 export type FaqItem = { q: string; a: string }
 
@@ -78,11 +79,10 @@ function CardMedia({ item }: { item: Item }) {
   return (
     <div className="psf-card-media" aria-hidden="true">
       {item.photo && (
-        <img
-          src={`/photos/${item.photo}`}
-          alt=""
+        <Photo
+          photo={item.photo}
           className="psf-card-img"
-          loading="lazy"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
         />
       )}
       <span className="psf-chip">{item.topic}</span>
@@ -220,11 +220,11 @@ export default function BlogPosts({
               params={{ slug: featured.slug! }}
               className="psf-hero"
             >
-              <img
-                src="/photos/hero.jpg"
-                alt=""
+              <Photo
+                photo="hero.jpg"
                 className="psf-hero-img"
-                loading="eager"
+                sizes="(max-width: 1120px) 100vw, 1120px"
+                priority
               />
               <div className="psf-hero-top">
                 <span className="psf-chip psf-chip-gold">Featured</span>

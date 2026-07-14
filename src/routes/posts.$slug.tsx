@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 
 import { allPosts } from 'content-collections'
 import ViewCounter from '@/components/ViewCounter'
+import Photo from '@/components/Photo'
 import ShareBar from '@/components/ShareBar'
 import ArticleToc, { type TocItem } from '@/components/ArticleToc'
 import ActionCta from '@/components/ActionCta'
@@ -268,10 +269,11 @@ function RouteComponent() {
           {meta && (
             <div className="post-header-media" aria-hidden="true">
               {meta.photo ? (
-                <img
-                  src={`/photos/${meta.photo}`}
-                  alt=""
+                <Photo
+                  photo={meta.photo}
                   className="post-hero-img"
+                  sizes="(max-width: 760px) 100vw, 480px"
+                  priority
                 />
               ) : (
                 <div className="post-hero-stat">

@@ -6,6 +6,10 @@ dist
 .output
 .netlify
 
+# Responsive image variants generated at build by scripts/optimize-images.mjs
+public/photos/*.avif
+public/photos/*.webp
+
 # Content Collections generated types
 .content-collections
 
