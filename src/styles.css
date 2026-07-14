@@ -1285,7 +1285,9 @@ body {
 
 @media (max-width: 580px) {
   .compare-grid { grid-template-columns: 1fr; }
-  .compare-section { margin: 48px -24px; }
+  /* Match the negative margin to the container's mobile padding (20px) so the
+     full-bleed dark band reaches the screen edge without pushing 4px past it. */
+  .compare-section { margin: 48px -20px; }
   .bar-name { width: 72px; font-size: 10px; }
   .stat-row { flex-direction: column; }
   .stat-box { min-width: auto; }
@@ -2232,7 +2234,15 @@ body {
 
 @media (max-width: 900px) {
   .post-header-grid { grid-template-columns: 1fr; }
-  .post-layout { grid-template-columns: 1fr; gap: 28px; }
+  /* minmax(0, 1fr) — not plain 1fr — so the stacked column can shrink below its
+     content's intrinsic width. With plain 1fr the track grows to the widest
+     min-content (a data table, a stat box), dragging the sidebar and every line
+     of body text past the screen edge on phones. */
+  .post-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  /* Grid items default to min-width:auto and refuse to shrink past their
+     content; reset so tables scroll inside their own wrapper and text wraps. */
+  .post-aside,
+  .post-layout .article-body { min-width: 0; }
   .post-aside-sticky { position: static; }
   .post-layout .article-body { max-width: none; }
 }
