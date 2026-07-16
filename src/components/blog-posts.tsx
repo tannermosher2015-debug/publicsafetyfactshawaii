@@ -221,7 +221,7 @@ export default function BlogPosts({
               className="psf-hero"
             >
               <Photo
-                photo="hero.jpg"
+                photo={featured.photo ?? 'hero.jpg'}
                 className="psf-hero-img"
                 sizes="(max-width: 1120px) 100vw, 1120px"
                 priority
