@@ -84,6 +84,12 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'to reach top pay, the longest of 37 U.S. departments',
     photo: 'slowest-step-ladder.jpg',
   },
+  the_third_tier_hawaii_ocean_safety_pay: {
+    topic: 'Ocean Safety',
+    stat: '33 yrs',
+    statLabel: 'for a lifeguard to reach the top of the pay scale',
+    photo: 'ocean-safety-tower.jpg',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {

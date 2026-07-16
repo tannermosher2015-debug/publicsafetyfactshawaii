@@ -57,7 +57,16 @@ export default function SiteFooter({
         <span>&copy; 2026 Public Safety Facts Hawai&#699;i</span>
         <span className="footer-credits">
           Photos: U.S. Navy, U.S. Marine Corps, U.S. Coast Guard, FEMA &amp;
-          National Park Service (public domain), plus stock imagery via Pexels
+          National Park Service (public domain), plus stock imagery via Pexels.
+          Kailua Beach lifeguard tower by HelgaVonSlapya, resized, licensed{' '}
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            rel="license noopener noreferrer"
+            target="_blank"
+          >
+            CC BY-SA 4.0
+          </a>
+          .
         </span>
       </div>
     </footer>
