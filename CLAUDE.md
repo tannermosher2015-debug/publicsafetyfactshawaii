@@ -15,10 +15,15 @@ Independent community-education blog on Hawaii firefighter pay, overtime, and la
 - Fonts are **self-hosted** via `@fontsource` (Playfair Display, Source Serif 4, DM Mono) —
   no Google Fonts `<link>`. Identity = editorial/newspaper, **fire/smoke/ember** palette.
 
-## Deploy = `git push` (SSH)
-- Push `main` over **SSH** (`git@github.com:tannermosher2015-debug/publicsafetyfactshawaii`,
-  key `~/.ssh/id_ed25519_frontline`) → **Netlify auto-deploys.** HTTPS push fails (no credential
-  helper). A push is a publish — build and verify first.
+## Deploy = `git push` to `main`
+- Pushing `main` **auto-deploys to Netlify. A push is a publish**, so build and verify first.
+- **Push auth is per-machine, check before assuming.** Run `git remote -v` and match the protocol
+  to the machine you are on:
+  - **PC** (`C:\Users\Tanner Ray Mosher`): no GitHub SSH key, but `gh` is authed and
+    `credential.helper=manager`, so the **HTTPS** remote pushes fine (verified 2026-07-16).
+  - **Laptop** (`C:\Users\Tanne`): pushes over **SSH**
+    (`git@github.com:tannermosher2015-debug/publicsafetyfactshawaii`, key `~/.ssh/id_ed25519_frontline`).
+  - A push that 403s means this machine lacks that protocol's setup: switch protocol, don't force it.
 
 ## ⚠️ Dependency landmines
 - **Drizzle is pinned to `1.0.0-beta.22` deliberately. NEVER run `npm audit fix --force`** — it
