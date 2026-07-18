@@ -90,6 +90,11 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'for a lifeguard to reach the top of the pay scale',
     photo: 'ocean-safety-tower.jpg',
   },
+  where_the_system_fails: {
+    topic: 'Governance',
+    stat: '2',
+    statLabel: 'systems in one government: officials get a study, the workforce bargains',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {
