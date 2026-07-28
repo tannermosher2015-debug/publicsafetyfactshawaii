@@ -18,17 +18,31 @@ import type { Context } from "@netlify/edge-functions";
  * same-origin: no CDN, no Google Fonts, no analytics, no third-party scripts.
  * Fonts are self-hosted via @fontsource.
  *
- * script-src is 'self' with NO 'unsafe-inline'. The only inline <script>
- * elements are application/ld+json (NewsArticle and BreadcrumbList schema),
- * which browsers never execute, so they need no script-src allowance.
+ * script-src NEEDS 'unsafe-inline', and finding that out cost a deploy.
+ * A DOM scan of the finished page shows only application/ld+json scripts,
+ * which browsers never execute, so a strict "script-src 'self'" looked safe.
+ * It is not: React and TanStack Start emit executable inline scripts during
+ * hydration which run and are then cleaned out of the DOM, so scanning the
+ * END STATE cannot see them. Deploy preview 2 produced 10 "Executing inline
+ * script violates ... 'script-src 'self''" violations across five pages, and
+ * blocked hydration. Hashes are not an option: the violations reported a
+ * different sha256 per page, and they change on every build.
  *
- * style-src DOES need 'unsafe-inline': article bar charts set width and
+ * 'unsafe-inline' does weaken the XSS protection this header exists for. The
+ * rest of the policy still earns its place: no external script origin can
+ * load, object-src is none, and base-uri, form-action and frame-ancestors are
+ * all locked to self.
+ *
+ * style-src needs 'unsafe-inline' too: article bar charts set width and
  * background through style="" attributes, which CSP counts as inline styles.
- * Removing that would mean moving every bar width into a stylesheet.
+ *
+ * frame-src stays 'none'. Deploy previews log one violation for the
+ * app.netlify.com preview banner iframe; that banner does not exist in
+ * production, and no page on this site embeds an iframe.
  */
 const CSP = [
   "default-src 'self'",
-  "script-src 'self'",
+  "script-src 'self' 'unsafe-inline'",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data:",
   "font-src 'self'",
