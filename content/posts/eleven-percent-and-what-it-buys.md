@@ -3,8 +3,8 @@ date: "2026-07-28"
 title: "Eleven Percent, and What It Buys"
 titleHtml: "Eleven Percent, and <em>What It Buys</em>"
 slug: "ocean_safety_2026_award_vs_honolulu_inflation"
-seoTitle: "Hawaii Lifeguard Pay 2026: The Unit 15 Award Against Honolulu Inflation"
-metaDescription: "Hawaii's ocean safety officers finally have an award. It raises the salary schedule 11.12 percent over four years. Honolulu prices rose 5.1 percent in the last twelve months alone."
+seoTitle: "Hawaii Lifeguard Pay 2026: The Unit 15 Award"
+metaDescription: "Hawaii's ocean safety officers have an arbitration award: 11.12 percent over four years. Honolulu prices rose 5.1 percent in the last twelve months alone."
 summary: "Hawaii's lifeguards waited a year past the end of their contract. On July 1, 2026, an arbitration panel gave them 11.12 percent across four years. Here is the arithmetic that decides whether that is a raise: what the schedule pays, set against what Honolulu charges."
 categories:
   - Ocean Safety
