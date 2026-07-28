@@ -6,6 +6,15 @@
   targetPort = 3000
   port = 8888
 
+# Security headers for SSR HTML live in netlify/edge-functions/security-headers.ts.
+# The [[headers]] blocks below only reach STATIC files; SSR function responses
+# ignore them, which is why every article page was missing X-Frame-Options and
+# Referrer-Policy until 2026-07-28 while /robots.txt had them. These stay for
+# the static assets; the edge function covers the pages.
+[[edge_functions]]
+  path = "/*"
+  function = "security-headers"
+
 [[headers]]
   for = "/*"
   [headers.values]
