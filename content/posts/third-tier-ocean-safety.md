@@ -16,6 +16,11 @@ byline: "Based on the Bargaining Unit 15 Interest Arbitration Award, County Reso
 masthead: "Community Education · Ocean Safety · Public Safety Compensation Series"
 ---
 
+<div class="data-callout">
+  <div class="callout-label">Update, July 28, 2026: the successor award exists</div>
+  <p>When this article was published on July 15, 2026, we reported that we could find no public record of a successor contract or arbitration award for Bargaining Unit 15, and we said that if one existed we would publish it and correct this article. One does. A panel chaired by Frederic R. Horowitz, Esq. issued a final and binding award on <strong>July 1, 2026</strong>, covering July 1, 2025 through June 30, 2029. Its cost items were filed with the Honolulu City Council as Resolution 26-166 on July 15, 2026, the same day this article ran. The award raises the salary schedule 2.61, 2.49, 2.47 and 3.12 percent across the four years, continues step movement, and adds a one-time $2,000 payment for members who will receive no step at all during the contract. We set those figures against Honolulu prices in <a href="/posts/ocean_safety_2026_award_vs_honolulu_inflation">Eleven Percent, and What It Buys</a>. The section below headed "The Contract Ran Out a Year Ago," and the closing note on what we could not establish, should both be read against this update.</p>
+</div>
+
 <p class="lead-p">We have written a good deal about the distance between what Hawaii's firefighters do and what Hawaii pays them. There is a group standing further out on that same line, and almost nobody writes about them at all. Hawaii's ocean safety officers, the lifeguards, guard the water in the state with the second-highest drowning rate in America, and within that state, Maui's rate is the worst of all. In 2022 an arbitration panel described their pay ladder in a single sentence: twelve steps, four percent each, one step every three years.</p>
 
 <div class="stat-row">
@@ -33,7 +38,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
   </div>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">A Unit Most People Have Never Heard Of</h2>
 
@@ -48,7 +53,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
   <p>The state's own website still hosts a salary schedule page titled "BU 14, State Law Enforcement Officers and State and County Ocean Safety and Water Safety Officers." That title has been obsolete since 2020. Bargaining Unit 14 is law enforcement only now, and its published schedule does not cover a single lifeguard. Anyone looking up ocean safety pay from that page is reading the wrong document.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Test Nobody Else Has to Pass</h2>
 
@@ -65,7 +70,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
 
 <p>We say this as a site that has spent a year writing about firefighter pay, and we mean it plainly: the lifeguards are the only public safety classification in this state that has to prove, every single year, that their body can still do the job.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Twelve Steps, One Every Three Years</h2>
 
@@ -105,7 +110,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
 
 <p>These are 2022 figures and they are not current. The award that contains them granted across-the-board increases of 3% in 2022, 4% in 2023, and 4% in 2024, so today's numbers are higher. Maui's ocean safety bureau chief told the County Council in November 2025 that his officers start at roughly <strong>$56,000</strong> after probation.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Panel Did Find</h2>
 
@@ -122,7 +127,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
   <p>An across-the-board increase lifts every number on the schedule by the same percentage. It does not change how many steps there are or how long you wait between them. A 33-year ladder that gets a 4% raise is a 33-year ladder that pays 4% more. That is why two panels in a row pointed at the schedule itself rather than the size of the raise, and why the 2020 direction going unheeded matters more than any single percentage in the award.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Contract Ran Out a Year Ago</h2>
 
@@ -137,7 +142,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
   <p>It does not mean no contract exists. HGEA posts member-only updates titled "Unit 15 contract negotiations update" and "Unit 15 contract arbitration update," and we cannot read them from outside. The labor board's public index has not been updated past 2024, so its silence proves nothing either. What we can say is narrower and still worth saying: for police and for firefighters, the successor award is a public document any resident can read. For the lifeguards, a year on, we could not find one. If a successor exists, we will publish it and correct this article.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Towers Hold</h2>
 
