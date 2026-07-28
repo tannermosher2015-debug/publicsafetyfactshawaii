@@ -21,7 +21,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <p>This article is not a complaint. It is a fact sheet. Every figure cited here comes from official government records, binding arbitration awards, or established Hawaii news organizations. We're sharing it because the public deserves to understand exactly what the awarded contract says firefighters are worth - and how that compares to the standard set for police just months ago.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Police Contract: A Historic Win</h2>
 
@@ -38,11 +38,11 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <p>Nobody is arguing the police didn't deserve it. The vacancy crisis is real. The cost of living in Hawaii is brutal. Mainland departments are aggressively recruiting Hawaii officers. The arbitrator weighed all of this and concluded that 5% per year was, in his words, <em>"both reasonable and appropriate."</em></p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Firefighter Contract: The Arbitrator's Decision</h2>
 
-<p>Hawaii firefighters - represented by the Hawaii Fire Fighters Association (HFFA/BU-11) - received a very different outcome for the same 2025–2029 contract period. An arbitration decision and award dated <strong>March 30, 2026</strong> is now final and binding under Section 89-11(g), Hawaii Revised Statutes. The Mayor submitted the cost items to the Maui County Council on April 9, 2026, and the Council approved them via Resolution No. 26-74 on <strong>April 17, 2026</strong>.</p>
+<p>Hawaii firefighters - represented by the Hawaii Fire Fighters Association (HFFA/BU-11) - received a very different outcome for the same 2025 to 2029 contract period. An arbitration decision and award dated <strong>March 30, 2026</strong> is now final and binding under Section 89-11(g), Hawaii Revised Statutes. The Mayor submitted the cost items to the Maui County Council on April 9, 2026, and the Council approved them via Resolution No. 26-74 on <strong>April 17, 2026</strong>.</p>
 
 <p>The awarded contract provides across-the-board increases of <strong>3% in 2025, 3% in 2026, 2.5% in 2027, and 2.5% in 2028.</strong> Compounded over four years, that totals approximately <strong>11.46%</strong> - compared to SHOPO's <strong>21.55%</strong> over the same period.</p>
 
@@ -54,7 +54,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 </div>
 
 <div class="compare-section">
-  <h2>2025–2029 Contract Comparison at a Glance</h2>
+  <h2>2025 to 2029 Contract Comparison at a Glance</h2>
   <div class="compare-grid">
     <div class="compare-card police">
       <div class="label">SHOPO / Police Officers (BU-12)</div>
@@ -111,7 +111,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <p>The step freeze matters more than it might appear. Step advancement is not a bonus or a perk - it has been a core, continuous feature of Hawaii public safety compensation for decades. SHOPO's arbitrator retained it without controversy in both recent contracts. Eliminating it for firefighters while preserving it for police creates a structural disparity that doesn't show up in the headline ATB percentages. It compounds silently, year after year.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Same Conditions Apply - Regardless of Who's at the Table</h2>
 
@@ -126,7 +126,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
   <cite>Based on SHOPO arbitration award (Sept. 24, 2025), HFFA arbitration award (March 30, 2026), and Maui County Resolution No. 26-74</cite>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What a Firefighter's Pay Actually Buys in Hawaii</h2>
 
@@ -145,7 +145,7 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 
 <p>This is not a hypothetical hardship. It is the lived reality of the men and women currently employed by Hawaii's fire departments. When a compensation package lags behind inflation and offers no step advancement for four years, it does not merely slow wage growth - it accelerates displacement. Firefighters who cannot afford to live near the communities they serve either leave the job or leave the islands. Both outcomes make every community less safe.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Community Can Take Away</h2>
 
@@ -175,16 +175,16 @@ masthead: "Community Education · State of Hawaii · April 2026 · Public Safety
 <div class="sources">
   <h3>Sources &amp; References</h3>
   <ul>
-    <li>SHOPO 2021–2025 CBA - Hawaii DHRD (dhrd.hawaii.gov)</li>
-    <li>SHOPO 2025–2029 Arbitration Award - Arbitrator Russell Higa, September 24, 2025</li>
+    <li>SHOPO 2021 to 2025 CBA - Hawaii DHRD (dhrd.hawaii.gov)</li>
+    <li>SHOPO 2025 to 2029 Arbitration Award - Arbitrator Russell Higa, September 24, 2025</li>
     <li>Honolulu Star-Advertiser - SHOPO award coverage, September 30, 2025</li>
     <li>Honolulu City Council Resolution N-25-284 - Contract cost authorization (ehawaii.gov)</li>
     <li>Hawaii Public Radio - "Police across the state set to receive largest raises in nearly 2 decades," November 20, 2025</li>
     <li>HFFA BU-11 Arbitration Decision and Award - March 30, 2026</li>
-    <li>Maui County Council Resolution No. 26-74 - Approving BU-11 Cost Items FY2026–2029, April 17, 2026</li>
-    <li>HFFA 2021–2025 Collective Bargaining Agreement (DHRD)</li>
+    <li>Maui County Council Resolution No. 26-74 - Approving BU-11 Cost Items FY2026 to 2029, April 17, 2026</li>
+    <li>HFFA 2021 to 2025 Collective Bargaining Agreement (DHRD)</li>
     <li>Honolulu Civil Beat - SHOPO contract coverage, July 2022</li>
-    <li>Officer.com - SHOPO 2025–2029 coverage, November 2025</li>
+    <li>Officer.com - SHOPO 2025 to 2029 coverage, November 2025</li>
     <li>Hawaii Housing Finance and Development Corporation - Maui County Income Schedule &amp; Affordable Sales Price Guidelines 2025 (dbedt.hawaii.gov/hhfdc)</li>
     <li>Zillow Hawaii Home Value Index - March 2026</li>
     <li>Freddie Mac Primary Mortgage Market Survey - April 9, 2026</li>

@@ -22,7 +22,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>That framing matters, because it names something that rarely gets said out loud in public labor disputes: that the same qualities that make someone a great firefighter, the willingness to serve, to sacrifice, to stay, can quietly become leverage against them at the bargaining table. The size of the applicant pool has long been treated as a reason pay does not need to keep up. The data now tells a different story, and it has its own article: <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a>.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Morale Is Low, and Here's Why</h2>
 
@@ -40,7 +40,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>We are grateful for the recognition of International Firefighters' Day. We honor what it represents. But a county's commitment to its firefighters has to extend beyond the proclamation. A formal acknowledgment of service, issued in the same year a below-inflation contract was finalized statewide, does not close the gap. It names it.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Community Can Take Away</h2>
 

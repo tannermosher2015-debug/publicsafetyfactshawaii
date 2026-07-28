@@ -16,7 +16,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p class="lead-p">Staffing debates usually happen in the abstract. This one does not have to. The Maui Fire Department publishes an operational roster, station by station and shift by shift, and it marks every open position with a single word: VACANT. The version effective May 1, 2026 names ten of them on the firefighting line. Read alongside the county's adopted budget, the roster tells a clear story, and it is not the story a low vacancy number alone would suggest.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Roster Says</h2>
 
@@ -29,7 +29,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p>Two of these are worth naming plainly. The <strong>Ladder 3 company in Lahaina</strong>, the district that lost 102 lives in the August 2023 wildfire, carries an unfilled firefighter position. And <strong>Engine 14 in Wailea</strong>, one of South Maui's fastest-growing and highest-traffic areas, carries two, across two different shifts. These are not projections or union estimates. They are printed on the county's own document.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Honest Math, and Why the Small Number Is Not Reassuring</h2>
 
@@ -59,7 +59,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <p>There is also a category the three-percent figure misses entirely. At an April 2026 commission meeting, the department explained that it had "unfunded some positions" it is "still holding," setting them aside until facilities like new stations are ready. Those held positions are real gaps in the department's designed strength, but they are not counted as vacancies because they are not currently funded. The true distance between the department the county designed and the one that shows up to emergencies is wider than the vacancy line alone.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Why Ten Open Seats Matter More Than Ten Sounds Like</h2>
 
@@ -72,7 +72,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <p>Maui's fire department publishes a roster that marks open positions as VACANT. The May 2026 version names ten on the firefighting line, including one on the Lahaina ladder truck and two in Wailea. Ten out of 325 funded positions is a low vacancy rate right now, and that is true. The worry is the direction: the county keeps funding more firefighter positions, the pool of people applying has dropped about 73 percent, the department has skipped running a recruit class, and it is also holding some positions unfunded on the side. The gap is small today and getting harder to close tomorrow.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h3 class="section-head">Sources & References</h3>
 
