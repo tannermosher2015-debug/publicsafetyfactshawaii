@@ -18,13 +18,13 @@ masthead: "Community Education · State of Hawaii · June 2026 · Public Safety 
 
 <p>None of what follows is unique to firefighters. A nurse, a teacher, and a road crew feel the same market. But firefighter pay is set by public contract, argued in public forums, and justified in public documents, so it is one of the few places where the cost-of-living question can be checked against real numbers.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Backdrop: The Most Expensive State in the Country</h2>
 
 <p>The county's own compensation consultants put it in writing. In the MGT compensation study Maui County commissioned, the cost of living in Maui County is described as <strong>1.3 times higher</strong> than the U.S. average, with Hawaii ranked the <strong>4th most expensive state</strong> to live in. The study used that fact to argue for paying management competitively. The same fact applies to everyone who buys groceries in the same stores.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What a Home Actually Costs</h2>
 
@@ -52,7 +52,7 @@ masthead: "Community Education · State of Hawaii · June 2026 · Public Safety 
   </div>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">By the State's Own Yardstick</h2>
 
@@ -65,7 +65,7 @@ masthead: "Community Education · State of Hawaii · June 2026 · Public Safety 
 
 <p>A person who runs into burning buildings for a living starts a career earning just above the line the state draws for moderate-income assistance. That is not a rhetorical flourish. It is the state's own income schedule set next to the county's own wage schedule.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Slow Erosion: Wages vs. Prices Over a Decade</h2>
 
@@ -81,7 +81,7 @@ masthead: "Community Education · State of Hawaii · June 2026 · Public Safety 
   <p>Hawaii is the most expensive state in the country, and Maui is expensive even for Hawaii. A starting firefighter earns around $65,780 to $69,000. The median Maui home costs about $1.2 million and takes roughly five times that salary to qualify for. By the state's own income guidelines, a starting firefighter sits right at the moderate-income line. And over the last decade, wages rose about 23 percent while prices rose about 35 percent, leaving today's starting pay worth roughly $6,442 a year less than it was in 2015.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h3 class="section-head">Sources & References</h3>
 

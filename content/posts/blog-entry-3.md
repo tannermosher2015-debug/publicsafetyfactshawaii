@@ -25,7 +25,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Hawaii's counties use it. All four of them.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>What the FLSA Actually Says</h2>
 
@@ -54,7 +54,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p class="table-note">*Maui County MFD data confirmed by a current Maui Division representative. The general 7(k) threshold gap (52 hours) applies to any firefighter on a standard 40-hour-equivalent schedule; Maui firefighters' actual exposure is higher due to the Kelly schedule with no Kelly days.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>A Side-by-Side Look at the Rules</h2>
 
@@ -108,7 +108,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>A nurse, a county road worker, a parks employee - all of them earn overtime after 40 hours a week. A firefighter at the same county can be required to work 53 hours before earning a single dollar of overtime. That difference exists because of a federal exemption their employer voluntarily chooses to apply.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>How We Got Here: The History Behind the Exemption</h2>
 
@@ -138,7 +138,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>It bears repeating: the explicit, stated purpose of Section 7(k) was not to create a specialized standard that reflects the unique nature of firefighting. It was to reduce what governments would owe. The cost reduction came directly out of firefighters' paychecks - and has for fifty years.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>The Financial Impact: What Firefighters Are Not Being Paid</h2>
 
@@ -189,7 +189,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
       </tr>
     </tbody>
   </table>
-  <p class="table-note">Based on 65 straight-time hours per 28-day cycle above the standard 40-hr threshold - derived from Maui County MFD's confirmed Kelly schedule with no Kelly days (121–122 days worked/year, ~56.3 hrs/week average). 13 cycles/year. Single pay rate; does not account for step increases or ATB raises over a career. Figures represent the difference between what was paid and what would have been paid under standard FLSA rules. Maui County data confirmed by a current Maui Division representative.</p>
+  <p class="table-note">Based on 65 straight-time hours per 28-day cycle above the standard 40-hr threshold - derived from Maui County MFD's confirmed Kelly schedule with no Kelly days (121 to 122 days worked/year, ~56.3 hrs/week average). 13 cycles/year. Single pay rate; does not account for step increases or ATB raises over a career. Figures represent the difference between what was paid and what would have been paid under standard FLSA rules. Maui County data confirmed by a current Maui Division representative.</p>
 </div>
 
 <div class="callout-dark">
@@ -197,7 +197,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>A Maui firefighter earning $45 per hour on the Kelly schedule absorbs approximately $1,463 in foregone overtime every 28-day cycle. That's $19,013 per year. Over a 25-year career at a single pay rate, the total comes to $475,313 - money worked for, never paid, because of an optional federal exemption Maui County chooses to apply.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>The Part Nobody Talks About: Counties Don't Have to Use It</h2>
 
@@ -213,7 +213,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>"The exemption is optional. Counties choose to apply it. Nothing in federal law requires them to. The decision is made by management - and it directly determines how much overtime pay a firefighter receives."</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>The Schedule Factor: How 24/72 Changes the Math</h2>
 
@@ -238,7 +238,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
     <tbody>
       <tr>
         <td class="bold">Kelly / No Kelly Days (current)</td>
-        <td class="center">121–122</td>
+        <td class="center">121 to 122</td>
         <td class="center">~56.3 hrs</td>
         <td class="center">~16 hrs</td>
         <td class="center" style="color:var(--fire); font-weight:600;">Maximum</td>
@@ -257,7 +257,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Adopting a 24/72 schedule is not just a quality-of-life question for firefighters. It is a structural policy decision that would substantially close the compensation gap created by the 7(k) exemption - without requiring Maui County to abandon the exemption entirely. Like the decision to use 7(k) itself, the choice of shift schedule is made by county management. Not by federal law.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2>What the Community Can Take Away</h2>
 
@@ -270,7 +270,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 <ul class="article-list">
   <li>Congress created Section 7(k) in 1974 to reduce costs for public employers. Not to benefit firefighters.</li>
   <li>Under 7(k), Hawaii's firefighters can be required to work up to 53-hour weeks without earning a single dollar of overtime.</li>
-  <li>On Maui, the Kelly schedule with no Kelly days means firefighters work approximately 121–122 days per year - producing roughly 65 straight-time hours per cycle above the standard 40-hour threshold.</li>
+  <li>On Maui, the Kelly schedule with no Kelly days means firefighters work approximately 121 to 122 days per year - producing roughly 65 straight-time hours per cycle above the standard 40-hour threshold.</li>
   <li>Over a career, the cumulative impact on a Maui firefighter can exceed $475,000 at a single pay rate.</li>
   <li>The exemption is optional. All four Hawaii counties choose to apply it.</li>
   <li>Adopting a 24/72 schedule would substantially reduce firefighters' exposure to the 7(k) gap, even without eliminating the exemption.</li>
@@ -284,14 +284,14 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>The overtime gap is one piece of the compensation story. How firefighter pay compares to police is in <a href="/posts/hawaii_s_two-tier_public_safety_system">Hawaii's Two-Tier Public Safety System</a>. What that pay actually buys against Hawaii's cost of living is in <a href="/posts/cost_of_living_gap_hawaii_firefighter_pay">The Cost-of-Living Gap</a>. And what the county's own compensation study says about firefighter pay is in <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">What Maui County's Own Compensation Study Says About Firefighter Pay</a>.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <div class="sources">
   <h3>Sources &amp; References</h3>
   <ul>
     <li>Fair Labor Standards Act, 29 U.S.C. § 207(k) - Section 7(k) exemption text (the statutory basis for the firefighter overtime exemption)</li>
     <li>Fair Labor Standards Act, 29 U.S.C. § 203(y) - Definition of "employee in fire protection activities," including paramedics and EMTs cross-trained in fire suppression</li>
-    <li>29 C.F.R. Part 553, Subpart C (§§ 553.200–553.223) - DOL regulations governing the full application of the 7(k) exemption to public safety employees, including work period rules and overtime thresholds</li>
+    <li>29 C.F.R. Part 553, Subpart C (§§ 553.200 to 553.223) - DOL regulations governing the full application of the 7(k) exemption to public safety employees, including work period rules and overtime thresholds</li>
     <li>29 C.F.R. § 553.201 - Specific regulatory provision establishing that the 7(k) exemption is available to qualifying public agencies, not mandatory</li>
     <li>29 C.F.R. § 553.32 - Classification of 7(k) as a partial overtime pay exemption available to public agency employers</li>
     <li>U.S. Department of Labor, Wage and Hour Division - Fact Sheet #8: Law Enforcement and Fire Protection Employees Under the FLSA</li>
@@ -302,7 +302,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
     <li>International Association of Fire Fighters (IAFF) - FLSA resource page - IAFF guidance on firefighter overtime rights and FLSA compliance</li>
     <li>firefighterovertime.org - FLSA 7(k) application, threshold reference, and Congressional intent documentation</li>
     <li>DHRD BU-11 salary schedules (verified) - Hawaii firefighter pay rate data</li>
-    <li>Maui County MFD Kelly schedule (no Kelly days), 121–122 24-hour shifts/year - confirmed by a current Maui Division representative with direct knowledge of department operations</li>
+    <li>Maui County MFD Kelly schedule (no Kelly days), 121 to 122 24-hour shifts/year - confirmed by a current Maui Division representative with direct knowledge of department operations</li>
     <li>All dollar impact figures are estimates based on stated assumptions; individual outcomes will vary based on actual hours worked, pay rate, and career length</li>
   </ul>
 </div>

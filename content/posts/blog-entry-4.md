@@ -21,7 +21,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
 
 <p>This is that case, made in the county's own words.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Study Was, and What It Wasn't</h2>
 
@@ -31,7 +31,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
 
 <p>What follows is a direct reading of the study, with the obvious question asked at every step: if this argument justifies a raise for a Director, why does the same argument not justify a raise for a firefighter?</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Argument One: Below-Market Pay</h2>
 
@@ -45,7 +45,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
   <p>Hawaii firefighter wages have lagged comparable jurisdictions for years. The county's own Fire Chief told the Fire Commission in April 2026 that the firefighters' arbitration award "was lower than most of the contracts that have been negotiated and arbitrated this year." BU-11 firefighters received less than half the raise police received, and step increases were frozen for four years. The county's own consultant found it was paying below market for management. The same dynamic holds, on the record, for the people those managers supervise. (See <a href="/posts/hawaii_s_two-tier_public_safety_system">Hawaii's Two-Tier Public Safety System</a>.)</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Argument Two: The Cost-of-Living Reality</h2>
 
@@ -74,7 +74,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
   </div>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Argument Three: Recruitment and Retention</h2>
 
@@ -88,7 +88,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
   <p>MFD entrance-exam applicant pools have collapsed, and passing scores are dropping, documented signals that the pipeline of qualified candidates is narrowing. A firefighter cannot be onboarded in weeks the way an administrative hire sometimes can; the training pipeline alone takes years. An experienced Maui firefighter carries institutional knowledge that cannot be quickly reconstructed: familiarity with the island's roads, topography, communities, and water systems. The retention argument MGT made for management applies with greater urgency to the people who actually fight the fires. (See <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a>.)</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Argument Four: The August 8th Factor</h2>
 
@@ -107,7 +107,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
   <cite>Based on the MGT Draft Classification and Compensation Study, County of Maui (March 3, 2025)</cite>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Argument Five: When Benefits Are Comparable, Salary Is the Gap</h2>
 
@@ -121,7 +121,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
   <p>The same finding holds for BU-11. Firefighter benefits across Hawaii counties are broadly comparable to peer departments. The compensation gap is a salary and overtime gap, compounded by the FLSA Section 7(k) exemption, a federal provision Maui County voluntarily chooses to apply. That exemption costs a Maui firefighter an estimated <strong>$475,000</strong> in foregone overtime over a 25-year career at current wage rates. The full breakdown is in <a href="/posts/the_federal_exemption_that_costs_hawaii_firefighters_millions">The Federal Exemption That Costs Hawaii Firefighters Millions</a>. The case MGT made for closing the salary gap at the management level applies to the salary and overtime gap at the firefighter level.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the County Actually Did</h2>
 
@@ -139,7 +139,7 @@ masthead: "Community Education · Maui County · May 2026 · Public Safety Compe
 
 <p>Same study. Same cost of living. Same wildfire. The county applied the 75th-percentile, cost-of-living, post-fire logic to its department heads; the firefighters' pay was set separately, through binding arbitration. That contrast is the heart of the matter.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Community Should Take From This</h2>
 

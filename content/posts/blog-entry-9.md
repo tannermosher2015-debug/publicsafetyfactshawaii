@@ -17,7 +17,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p class="lead-p">There is a group of people who make it possible for Hawaii's firefighters to show up every day, every shift, for an entire career. They are the spouses, partners, and significant others who hold the household together while their person is on rotation, on Oahu, on Maui, on Hawaii Island, on Kauai. They rarely get named in policy conversations, budget hearings, or proclamations. They deserve to be.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">A Decade of Nights</h2>
 
@@ -44,7 +44,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   </div>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Running the Household So the Badge Can Stay On</h2>
 
@@ -59,7 +59,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>A firefighter on 24-hour shifts is away from home about one day in three, close to a decade of nights over a career. The person at home carries the sick days, the school runs, and the household, often while their partner works a second job just to keep up with Hawaii's cost of living. None of that appears in a budget or a contract. This article is here to say it out loud.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h3 class="section-head">Sources & References</h3>
 

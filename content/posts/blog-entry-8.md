@@ -17,7 +17,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p class="lead-p">"There's a line out the door." For years that has been an informal reason given for not raising firefighter pay. The reasoning goes that the job is so desirable, so competitive, that compensation does not need to keep up. Maui County's own entrance-exam data tells a different story, and it is getting harder to tell every year.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Line Is Getting Shorter. The Bar Is Getting Lower.</h2>
 
@@ -45,7 +45,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   </div>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Why a Thin Pipeline Is a Public-Safety Problem</h2>
 
@@ -63,7 +63,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
   <p>The old argument was that firefighters do not need better pay because everyone wants the job. On Maui, applications have fallen from more than 2,500 about nine years ago to 682 in 2025, and only 196 of those passed, some with scores in the 50s. Because counties hire by rank rather than a minimum score, a smaller, less competitive applicant pool means fewer high-scoring candidates to choose from, in a profession where experience takes years to build and cannot be quickly replaced.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h3 class="section-head">Sources & References</h3>
 

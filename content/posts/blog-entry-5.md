@@ -20,7 +20,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p>This is not a matter of interpretation. Both accounts appear in official public records: the commission's own meeting minutes, the county's adopted budget, a binding arbitration award, and a compensation study the county paid for. Read side by side, they tell noticeably different stories.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Commission Was Told</h2>
 
@@ -33,7 +33,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p>Two things are worth noting about the exchange. First, this was a brief, high-level answer to a broad question, not a detailed pay analysis. Second, cost of living came up in the answer and was described as the argument the union makes - the same cost-of-living factor the county's own compensation study would soon treat as central to setting pay.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">What the Record Showed</h2>
 
@@ -65,7 +65,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p>The department described the firefighter outcome plainly at the April 16, 2026 commission meeting, reporting that the arbitrator's decision "<strong>was lower than most of the contracts that have been negotiated and arbitrated this year</strong>," and acknowledging "some angst and some desire to try to improve that." By April, with the award final, the department's own account had moved from the general "fairly well overall" of January to candidly naming the shortfall and a wish to improve it.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Comparison the Commission Did Make</h2>
 
@@ -87,7 +87,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <p>When the firefighter's testimony ended on May 21, one commissioner responded that he did not "see the relevance between the firefighter's negotiation and our request to the Salary Commission," and observed that "Maui being one of the better counties, we can afford to pay our chiefs better than Kauai." The exchange is in the minutes.</p>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">Why This Matters</h2>
 
@@ -100,7 +100,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <p>In January, the commission that oversees the fire department was told that firefighters do "fairly good to great" on pay, with cost of living described as the union's argument. By May, the record showed firefighters had been awarded a raise about half the size of the police raise, with no step increases for four years, leaving them below the 40th percentile nationally once cost of living is counted. In those same weeks, the county raised the Fire Chief's pay about 30% and pushed for management to be paid at the 75th percentile, citing the same cost-of-living and wildfire arguments that were not applied to firefighters. All of it is in the county's own minutes, budget, arbitration award, and compensation study.</p>
 </div>
 
-<div class="divider">— ◆ —</div>
+<div class="divider">· ◆ ·</div>
 
 <h3 class="section-head">Sources & References</h3>
 
