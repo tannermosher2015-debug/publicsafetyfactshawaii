@@ -11,7 +11,7 @@ categories:
   - Cost of Living
 image: placeholder.png
 kicker: "Ocean Safety"
-subtitle: "The successor award for Bargaining Unit 15 is on the public record. It is smaller than the contract it replaces, and it lands in an economy where prices are rising about twice as fast as they were when the last one was written."
+subtitle: "The successor award for Bargaining Unit 15 is on the public record. It is smaller than the contract it replaces, and it lands in an economy where prices are rising faster than that contract's raises could keep up with."
 byline: "Based on Honolulu Resolution 26-166, the Bargaining Unit 15 Cost Items & U.S. Bureau of Labor Statistics Price Data"
 masthead: "Community Education · Ocean Safety · Public Safety Compensation Series"
 ---
@@ -37,7 +37,7 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
 
 <h2 class="section-head">What the Award Says</h2>
 
-<p>Negotiations opened July 1, 2024. The Hawaii Labor Relations Board declared impasse on <strong>January 28, 2025</strong>. On September 8, 2025 the parties selected <strong>Frederic R. Horowitz, Esq.</strong> as neutral arbitrator and chair of the panel. Hearings ran in Honolulu from March 2 through March 5, 2026, and the decision came down on July 1, 2026. The agreement runs four years, from July 1, 2025 to June 30, 2029, which means its first two years were already in the past when it was written.</p>
+<p>Negotiations opened July 1, 2024. The Hawaii Labor Relations Board declared impasse on <strong>January 28, 2025</strong>. On September 8, 2025 the parties selected <strong>Frederic R. Horowitz, Esq.</strong> as neutral arbitrator and chair of the panel. Hearings ran in Honolulu from March 2 through March 5, 2026, and the decision came down on July 1, 2026. The agreement runs four years, from July 1, 2025 to June 30, 2029, which means its first year had already elapsed when it was written, and its second began the same day.</p>
 
 <p>The increases to the salary schedule are these:</p>
 
@@ -118,11 +118,11 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
 
 <p>The contract term is not hypothetical at its front end either. Its first year is already behind us. From July 2025, when the term began, through May 2026, the Urban Hawaii index rose <strong>5.48 percent</strong>. Year one of the award pays <strong>2.61 percent</strong>. In the ten months we can already measure, prices moved more than twice as far as the schedule did.</p>
 
-<p>There is one more comparison worth making, and it is the plainest. The award this one replaces raised the schedule 11.40 percent. This one raises it 11.12 percent. <strong>The new award is smaller than the one it replaces</strong>, and it was written into an economy where prices are climbing about twice as fast as they were over the life of the old contract.</p>
+<p>There is one more comparison worth making, and it is the plainest. The award this one replaces raised the schedule 11.40 percent. This one raises it 11.12 percent. <strong>The new award is smaller than the one it replaces</strong>. Over the life of that old contract, Honolulu prices rose at an average of 3.9 percent a year, and the raises did not keep up. Prices are currently running at 5.1 percent, and this award breaks even at 2.67 percent.</p>
 
 <div class="data-callout">
   <div class="callout-label">Where that 5.1 percent came from</div>
-  <p>Honolulu inflation did not sit still while this arbitration ran. Over the twelve months ending November 2025 it was 2.4 percent. Ending January 2026, still 2.4 percent. Ending March 2026, the month the hearings were held, 3.7 percent. Ending May 2026, 5.1 percent. It has more than doubled since the parties sat down.</p>
+  <p>Honolulu inflation did not sit still while this arbitration ran. Over the twelve months ending November 2025 it was 2.4 percent. Ending January 2026, still 2.4 percent. Ending March 2026, the month the hearings were held, 3.7 percent. Ending May 2026, 5.1 percent. It has more than doubled since late 2025.</p>
 </div>
 
 <div class="divider">· ◆ ·</div>
@@ -183,13 +183,13 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
 
 <p>Honolulu introduced Resolution 26-166 on July 15, 2026. As of this writing it has not been adopted. For comparison, the firefighters' cost items took from April 9 to May 13 to move from introduction to adoption in the same chamber.</p>
 
-<p>Maui County has not taken the award up at all. As of July 28, 2026, no Unit 15 item appears among the matters introduced to the Maui County Council this year, and none of its Budget, Finance, and Economic Development Committee meetings since May has carried one. The last time this unit's cost items came before that committee, in August 2022, the vote was 9 to 0.</p>
+<p>The other counties and the Legislature act on the same package. We are confirming where each of them stands and will set out the dates and votes here as we verify them from the record. When Maui County last approved this unit's cost items, in August 2022, its Budget, Finance, and Economic Development Committee recommended adoption on a 9 to 0 vote.</p>
 
-<p>So the numbers in this article are what the panel decided and what the employer has filed. They are not yet appropriated. Four county councils and the Legislature still have to act, and any one of them can send the whole package back.</p>
+<p>So the numbers in this article are what the panel decided and what the employer filed. Whether they are fully appropriated everywhere is a separate question, and any one council rejecting any single cost item sends the whole package back.</p>
 
 <div class="callout-dark">
   <span class="callout-label">The measure that matters</span>
-  <p>Hawaii's lifeguards went a full year past the end of their contract before an arbitrator wrote them one, and the first two years of the agreement they received had already elapsed by the time it was signed. What they were given raises the salary schedule 11.12 percent across four years, in a place where prices rose 5.1 percent in the last twelve months alone. The last contract raised the schedule 11.40 percent while prices rose 16.57 percent, and the people who guard the water finished it able to buy 4.4 percent less than when it started. Whether this one ends differently is not a question about generosity. It is a question about a single number, 2.67 percent a year, and whether Honolulu stays under it.</p>
+  <p>Hawaii's lifeguards went a full year past the end of their contract before an arbitrator wrote them one, and the first year of the agreement they received had already elapsed by the time it was signed. What they were given raises the salary schedule 11.12 percent across four years, in a place where prices rose 5.1 percent in the last twelve months alone. The last contract raised the schedule 11.40 percent while prices rose 16.57 percent, and the people who guard the water finished it able to buy 4.4 percent less than when it started. Whether this one ends differently is not a question about generosity. It is a question about a single number, 2.67 percent a year, and whether Honolulu stays under it.</p>
 </div>
 
 <h2 class="section-head">Where this comes from</h2>
@@ -203,6 +203,6 @@ masthead: "Community Education · Ocean Safety · Public Safety Compensation Ser
     <li><strong>The comparison awards.</strong> Police, Bargaining Unit 12, arbitration award of September 24, 2025. Firefighters, Bargaining Unit 11, arbitration decision and award of March 30, 2026; its cost items are documented in Honolulu Resolution No. 26-83, CD1, introduced April 9, 2026 and adopted May 13, 2026 by a vote of 9 to 0, which lists 3 percent effective July 1, 2025, 3 percent effective July 1, 2026, 2.5 percent effective July 1, 2027 and 2.5 percent effective July 1, 2028. The zero-step-movement finding for the firefighters and the police figures are carried from our earlier article on Hawaii's two-tier public safety system.</li>
     <li><strong>The pay ladder.</strong> The description of the Bargaining Unit 15 schedule as twelve steps moving once every three years is the 2022 arbitration panel's own, quoted in our earlier article on this unit.</li>
     <li><strong>How the arithmetic was done.</strong> Compounded increases are the product of each year's factor, so 1.0261 x 1.0249 x 1.0247 x 1.0312 = 1.1112, or 11.12 percent. The prior contract is 1.03 x 1.04 x 1.04 = 1.1140, or 11.40 percent; the 1 percent in its first year was a one-time lump sum rather than an increase to the base, so it does not compound and is excluded. The real change in the base wage is the wage factor divided by the price factor, so 1.1140 divided by 1.1657 gives 0.9557, a decline of 4.4 percent. The break-even rate is the fourth root of 1.1112, which is 1.0267, or 2.67 percent a year.</li>
-    <li><strong>What we could not establish.</strong> We have not been able to obtain the full text of the July 1, 2026 arbitration award. What is on the public record so far is the employer's summary of its cost items, filed with the Honolulu City Council. That summary contains no change to the structure of the salary schedule, but a change carrying no direct cost would not necessarily appear in a cost-items exhibit, so <strong>we make no claim about whether the panel addressed the step ladder</strong>. The award is not posted by the Hawaii Labor Relations Board, whose published decisions do not include interest arbitration panel awards, and as of July 28, 2026 it had not been attached to a filing by Kauaʻi, Maui or Hawaiʻi County, though Kauaʻi attached the 2022 award to a council communication and may do so again. We also do not have the other counties' headcounts or cost estimates, only Honolulu's. Corrections and documents are welcome through our contact page.</li>
+    <li><strong>What we could not establish.</strong> We have not been able to obtain the full text of the July 1, 2026 arbitration award. What is on the public record so far is the employer's summary of its cost items, filed with the Honolulu City Council. That summary contains no change to the structure of the salary schedule, but a change carrying no direct cost would not necessarily appear in a cost-items exhibit, so <strong>we make no claim about whether the panel addressed the step ladder</strong>. The award is not posted by the Hawaii Labor Relations Board, whose published decisions do not include interest arbitration panel awards. Kauaʻi attached the 2022 award to a council communication, so a county filing remains the likeliest place the full text surfaces. We also do not have the other counties' headcounts or cost estimates, only Honolulu's, and we have not yet confirmed from the record where each county council stands on adopting the cost items. Corrections and documents are welcome through our contact page.</li>
   </ul>
 </div>
