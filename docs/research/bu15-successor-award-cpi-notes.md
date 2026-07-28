@@ -100,6 +100,13 @@ arbitration award."**
 So the award landed **after May 27, 2026**. That is consistent with it being brand new and not yet
 indexed anywhere public. Tanner has the document.
 
+**Maui has not taken it up yet.** Checked the Maui Legistar API on 2026-07-28: of 117 matters
+introduced in 2026, none mention Unit 15, ocean safety, cost items or bargaining. The Budget,
+Finance, and Economic Development Committee met on May 19, June 2, June 16, June 24 and July 28,
+2026, and no agenda carried a BU 15 item. So there is no Maui committee report to read yet, the way
+CR 22-84 documented the last award. Re-check Legistar rather than a search engine: county records
+appear there weeks before search indexes them.
+
 ### Still needed before writing
 
 - The award date, the arbitrator, and the contract term.
@@ -166,18 +173,59 @@ Gap: 2023 and 2024 readings not yet collected.
 
 Gap: H1/H2 2021, H1/H2 2022, H1 2023, **needed to compute the 2021 to 2025 cumulative erosion.**
 
-## 4. The backward-looking half - inputs already verified
+## 4. The backward-looking half - VERIFIED against Maui County primary sources
 
-The expired BU 15 contract's cost items are already sourced in "The Third Tier" (from Honolulu
-Resolution No. 22-180 and the Fincher award), so the backward-looking comparison can be built
-without new document access:
+The expired BU 15 contract's cost items were already sourced in "The Third Tier" from Honolulu
+Resolution No. 22-180. They are now **independently confirmed from a second county**, Maui, with
+the full four-year table read directly from the PDFs:
 
 | Effective | Across-the-board | Other |
 |---|---|---|
-| July 1, 2021 | none listed | 1% one-time lump sum; step movement continued |
+| July 1, 2021 | none | 1% one-time lump sum on June 30, 2021 base salary; step movement continued |
 | July 1, 2022 | 3.00% | step movement continued |
 | July 1, 2023 | 4.00% | step movement continued |
 | July 1, 2024 | 4.00% | step movement continued |
+
+**Step movement continued in all four years.** This is the sharpest available contrast with the
+firefighters' BU 11 award, which carried zero step movement across its four years.
+
+### New facts this pass established
+
+| Fact | Value |
+|---|---|
+| **Prior BU 15 arbitration decision and award date** | **July 22, 2022** |
+| Contract period covered | FY2022 through FY2025 (July 1, 2021 to June 30, 2025) |
+| Maui BU 15 headcount (stated Aug 17, 2022) | **65 employees** |
+| Maui BFED vote | **9-0**, August 17, 2022 |
+| Committee report | CR 22-84, September 2, 2022, Chair Keani Rawlins-Fernandez |
+
+Note the sequencing: the award issued **July 22, 2022**, more than a year into a term that began
+July 1, 2021. The first two years were retroactive when approved. Worth keeping in view when
+writing about how long the current unit has gone without a contract.
+
+The CD1 amendment is a useful detail: the committee corrected the resolution's citation from
+**HRS 89-10 to HRS 89-11** (the interest arbitration statute) and added the July 22, 2022 award
+date into the resolution text. The Personnel Services director stated on the record that the
+increases resulted from "a binding decision determined by an arbitration panel, overseen by the
+Hawai'i Labor Relations Board, due to the inability of the employee representatives and the
+employer to reach an agreement on pay increases."
+
+### Maui's additional cost, BU 15 (included), each year inclusive of rollover
+
+| FY2022 | FY2023 | FY2024 | FY2025 |
+|---|---|---|---|
+| $74,728 | $244,128 | $530,160 | $811,405 |
+
+### Sources (Maui County Legistar, retrieved 2026-07-28)
+
+- Resolution 22-185 and transmittal, matter 12794
+- BFED-6(7) committee file, matter 12827
+- **Committee Report 22-84** and Resolution 22-185, CD1, matter 12921
+
+Retrieval route: the Legistar web API at `https://webapi.legistar.com/v1/mauicounty/` exposes
+`matters`, `events`, `eventitems` and `matters/{id}/attachments` as clean JSON with no key. Attachment
+PDFs live on `mauicounty.legistar1.com` and download with curl. This is the fastest path into any
+Maui County council record and should be the default from here on.
 
 Compounded across-the-board over the four-year term: 1.03 x 1.04 x 1.04 = **11.42%**
 (the 1% in year one was a lump sum, not a base increase, so it does not compound).
