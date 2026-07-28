@@ -1,8 +1,13 @@
 # BU 15 Successor Award + Honolulu CPI - research notes
 
 Working notes for the planned article comparing the new ocean safety (Bargaining Unit 15)
-arbitration award to Honolulu-area inflation. **Nothing here is publishable until the award's
-cost items are confirmed from the document itself.**
+arbitration award to Honolulu-area inflation.
+
+**Status: the award and the CPI series are both confirmed first-hand from primary sources**
+(Honolulu Resolution 26-166 with its Exhibit A, and the BLS API). The award terms are in section 2,
+the CPI in section 3, and the comparison that carries the article in section 3a. The one item still
+outstanding is the full Horowitz award text, needed only to say whether the panel addressed the step
+schedule itself; every number below stands without it.
 
 ## CORRECTION (2026-07-28, second pass)
 
@@ -87,91 +92,219 @@ Honolulu estimated EUTF cost: FY26 $1,079,816 + FY27 $2,151,366 = **$3,231,182**
 
 Source: `https://hnldoc.ehawaii.gov/hnldoc/document-download?id=27911`
 
-## 2. BU 15 (ocean safety) successor award - STILL NOT LOCATED
+## 2. THE SUCCESSOR AWARD - FOUND AND VERIFIED (2026-07-28)
 
-No public record found. Searched: Google and Bing via Bright Data, Honolulu hnldoc, Kauai
-granicus and kauai.gov, Maui County, Hawaii County records, HGEA newsroom.
+**Honolulu Resolution 26-166**, introduced **July 15, 2026**. Read in full from two primary
+documents: the resolution with Exhibit A (hnldoc id 28711) and Department Communication D-486(26),
+the July 9, 2026 transmittal from DHR Director Nola N. Miyasaki (hnldoc id 28699). The second
+carries a cleaner scan of the same Exhibit A and was used to confirm every figure.
 
-**Best dating evidence:** Kauai County's digest for communication C 2026-118, dated
-**May 27, 2026**, states that since the March 15 submittal the county received the arbitrated
-award for Unit 11 (HFFA), and that **"Unit 15 - Ocean Safety Officers is still pending the final
-arbitration award."**
+| Fact | Value |
+|---|---|
+| Negotiations began | July 1, 2024 |
+| Prior agreement expired | June 30, 2025 |
+| Extension | MOA dated July 9, 2025, extended terms "until such time that a successor Unit 15 collective bargaining agreement is executed" |
+| HLRB declared impasse | **January 28, 2025** |
+| Neutral arbitrator / panel chair | September 8, 2025, **Frederic R. Horowitz, Esq.** |
+| Hearings | **March 2 through March 5, 2026**, Honolulu |
+| Award rendered | **July 1, 2026**, final and binding |
+| Contract term | July 1, 2025 through June 30, 2029 |
+| Honolulu positions | **299 Water Safety Officers included, 0 excluded, 299 total** (as of July 1, 2026) |
+| Statutory basis for Council action | HRS 89-10(b) |
 
-So the award landed **after May 27, 2026**. That is consistent with it being brand new and not yet
-indexed anywhere public. Tanner has the document.
+Note this is a **different arbitrator from the firefighters' award**: Horowitz for BU 15, Levak for
+BU 11. Same September 8, 2025 selection date for both.
 
-**Maui has not taken it up yet.** Checked the Maui Legistar API on 2026-07-28: of 117 matters
-introduced in 2026, none mention Unit 15, ocean safety, cost items or bargaining. The Budget,
-Finance, and Economic Development Committee met on May 19, June 2, June 16, June 24 and July 28,
-2026, and no agenda carried a BU 15 item. So there is no Maui committee report to read yet, the way
-CR 22-84 documented the last award. Re-check Legistar rather than a search engine: county records
-appear there weeks before search indexes them.
+### Cost items, salaries
 
-### Still needed before writing
+| Effective | Across-the-board | Steps |
+|---|---|---|
+| July 1, 2025 (retroactive) | **2.61%** | continued |
+| July 1, 2026 (retroactive) | **2.49%** | continued |
+| July 1, 2027 | **2.47%** | continued |
+| July 1, 2028 | **3.12%** | continued |
 
-- The award date, the arbitrator, and the contract term.
-- Across-the-board percentages and effective dates for each year.
-- Whether **step movement** continues, and whether the award did anything to the
-  **twelve-step / one-step-every-three-years schedule** itself. This is the whole thesis: two prior
-  panels (Whalen 2020, Fincher 2022) told the parties to renegotiate the schedule and they did not.
-  Whether this panel touched the ladder is the single most important fact in the piece.
-- Any lump sums, bonuses, or hazard / beach pay changes.
-- The EUTF terms (the SHOPO award moved 84.3% to 90%; BU 11 sits at 60% of the 80-20 plan capped
-  at 90% of premium; comparison point).
-- Whether all four counties adopted the cost items.
+Plus, effective retroactively to July 1, 2025: a **one-time lump sum of $2,000 for all BU 15
+employees not eligible for step movements for the duration of the contract period**, prorated for
+less than full-time.
+
+**Compounded across-the-board: 11.12%** (1.0261 x 1.0249 x 1.0247 x 1.0312). Simple sum 10.69%.
+
+### The ladder, and why the $2,000 matters
+
+Step movement **continues in all four years**. That is the opposite of the firefighters' BU 11
+award, which carried zero step movement across its four years.
+
+The $2,000 lump sum is the detail to build on. It goes specifically to the people who will receive
+**no step at all for the entire four-year contract**, which on a twelve-step ladder that moves once
+every three years means the members stranded at the top. The panel identified that group, wrote
+them a one-time cheque, and **the cost items contain no restructuring of the step schedule itself**.
+
+**Caveat before publishing that as a finding:** Exhibit A is a cost-items summary. A change to the
+ladder's structure that carried no direct cost might not appear in it. To state that a third panel
+in a row declined to fix the schedule, the full Horowitz award text is needed. Tanner has it.
+
+### Other cost items
+
+- **EUTF:** effective July 1, 2025 and again July 1, 2026, employer pays set dollar amounts
+  generally equal to 60% of final premium rates of the HMSA 80-20 plan, capped at 90% of total
+  premium per plan; 60% of premium and admin fees on other plans; 100% for life insurance.
+  **Identical structure to the BU 11 award.** Reopener notice by January 31, 2027 for plan years
+  2027-2028 and 2028-2029, also identical to BU 11.
+- **Travel:** effective July 1, 2026, reimbursements move to federal allowances. No specific cost,
+  presumed absorbed.
+- **Uniforms:** effective July 1, 2025, maintenance allowance rises **$20.00 to $25.00 per month**,
+  and replacement for uniforms damaged in performance of duty rises **75% to 100%** of actual
+  replacement cost. Presumed absorbed.
+
+### Honolulu costs
+
+Salary, including wage-related fringe, each year inclusive of rollover:
+
+| FY2026 | FY2027 | FY2028 | FY2029 | Total |
+|---|---|---|---|---|
+| $727,839 | $1,633,116 | $2,768,390 | $3,973,614 | **$9,102,959** |
+
+EUTF: FY26 $225,448 + FY27 $462,750 = **$688,198**.
+
+Both stated totals reconcile exactly against their components, which is the arithmetic check that
+the figures above were read correctly.
+
+### Retrieval route (this is how it was found, after search engines failed)
+
+hnldoc is a Tyler Technologies SPA, but its browse tables are backed by a plain JSON endpoint:
+
+```
+POST https://hnldoc.ehawaii.gov/hnldoc/browse/resolutions.json
+Content-Type: application/json
+{"year":2026,"pagination":{"page":-1,"sortDirection":"asc","sort":"number"}}
+```
+
+That returns all 169 of 2026's resolutions with titles, ids and event history in one call. Measure
+pages at `/hnldoc/measure/{id}` **redirect infinitely without a cookie jar**; use `curl -c cj -b cj`
+after touching `/hnldoc/` once. Document PDFs are at `/hnldoc/document-download?id={id}`.
+
+## 2a. Corroborating timeline evidence, and county adoption status
+
+Kauai County's digest for communication C 2026-118, dated **May 27, 2026**, states that since the
+March 15 submittal the county had received the arbitrated award for Unit 11 (HFFA), and that
+**"Unit 15 - Ocean Safety Officers is still pending the final arbitration award."** That is
+consistent with the July 1, 2026 award date and independently brackets it.
+
+**Adoption status as of 2026-07-28:**
+
+- **Honolulu:** Resolution 26-166 **introduced July 15, 2026**. Not yet adopted. Compare BU 11,
+  which took April 9 to May 13 from introduction to adoption.
+- **Maui:** has not taken it up. Of 117 matters introduced in 2026 on the Legistar API, none
+  mention Unit 15, ocean safety, cost items or bargaining, and none of the five BFED agendas since
+  May carried a BU 15 item. So there is no Maui committee report yet, the way CR 22-84 documented
+  the last award.
+
+Under HRS 89-10(b), quoted in the transmittal, the legislative bodies "may approve or reject the
+cost items submitted to them, **as a whole**," and if any one county rejects any cost item, **all**
+cost items return to the parties for further bargaining. Worth stating plainly in the article:
+this is still live, and Maui has not voted.
+
+### Still open
+
+- The **full Horowitz award text**, to confirm whether the panel addressed the step schedule
+  itself. The cost items do not, but a no-cost structural change would not appear there.
+- Whether the other three counties adopt, and on what dates.
+
+## 3. Honolulu / Urban Hawaii CPI - VERIFIED first-hand from the BLS API
 
 ## 3. Honolulu / Urban Hawaii CPI
 
-The BLS publishes this area bimonthly as "Urban Hawaii" (CBSA), reported as the Honolulu area.
-Series: `CUUSA426SA0` (annual) / `CUUSA426SA0S` (semiannual), 1982-84 = 100.
+**The correct series is `CUURS49FSA0`**, CPI-U, Urban Hawaii, all items, not seasonally adjusted,
+1982-84 = 100, published bimonthly in odd months. The `CUUSA426SA0` id carried in the earlier draft
+of these notes **does not exist**; the BLS API returns "Series does not exist" for it.
 
-Figures below are still second-hand (marked with a warning); they were gathered through search
-before the curl route was found. **Re-pull them with curl against bls.gov before publishing.**
+Identity confirmed by matching two independently published figures exactly: **+5.1%** for the 12
+months ending May 2026 and **+2.4%** for the 12 months ending November 2025. No other West-region
+candidate series matched either.
 
-### The headline for this article
+Pull it with no API key:
 
-**Honolulu inflation has reaccelerated sharply.** (unverified) From the BLS May 2026 release:
+```
+curl.exe -sS -X POST "https://api.bls.gov/publicAPI/v2/timeseries/data/" \
+  -H "Content-Type: application/json" \
+  -d '{"seriesid":["CUURS49FSA0"],"startyear":"2020","endyear":"2026"}'
+```
 
-| Measure, 12 months ending May 2026 | Change |
+(bls.gov **web pages** 403 against curl's user agent. The API does not.)
+
+### Index values, first-hand
+
+| Period | Index | | Period | Index |
+|---|---|---|---|---|
+| Jul 2021 | 298.820 | | Jul 2024 | 340.439 |
+| Nov 2021 | 302.332 | | Nov 2024 | 343.189 |
+| Jul 2022 | 319.197 | | Jan 2025 | 346.772 |
+| Nov 2022 | 319.971 | | May 2025 | 349.555 |
+| Jul 2023 | 325.836 | | Jul 2025 | 348.334 |
+| Nov 2023 | 331.428 | | Nov 2025 | 351.357 |
+| Jan 2024 | 333.172 | | Jan 2026 | 355.266 |
+| May 2024 | 340.521 | | Mar 2026 | 359.495 |
+| | | | **May 2026** | **367.429** |
+
+### 12-month change, computed from the index above
+
+| 12 months ending | Change |
 |---|---|
-| All items | **+5.1%** |
-| All items less food and energy (core) | +4.0% |
-| Food | +3.0% |
-| Energy | **+28.8%** |
-| All items, two months ending May 2026 | +2.2% |
-
-That +5.1% is the number to set the award's raises against. For contrast, the same series read
-**+2.4%** for the 12 months ending November 2025, so inflation roughly doubled between the month
-the firefighters' arbitration was heard and the most recent reading.
-
-### 12-month percent change, collected readings (unverified)
-
-| Release | All items, 12-mo |
-|---|---|
-| Nov 2021 | +5.4% |
-| Jan 2022 | +6.0% |
-| Mar 2022 | +7.5% |
-| Jul 2022 | +6.8% |
-| Sep 2022 | +6.6% |
-| Nov 2022 | +5.8% |
-| Jan 2025 | +4.1% |
-| Jul 2025 | +2.3% |
+| May 2024 | +5.2% |
+| May 2025 | +2.7% |
 | Nov 2025 | +2.4% |
-| May 2026 | +5.1% |
+| Jan 2026 | +2.4% |
+| Mar 2026 | +3.7% |
+| **May 2026** | **+5.1%** |
 
-Gap: 2023 and 2024 readings not yet collected.
+Honolulu inflation fell to 2.4% and has **more than doubled since**, over exactly the months the
+BU 15 arbitration was heard (March 2026) and decided (July 2026).
 
-### Semiannual index values, 1982-84 = 100 (unverified, via FRED `CUUSA426SA0S`)
+## 3a. THE COMPARISON - this is the article
 
-| Period | Index |
+### Backward: what the last contract did to a lifeguard's real base pay
+
+| | |
 |---|---|
-| H2 2023 | 329.190 |
-| H1 2024 | 338.045 |
-| H2 2024 | 342.350 |
-| H1 2025 | 347.857 |
-| H2 2025 | 350.200 |
+| BU 15 across-the-board, compounded, July 2021 to July 2025 | **+11.40%** |
+| Urban Hawaii CPI, July 2021 (298.820) to July 2025 (348.334) | **+16.57%** |
+| Gap | **5.17 points** |
+| **Real value of base wage over the contract** | **-4.43%** |
 
-Gap: H1/H2 2021, H1/H2 2022, H1 2023, **needed to compute the 2021 to 2025 cumulative erosion.**
+(The 1% in year one was a one-time lump sum, not a base increase, so it does not compound. Step
+movement is excluded on purpose, see the framing caution in section 4.)
+
+### Forward: what the new award does
+
+| | |
+|---|---|
+| New across-the-board, compounded, 2025 to 2029 | **+11.12%** |
+| Average annual inflation the award breaks even against | **2.67%** |
+| Actual inflation, 12 months to May 2026 | **+5.1%** |
+| Actual inflation, first 10 months of the contract (Jul 2025 to May 2026) | **+5.48%** |
+| First-year raise | **+2.61%** |
+
+**The new award is smaller than the one it replaces.** 11.12% against 11.40%, awarded into
+inflation running roughly double what the last contract averaged.
+
+Inflation in the first ten months of the contract term has already run **5.48%**, more than twice
+the 2.61% that year one pays.
+
+Scenarios for the full four years, if Honolulu inflation runs at:
+
+| Annual CPI | 4-year CPI | Real change in base wage |
+|---|---|---|
+| 2.0% | +8.24% | **+2.66%** |
+| 3.0% | +12.55% | -1.27% |
+| 4.0% | +16.99% | -5.01% |
+| 5.1% (current) | +22.01% | **-8.92%** |
+
+Only the first line leaves lifeguards better off, and it requires inflation to fall below anything
+Honolulu has posted since 2021.
+
+**Do not publish the scenario table as a forecast.** It is a sensitivity table: label it as "if
+inflation runs at X" and say plainly that future CPI is unknown.
 
 ## 4. The backward-looking half - VERIFIED against Maui County primary sources
 
@@ -227,12 +360,11 @@ Retrieval route: the Legistar web API at `https://webapi.legistar.com/v1/mauicou
 PDFs live on `mauicounty.legistar1.com` and download with curl. This is the fastest path into any
 Maui County council record and should be the default from here on.
 
-Compounded across-the-board over the four-year term: 1.03 x 1.04 x 1.04 = **11.42%**
+Compounded across-the-board over the four-year term: 1.03 x 1.04 x 1.04 = **11.40%**
 (the 1% in year one was a lump sum, not a base increase, so it does not compound).
 
-Set that 11.42% against cumulative Honolulu CPI from mid-2021 to mid-2025, once the missing index
-values are in hand, to state the purchasing-power result precisely. Do not publish a shortfall
-figure until both legs are sourced.
+An earlier draft of these notes rounded this to 11.42%. The exact product is 1.114048, so **11.40%**
+is correct. Both legs are now sourced; the purchasing-power result is computed in section 3a.
 
 ### Framing caution
 
@@ -245,12 +377,20 @@ parties' evidence.
 
 ## 5. Comparison anchors
 
-- **BU 12 (SHOPO)**, award Sept 24, 2025: 5/5/5/5% = 21.55%, plus steps, $1,800 bonus,
-  EUTF 84.3% to 90%.
-- **BU 11 (HFFA)**, award Mar 30, 2026, cost items adopted by Honolulu May 13, 2026:
-  3/3/2.5/2.5% = 11.46%, **zero step movement** across four years. Now verified from
-  Resolution 26-83, CD1 (section 1).
-- **BU 15 (ocean safety)**: award terms unknown. Landed after May 27, 2026.
+All three units bargain under the same statute, against the same employer group, in the same
+economy. All three 2025 to 2029 contracts are now on the record.
 
-If the BU 15 across-the-board total lands near the firefighters' 11.46% while Honolulu CPI runs
-5.1%, that is the article. Confirm before asserting it.
+| Unit | Arbitrator | Award date | Across-the-board | Compounded | Steps |
+|---|---|---|---|---|---|
+| **BU 12 (SHOPO)**, police | Russell Higa | Sept 24, 2025 | 5 / 5 / 5 / 5 | **21.55%** | continued, plus $1,800 bonus |
+| **BU 11 (HFFA)**, firefighters | Thomas F. Levak | Mar 30, 2026 | 3 / 3 / 2.5 / 2.5 | **11.46%** | **none, four years** |
+| **BU 15 (HGEA)**, ocean safety | Frederic R. Horowitz | **July 1, 2026** | 2.61 / 2.49 / 2.47 / 3.12 | **11.12%** | continued, plus $2,000 to those getting no step |
+
+**Police won roughly double what either of the other two units did.** Ocean safety came in lowest of
+the three, and lowest of any of them against an inflation rate that has more than doubled since the
+police award was written.
+
+EUTF: SHOPO moved 84.3% to 90%. BU 11 and BU 15 both sit at 60% of the HMSA 80-20 plan capped at 90%
+of premium, with the same January 31, 2027 reopener. Confirm the SHOPO figures against their own
+award before publishing the row; they are carried over from the earlier article, not re-verified
+this pass.
