@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as NumbersRouteImport } from './routes/numbers'
 import { Route as HowWeSourceRouteImport } from './routes/how-we-source'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as DisclaimerRouteImport } from './routes/disclaimer'
@@ -16,6 +17,11 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PostsSlugRouteImport } from './routes/posts.$slug'
 
+const NumbersRoute = NumbersRouteImport.update({
+  id: '/numbers',
+  path: '/numbers',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HowWeSourceRoute = HowWeSourceRouteImport.update({
   id: '/how-we-source',
   path: '/how-we-source',
@@ -53,6 +59,7 @@ export interface FileRoutesByFullPath {
   '/disclaimer': typeof DisclaimerRoute
   '/glossary': typeof GlossaryRoute
   '/how-we-source': typeof HowWeSourceRoute
+  '/numbers': typeof NumbersRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesByTo {
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/disclaimer': typeof DisclaimerRoute
   '/glossary': typeof GlossaryRoute
   '/how-we-source': typeof HowWeSourceRoute
+  '/numbers': typeof NumbersRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRoutesById {
@@ -70,6 +78,7 @@ export interface FileRoutesById {
   '/disclaimer': typeof DisclaimerRoute
   '/glossary': typeof GlossaryRoute
   '/how-we-source': typeof HowWeSourceRoute
+  '/numbers': typeof NumbersRoute
   '/posts/$slug': typeof PostsSlugRoute
 }
 export interface FileRouteTypes {
@@ -80,6 +89,7 @@ export interface FileRouteTypes {
     | '/disclaimer'
     | '/glossary'
     | '/how-we-source'
+    | '/numbers'
     | '/posts/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -88,6 +98,7 @@ export interface FileRouteTypes {
     | '/disclaimer'
     | '/glossary'
     | '/how-we-source'
+    | '/numbers'
     | '/posts/$slug'
   id:
     | '__root__'
@@ -96,6 +107,7 @@ export interface FileRouteTypes {
     | '/disclaimer'
     | '/glossary'
     | '/how-we-source'
+    | '/numbers'
     | '/posts/$slug'
   fileRoutesById: FileRoutesById
 }
@@ -105,11 +117,19 @@ export interface RootRouteChildren {
   DisclaimerRoute: typeof DisclaimerRoute
   GlossaryRoute: typeof GlossaryRoute
   HowWeSourceRoute: typeof HowWeSourceRoute
+  NumbersRoute: typeof NumbersRoute
   PostsSlugRoute: typeof PostsSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/numbers': {
+      id: '/numbers'
+      path: '/numbers'
+      fullPath: '/numbers'
+      preLoaderRoute: typeof NumbersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/how-we-source': {
       id: '/how-we-source'
       path: '/how-we-source'
@@ -161,6 +181,7 @@ const rootRouteChildren: RootRouteChildren = {
   DisclaimerRoute: DisclaimerRoute,
   GlossaryRoute: GlossaryRoute,
   HowWeSourceRoute: HowWeSourceRoute,
+  NumbersRoute: NumbersRoute,
   PostsSlugRoute: PostsSlugRoute,
 }
 export const routeTree = rootRouteImport

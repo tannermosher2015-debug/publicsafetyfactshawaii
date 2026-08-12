@@ -4,6 +4,7 @@ import { Link } from '@tanstack/react-router'
 import { type Post } from 'content-collections'
 import SiteHeader from '@/components/SiteHeader'
 import { POST_META as META } from '@/lib/post-meta'
+import { fmtDateShort } from '@/lib/fmt-date'
 import ViewCounter from '@/components/ViewCounter'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
@@ -29,6 +30,7 @@ type Item = {
   title: string
   summary: string
   date: string
+  updated?: string
   byline?: string
   readTime: string
   stat?: string
@@ -47,6 +49,7 @@ function postToItem(post: Post): Item {
     title: post.title,
     summary: post.summary,
     date: post.date,
+    updated: post.updated,
     byline: post.byline,
     readTime: readTime(post.html),
     stat: m?.stat,
@@ -102,9 +105,14 @@ function Card({ item }: { item: Item }) {
       <CardMedia item={item} />
       <div className="psf-card-body">
         <div className="psf-card-meta">
-          <span>{item.date}</span>
+          <span>{fmtDateShort(item.date)}</span>
           <span aria-hidden="true">·</span>
           <span>{item.readTime}</span>
+          {item.updated && (
+            <span className="post-updated">
+              Updated {fmtDateShort(item.updated)}
+            </span>
+          )}
         </div>
         <h3 className="psf-card-title">{item.title}</h3>
         <p className="psf-card-summary">{item.summary}</p>
@@ -165,14 +173,20 @@ export default function BlogPosts({
   const sorted = [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   )
-  // The hero is always the most recent article (sorted is newest-first).
-  const featuredPost = showFeatured ? sorted[0] : undefined
+  // Records-watch notes are short single-record entries. They publish often, so
+  // they get their own rail and are kept out of the hero and the article grid:
+  // a 200-word note in the flagship slot reads as a thin lead story.
+  const notes = sorted.filter((p) => p.kind === 'note')
+  const articles = sorted.filter((p) => p.kind !== 'note')
+
+  // The hero is always the most recent ARTICLE (sorted is newest-first).
+  const featuredPost = showFeatured ? articles[0] : undefined
 
   // Grid stays strictly newest-first by date, including the non-post
   // EXTRA_ITEMS cards. Topic filters below just filter this list, so they
   // inherit the same newest-first order.
   const gridItems: Item[] = [
-    ...sorted.filter((p) => p !== featuredPost).map(postToItem),
+    ...articles.filter((p) => p !== featuredPost).map(postToItem),
     ...(showFeatured ? EXTRA_ITEMS : []),
   ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
@@ -238,13 +252,53 @@ export default function BlogPosts({
                     <span className="psf-source-dot" aria-hidden="true" />
                     {featured.byline ?? 'PublicSafetyFactsHawaii'}
                   </span>
-                  <span>{featured.date}</span>
+                  <span>{fmtDateShort(featured.date)}</span>
                   <span aria-hidden="true">·</span>
                   <span>{featured.readTime}</span>
+                  {featured.updated && (
+                    <span className="post-updated post-updated-light">
+                      Updated {fmtDateShort(featured.updated)}
+                    </span>
+                  )}
                   <ViewCounter pagePath="/" label="site views" trackView />
                 </div>
               </div>
             </Link>
+          </section>
+        )}
+
+        {showFeatured && notes.length > 0 && (
+          <section className="psf-watch" aria-labelledby="watch-heading">
+            <div className="psf-watch-head">
+              <h2 id="watch-heading" className="psf-watch-title">
+                Records Watch
+              </h2>
+              <p className="psf-watch-sub">
+                Short entries, one public record each, posted as the records
+                land between full articles.
+              </p>
+            </div>
+            <ol className="psf-watch-list">
+              {notes.slice(0, 5).map((n) => (
+                <li key={n.slug} className="psf-watch-item">
+                  <Link
+                    to="/posts/$slug"
+                    params={{ slug: n.slug }}
+                    className="psf-watch-link"
+                  >
+                    <time className="psf-watch-date" dateTime={n.date}>
+                      {fmtDateShort(n.date)}
+                    </time>
+                    <span className="psf-watch-body">
+                      <span className="psf-watch-headline">{n.title}</span>
+                      {n.record && (
+                        <span className="psf-watch-record">{n.record}</span>
+                      )}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
           </section>
         )}
 

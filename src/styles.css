@@ -1121,13 +1121,19 @@ body {
 .psf-card-meta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 6px 8px;
   font-family: 'DM Mono', monospace;
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ash);
   margin-bottom: 12px;
+}
+/* Keep each meta token whole: without this the date breaks across two lines
+   when the Updated badge is present and the row runs out of width. */
+.psf-card-meta > * {
+  white-space: nowrap;
 }
 .psf-card-title {
   font-family: 'Playfair Display', serif;
@@ -2405,6 +2411,181 @@ body {
   border: 1px solid var(--rule);
   border-radius: 999px;
   padding: 3px 10px;
+}
+/* Same badge over the dark hero photo. White, matching .psf-hero-meta, rather
+   than gold: the hero sits on a photo, so it has no guaranteed navy behind it. */
+.post-updated-light {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* RECORDS WATCH
+   Short single-record entries between full articles. A dated ledger rail, not
+   cards: it should read as a running log, and stay visibly distinct from the
+   article grid below it. */
+.psf-watch {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(28px, 4vw, 48px) clamp(20px, 4vw, 56px) 0;
+}
+.psf-watch-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 18px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--smoke);
+}
+.psf-watch-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(20px, 2.4vw, 30px);
+  color: var(--smoke);
+  margin: 0;
+}
+.psf-watch-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ash);
+  margin: 0;
+}
+.psf-watch-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.psf-watch-item + .psf-watch-item {
+  border-top: 1px solid var(--rule);
+}
+.psf-watch-link {
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  gap: 18px;
+  align-items: baseline;
+  padding: 16px 12px 16px 0;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  padding-left: 15px;
+  transition: border-color 0.15s var(--ease), background 0.15s var(--ease);
+}
+.psf-watch-link:hover {
+  border-left-color: var(--ember);
+  background: var(--cream);
+}
+.psf-watch-date {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash);
+}
+.psf-watch-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.psf-watch-headline {
+  font-family: 'Source Serif 4', serif;
+  font-weight: 600;
+  font-size: clamp(16px, 1.9vw, 19px);
+  line-height: 1.35;
+  color: var(--smoke);
+}
+.psf-watch-record {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ash);
+}
+@media (max-width: 620px) {
+  .psf-watch-link {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+
+/* BY THE NUMBERS
+   Every published figure in one reference page, grouped by topic. */
+.psf-numbers {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(28px, 4vw, 48px) clamp(20px, 4vw, 40px) clamp(40px, 6vw, 72px);
+}
+.psf-numbers-group {
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+.psf-numbers-topic {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fire);
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--smoke);
+}
+.psf-numbers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.psf-numbers-item + .psf-numbers-item {
+  border-top: 1px solid var(--rule);
+}
+.psf-numbers-link {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px;
+  align-items: baseline;
+  padding: 18px 12px 18px 15px;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: border-color 0.15s var(--ease), background 0.15s var(--ease);
+}
+.psf-numbers-link:hover {
+  border-left-color: var(--ember);
+  background: var(--cream);
+}
+.psf-numbers-stat {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1;
+  color: var(--smoke);
+}
+.psf-numbers-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.psf-numbers-label {
+  font-family: 'Source Serif 4', serif;
+  font-size: clamp(15px, 1.8vw, 17px);
+  line-height: 1.45;
+  color: var(--smoke);
+}
+.psf-numbers-src {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ash);
+}
+.psf-numbers-foot {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--ash);
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+}
+.psf-numbers-foot a { color: var(--fire); }
+@media (max-width: 620px) {
+  .psf-numbers-link {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
 }
 
 /* SKIP LINK

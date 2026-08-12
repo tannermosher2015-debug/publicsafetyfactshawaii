@@ -90,6 +90,18 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'for a lifeguard to reach the top of the pay scale',
     photo: 'ocean-safety-tower.jpg',
   },
+  ocean_safety_2026_award_vs_honolulu_inflation: {
+    topic: 'Ocean Safety',
+    stat: '11.12%',
+    statLabel: 'raise across four years, against 5.1% Honolulu inflation in twelve months',
+    photo: 'ocean-safety-waikiki.jpg',
+  },
+  hawaii_deputy_sheriff_docare_contract_unit_14: {
+    topic: 'State Law Enforcement',
+    stat: '25-0',
+    statLabel: 'the Senate vote to fund their contract, which still did not become law',
+    photo: 'state-law-enforcement-patrol.jpg',
+  },
   where_the_system_fails: {
     topic: 'Governance',
     stat: '2',

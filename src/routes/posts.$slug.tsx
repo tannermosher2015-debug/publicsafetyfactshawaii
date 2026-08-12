@@ -10,6 +10,7 @@ import NewsletterSignup from '@/components/NewsletterSignup'
 import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import { getPostMeta } from '@/lib/post-meta'
+import { fmtDate } from '@/lib/fmt-date'
 import { OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/site'
 
 // Give each <h2> a stable id and collect the section list for the sidebar TOC.
@@ -35,18 +36,6 @@ function buildArticle(html: string): { html: string; toc: TocItem[] } {
     },
   )
   return { html: out, toc }
-}
-
-const MONTHS = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December',
-]
-
-// Format an ISO date (YYYY-MM-DD) without Date() so SSR and client agree.
-function fmtDate(iso: string): string {
-  const [y, m, d] = iso.split('-').map(Number)
-  if (!y || !m || !d) return iso
-  return `${MONTHS[m - 1]} ${d}, ${y}`
 }
 
 // Slugs are generated from titles by content-collections.ts.

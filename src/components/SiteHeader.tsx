@@ -25,6 +25,9 @@ export default function SiteHeader() {
         <Link to="/" activeOptions={{ exact: true }} activeProps={{ className: 'active' }}>
           The Facts
         </Link>
+        <Link to="/numbers" activeProps={{ className: 'active' }}>
+          Numbers
+        </Link>
         <Link to="/about" activeProps={{ className: 'active' }}>
           About
         </Link>

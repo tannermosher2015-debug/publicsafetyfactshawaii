@@ -35,6 +35,7 @@ export default function SiteFooter({
         <nav className="footer-col" aria-label="Site">
           <h3 className="footer-h">Explore</h3>
           <Link to="/">The Facts</Link>
+          <Link to="/numbers">Numbers</Link>
           <Link to="/about">About</Link>
           <Link to="/how-we-source">Methodology</Link>
           <Link to="/glossary">Glossary</Link>
@@ -65,6 +66,14 @@ export default function SiteFooter({
             target="_blank"
           >
             CC BY-SA 4.0
+          </a>
+          . Waikīkī lifeguard tower by Daniel Ramirez, resized, licensed{' '}
+          <a
+            href="https://creativecommons.org/licenses/by/2.0/"
+            rel="license noopener noreferrer"
+            target="_blank"
+          >
+            CC BY 2.0
           </a>
           .
         </span>

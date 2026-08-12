@@ -20,6 +20,7 @@ const STATIC_PAGES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
   { path: '/about', changefreq: 'yearly', priority: '0.5' },
   { path: '/how-we-source', changefreq: 'yearly', priority: '0.5' },
+  { path: '/numbers', changefreq: 'monthly', priority: '0.8' },
   { path: '/glossary', changefreq: 'yearly', priority: '0.5' },
   { path: '/disclaimer', changefreq: 'yearly', priority: '0.3' },
   { path: '/hawaii_firefighter_disciplines.html', changefreq: 'monthly', priority: '0.8' },
@@ -34,13 +35,18 @@ function xmlEscape(s: string): string {
     .replace(/'/g, '&apos;')
 }
 
-type RssDoc = { slug: string; date: string; title: string; summary: string }
+type RssDoc = { slug: string; date: string; title: string; summary: string; kind?: string }
 
-// RSS 2.0 feed of every post, newest first. MailerLite's RSS-to-email campaign
+// RSS 2.0 feed of every ARTICLE, newest first. MailerLite's RSS-to-email campaign
 // polls this and sends each new <item> to subscribers, so the feed IS the
-// auto-newsletter. Dates are date-only in frontmatter; treat them as UTC midnight.
+// auto-newsletter. `kind: note` records-watch entries are deliberately EXCLUDED:
+// they publish far more often than articles and would turn one email per article
+// into several per week. They still get a page and a sitemap entry.
+// Dates are date-only in frontmatter; treat them as UTC midnight.
 function buildRss(docs: RssDoc[]): string {
-  const sorted = [...docs].sort((a, b) => (a.date < b.date ? 1 : -1))
+  const sorted = docs
+    .filter((d) => d.kind !== 'note')
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
   const rfc822 = (d: string) => new Date(`${d}T00:00:00Z`).toUTCString()
   const lastBuild = sorted[0] ? rfc822(sorted[0].date) : new Date(0).toUTCString()
 
@@ -89,6 +95,12 @@ const posts = defineCollection({
     summary: z.string(),
     metaDescription: z.string().optional(),
     updated: z.string().optional(),
+    // 'note' = a short records-watch entry (one public record, a few hundred
+    // words). Notes stay out of the hero, the main grid and RSS; they render in
+    // the homepage Records Watch rail. Absent means 'article'.
+    kind: z.enum(['article', 'note']).optional(),
+    // Notes cite the one record they are about, shown as the rail's source line.
+    record: z.string().optional(),
     categories: z.array(z.string()),
     slug: z.string().optional(),
     image: z.string(),
