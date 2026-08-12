@@ -98,8 +98,8 @@ export const POST_META: Record<string, PostMeta> = {
   },
   hawaii_deputy_sheriff_docare_contract_unit_14: {
     topic: 'State Law Enforcement',
-    stat: '25-0',
-    statLabel: 'the Senate vote to fund their contract, which still did not become law',
+    stat: '18 mos',
+    statLabel: 'at impasse, with no arbitration award on the public record',
     photo: 'state-law-enforcement-patrol.jpg',
   },
   where_the_system_fails: {
