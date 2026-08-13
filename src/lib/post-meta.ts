@@ -102,6 +102,12 @@ export const POST_META: Record<string, PostMeta> = {
     statLabel: 'at impasse, with no arbitration award on the public record',
     photo: 'state-law-enforcement-patrol.jpg',
   },
+  haiku_fire_station_east_maui_coverage_gap: {
+    topic: 'Staffing',
+    stat: '18 yrs',
+    statLabel: 'since the county bought the land, with no Haʻikū station built',
+    photo: 'haiku-road.jpg',
+  },
   where_the_system_fails: {
     topic: 'Governance',
     stat: '2',

@@ -21,7 +21,13 @@ const OG = { w: 1200, h: 630 }
 // is LARGER than its own 188KB WebP, so <picture> served the bigger file to modern
 // browsers (the only inverted pair in the set). 50 puts it back under the WebP.
 // Measured: 768 AVIF 205.7KB at q60, 155.1KB at q50. A mild blur does nothing here.
-const AVIF_QUALITY = { overtime: 50 }
+// haiku-road.jpg is a dense aerial canopy, and fine leaf texture costs AVIF bits the
+// same way grain does. At 60 its 1280 variant was 297.6KB, under its own WebP (309KB)
+// so it never inverted, but five times the 56KB the other heroes land at, and this one
+// loads eagerly as an article hero. Measured 1280: 297.6KB at q60, 214.0KB at q50,
+// 179.6KB at q45, 145.4KB at q40. 45 holds the road markings and canopy detail with no
+// visible blocking, for a 40% cut.
+const AVIF_QUALITY = { overtime: 50, 'haiku-road': 45 }
 const DEFAULT_AVIF_QUALITY = 60
 
 // `-og.jpg` is this script's OWN output and lives in the same directory, so it has
