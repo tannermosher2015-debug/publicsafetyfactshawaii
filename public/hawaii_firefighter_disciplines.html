@@ -51,6 +51,9 @@
     --gold: #C9A84C;
     --gold-light: #E8C97A;
     --gold-pale: #F7EED6;
+    /* --gold is an accent for NAVY grounds (7.16:1). On cream it reads 2.15:1,
+       so small text on cream uses this deeper tone instead (5.45:1). */
+    --gold-deep: #7D6218;
     --cream: #FAF8F3;
     --text: #1C1C1C;
     --muted: #5A5A5A;
@@ -179,7 +182,7 @@
     font-size: 10px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-deep);
     margin-bottom: 6px;
     display: block;
   }

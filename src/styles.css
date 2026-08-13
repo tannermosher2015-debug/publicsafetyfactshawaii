@@ -1412,6 +1412,18 @@ body {
   line-height: 1.75;
 }
 
+/* Links here inherited the default navy link color against the navy ground
+   (1.45:1, invisible). Gold is the accent this surface already uses for
+   .callout-label, and clears AA at 7.16:1. */
+.callout-dark a {
+  color: var(--ember);
+  text-decoration-color: rgba(201, 168, 76, 0.5);
+}
+
+.callout-dark a:hover {
+  text-decoration-color: var(--ember);
+}
+
 /* DATA TABLES */
 .article-body .table-wrap {
   margin: 36px 0;

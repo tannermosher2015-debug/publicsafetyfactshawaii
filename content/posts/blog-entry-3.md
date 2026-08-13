@@ -248,7 +248,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
         <td class="center">91</td>
         <td class="center">~42 hrs</td>
         <td class="center">~2 hrs</td>
-        <td class="center" style="color:#27ae60; font-weight:600;">Minimal</td>
+        <td class="center" style="color:#1B6E4A; font-weight:600;">Minimal</td>
       </tr>
     </tbody>
   </table>
