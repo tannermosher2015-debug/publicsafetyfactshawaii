@@ -4,7 +4,7 @@ title: "The Third Tier"
 titleHtml: "The <em>Third</em> Tier"
 slug: "the_third_tier_hawaii_ocean_safety_pay"
 seoTitle: "Hawaii Lifeguard Pay: The 33-Year Ladder in Bargaining Unit 15"
-metaDescription: "Hawaii's police settled their 2025-2029 contract in September. Firefighters settled in March. The state's ocean safety officers, who climb a twelve-step pay ladder that moves once every three years, have been without a contract since June 2025."
+metaDescription: "Police settled their 2025-2029 contract in September, firefighters in March. Hawaii's ocean safety officers have been without one since June 2025."
 summary: "Police settled their 2025 to 2029 contract in September. Firefighters settled theirs in March. Hawaii's ocean safety officers have been without one since June 2025. Their pay ladder has twelve steps and moves once every three years, and two arbitration panels in a row have told the parties to sit down and fix it."
 categories:
   - Pay Equity

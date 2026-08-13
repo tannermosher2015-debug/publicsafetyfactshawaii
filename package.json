@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev --port 3000",
     "prebuild": "node scripts/optimize-images.mjs",
-    "build": "vite build"
+    "build": "vite build",
+    "check:seo": "node scripts/check-seo-lengths.mjs"
   },
   "dependencies": {
     "@fontsource/dm-mono": "^5.2.7",

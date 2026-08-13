@@ -11,7 +11,14 @@ import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import { getPostMeta } from '@/lib/post-meta'
 import { fmtDate } from '@/lib/fmt-date'
-import { OG_IMAGE, SITE_NAME, SITE_URL } from '@/lib/site'
+import {
+  OG_CARD_HEIGHT,
+  OG_CARD_WIDTH,
+  OG_IMAGE,
+  SITE_NAME,
+  SITE_URL,
+  ogCard,
+} from '@/lib/site'
 
 // Give each <h2> a stable id and collect the section list for the sidebar TOC.
 function buildArticle(html: string): { html: string; toc: TocItem[] } {
@@ -116,10 +123,20 @@ export const Route = createFileRoute('/posts/$slug')({
   },
   head: ({ loaderData }) => {
     const url = `${SITE_URL}/posts/${loaderData.slug}`
+    // Each article shares as its own photo. Without this every post fell back to
+    // the root's card, so all 16 shared one image.
+    const card = ogCard(getPostMeta(loaderData.slug)?.photo)
     return {
       meta: [
         {
-          title: `${loaderData.seoTitle ?? loaderData.title} | ${SITE_NAME}`,
+          // No " | PublicSafetyFactsHawaii" suffix on articles. Google shows the
+          // site name beside the result already, and its title-link doc lists
+          // "Duplication of the site name in the <title> element" as a common
+          // issue: "Google may omit the site name from the title link, if it's
+          // repetitive with the site name that's already shown in the search
+          // result." The suffix cost 26 of the ~62 visible characters and bought
+          // nothing. Short static routes (/about) keep it, where it adds context.
+          title: loaderData.seoTitle ?? loaderData.title,
         },
         {
           name: 'description',
@@ -148,6 +165,11 @@ export const Route = createFileRoute('/posts/$slug')({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: loaderData.title },
         { name: 'twitter:description', content: loaderData.summary },
+        { property: 'og:image', content: card },
+        { property: 'og:image:width', content: String(OG_CARD_WIDTH) },
+        { property: 'og:image:height', content: String(OG_CARD_HEIGHT) },
+        { property: 'og:image:alt', content: loaderData.title },
+        { name: 'twitter:image', content: card },
         {
           'script:ld+json': {
             '@context': 'https://schema.org',
@@ -157,7 +179,7 @@ export const Route = createFileRoute('/posts/$slug')({
             datePublished: loaderData.date,
             dateModified: loaderData.updated ?? loaderData.date,
             url,
-            image: OG_IMAGE,
+            image: card,
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
             author: {
               '@type': 'Organization',

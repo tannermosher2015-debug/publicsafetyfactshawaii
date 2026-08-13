@@ -3,7 +3,7 @@ date: "2026-07-13"
 title: "The Slowest Step Ladder in the Nation"
 titleHtml: "The Slowest Step Ladder <em>in the Nation</em>"
 slug: "the_slowest_firefighter_step_ladder_in_the_nation"
-metaDescription: "A Hawaii firefighter takes 28 years to reach top base pay, the longest of the 37 U.S. departments that publish a conventional step ladder, and grows base pay slower per year than any of them."
+metaDescription: "A Hawaii firefighter takes 28 years to reach top base pay, the longest of the 37 U.S. departments that publish a conventional step ladder."
 summary: "Hawaii's fire departments climb the slowest step ladder in the nation. A base-rank firefighter takes 28 years to reach the top of the pay scale, the longest of the 37 U.S. departments that publish a conventional step ladder, and grows base pay slower per year than any of them."
 categories:
   - Pay Equity

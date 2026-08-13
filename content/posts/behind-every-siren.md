@@ -3,6 +3,7 @@ date: "2026-07-07"
 title: "Behind Every Siren"
 titleHtml: "Behind Every <em>Siren</em>"
 slug: "behind_every_siren"
+metaDescription: "The clerks, accountant, personnel staff, and secretaries who keep a fire department running are among its lowest-paid workers, in one of the costliest places to live."
 summary: "When the engine rolls out, you see the firefighters. You never see the account clerks, the accountant, the personnel staff, and the secretaries who keep the department running. They are some of its lowest-paid workers, in one of the most expensive places in America to live."
 categories:
   - Public Safety

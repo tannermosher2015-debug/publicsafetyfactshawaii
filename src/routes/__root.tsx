@@ -1,7 +1,7 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
 import '../styles.css'
-import { OG_IMAGE, SITE_NAME } from '@/lib/site'
+import { OG_CARD_HEIGHT, OG_CARD_WIDTH, SITE_NAME, ogCard } from '@/lib/site'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -12,14 +12,15 @@ export const Route = createRootRoute({
       { name: 'author', content: SITE_NAME },
       { property: 'og:site_name', content: SITE_NAME },
       { property: 'og:locale', content: 'en_US' },
-      { property: 'og:image', content: OG_IMAGE },
-      { property: 'og:image:width', content: '1000' },
-      { property: 'og:image:height', content: '1000' },
+      // Site default card. Article routes override these four with their own photo.
+      { property: 'og:image', content: ogCard() },
+      { property: 'og:image:width', content: String(OG_CARD_WIDTH) },
+      { property: 'og:image:height', content: String(OG_CARD_HEIGHT) },
       {
         property: 'og:image:alt',
         content: 'PublicSafetyFactsHawaii, firefighter pay and labor facts',
       },
-      { name: 'twitter:image', content: OG_IMAGE },
+      { name: 'twitter:image', content: ogCard() },
     ],
     links: [
       { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },

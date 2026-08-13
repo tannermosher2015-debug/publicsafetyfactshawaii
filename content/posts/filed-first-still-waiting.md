@@ -3,8 +3,8 @@ date: "2026-08-12"
 title: "Filed First, Still Waiting"
 titleHtml: "Filed <em>First</em>, Still Waiting"
 slug: "hawaii_deputy_sheriff_docare_contract_unit_14"
-seoTitle: "Hawaii Deputy Sheriff and DOCARE Pay: Unit 14's Eighteen Months at Impasse"
-metaDescription: "Hawaii's 402 state law enforcement officers filed for binding arbitration in February 2025, five months before their contract expired. Eighteen months later there is no award on the public record, and the money bill written for them died empty."
+seoTitle: "Hawaii Deputy Sheriff and DOCARE Pay: 18 Months at Impasse"
+metaDescription: "Hawaii's 402 state law enforcement officers filed for arbitration in February 2025, five months early. Eighteen months on, no award is on the public record."
 summary: "Hawaii's deputy sheriffs and conservation officers filed for binding arbitration five months before their contract ran out. Every other public safety unit in that queue has an award. Theirs has not surfaced, and because it did not arrive before the Legislature adjourned, the appropriation bill written for them came out of conference with nothing in it. Two clocks govern their pay. Only one of them is enforced."
 categories:
   - Governance

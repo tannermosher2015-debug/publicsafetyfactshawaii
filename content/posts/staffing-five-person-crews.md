@@ -3,6 +3,7 @@ date: "2026-06-01"
 title: "Why 5-Person Fire Crews Are the Standard"
 titleHtml: "Why 5-Person Fire Crews <em>Are the Standard</em>"
 slug: "why_5_person_fire_crews_are_the_standard"
+metaDescription: "Federal research is consistent: five firefighters is where every fireground task hits full efficiency and injuries bottom out. The NIST, USFA, and Dallas data."
 summary: "The federal research on fire crew size is consistent: five firefighters is the point where every fireground task hits full efficiency and injuries bottom out. Here is the data from NIST, the U.S. Fire Administration, and the Dallas Fire Department, laid out plainly."
 categories:
   - Public Safety

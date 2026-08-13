@@ -13,7 +13,7 @@ export const Route = createFileRoute('/disclaimer')({
       {
         name: 'description',
         content:
-          'PublicSafetyFactsHawaii is an independent community education project. Content is for informational purposes only and is not affiliated with any government agency, county, union, or employer.',
+          'An independent community education project. Content is informational only and is not affiliated with any government agency, county, union, or employer.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/disclaimer` },
