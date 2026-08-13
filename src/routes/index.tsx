@@ -87,17 +87,6 @@ export const Route = createFileRoute('/')({
           ],
         },
       },
-      {
-        'script:ld+json': {
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: FAQ.map((item) => ({
-            '@type': 'Question',
-            name: item.q,
-            acceptedAnswer: { '@type': 'Answer', text: item.a },
-          })),
-        },
-      },
     ],
     links: [{ rel: 'canonical', href: `${SITE_URL}/` }],
   }),
