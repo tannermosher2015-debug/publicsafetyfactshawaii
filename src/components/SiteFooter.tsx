@@ -33,7 +33,7 @@ export default function SiteFooter({
         </div>
 
         <nav className="footer-col" aria-label="Site">
-          <h3 className="footer-h">Explore</h3>
+          <h2 className="footer-h">Explore</h2>
           <Link to="/">The Facts</Link>
           <Link to="/numbers">Numbers</Link>
           <Link to="/about">About</Link>
@@ -43,7 +43,7 @@ export default function SiteFooter({
         </nav>
 
         <div className="footer-col footer-col--wide">
-          <h3 className="footer-h">Independence</h3>
+          <h2 className="footer-h">Independence</h2>
           <p className="footer-note">
             This site is not affiliated with any government agency, department, or
             union. Every figure is drawn from a public record you can verify for
