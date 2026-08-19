@@ -79,6 +79,11 @@ export const Route = createFileRoute('/')({
               '@id': `${SITE_URL}/#website`,
               url: `${SITE_URL}/`,
               name: SITE_NAME,
+              // Fallbacks for Google's site-name picker. The run-together
+              // SITE_NAME appears nowhere in the <title>, which is one of the
+              // on-page sources it cross-checks, so give it the spaced form and
+              // the bare domain (lowercase, as Google's docs specify).
+              alternateName: ['Public Safety Facts Hawaii', 'publicsafetyfactshawaii.org'],
               description:
                 'Independent community education on Hawaii firefighter pay, labor rights, and public safety.',
               publisher: { '@id': `${SITE_URL}/#organization` },
