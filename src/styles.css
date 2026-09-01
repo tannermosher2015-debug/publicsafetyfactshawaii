@@ -21,6 +21,11 @@
   --fire-light: #25508C;  /* lighter navy — hover states */
   --ember: #C9A84C;       /* gold — accent on dark (navy) surfaces */
   --gold-light: #E8C97A;  /* lighter gold */
+  /* gold for LIGHT grounds. --ember is an accent for navy and measures 2.03:1 on
+     --cream, so it fails even the 3.0:1 large-text bar there. This is the same
+     value the standalone disciplines page already uses for the same reason;
+     measured 5.14:1 on --cream. Do not use --ember on cream or paper. */
+  --gold-deep: #7D6218;
   --smoke: #0F1F3D;       /* deep navy — dark surfaces + headings (logo navy) */
   --ash: #6B6560;
   --paper: #FFFFFF;
@@ -2377,7 +2382,9 @@ body {
   font-weight: 700;
   font-size: 28px;
   line-height: 1;
-  color: var(--ember);
+  /* sits on .psf-start-item's --cream ground; --ember measured 2.03:1 there
+     against the 3.0:1 large-text bar (2026-09-01 full-site sweep) */
+  color: var(--gold-deep);
 }
 .psf-start-body {
   display: flex;
