@@ -15,15 +15,29 @@ function deriveSlug(title: string): string {
 
 type SitemapDoc = { slug: string; date: string; updated?: string }
 
+type StaticPage = { path: string; changefreq: string; priority: string; lastmod?: string }
+
 // Static (non-post) pages, kept in sync here so the sitemap never drifts.
-const STATIC_PAGES = [
-  { path: '/', changefreq: 'weekly', priority: '1.0' },
-  { path: '/about', changefreq: 'yearly', priority: '0.5' },
-  { path: '/how-we-source', changefreq: 'yearly', priority: '0.5' },
-  { path: '/numbers', changefreq: 'monthly', priority: '0.8' },
-  { path: '/glossary', changefreq: 'yearly', priority: '0.5' },
-  { path: '/disclaimer', changefreq: 'yearly', priority: '0.3' },
-  { path: '/hawaii_firefighter_disciplines.html', changefreq: 'monthly', priority: '0.8' },
+// `lastmod` is that page's OWN last-changed date. OMIT it only for pages whose
+// content is generated from the posts, which genuinely do change when a post
+// does; those fall back to the newest post date. Everything else must carry its
+// own, because a page that did not change must not claim it did: [G] Google
+// stops trusting the lastmod signal when it is inaccurate. Bump the date when
+// you edit that page's route file. Dates below taken from `git log -1
+// --format=%cs -- <route file>` on 2026-08-31.
+const STATIC_PAGES: StaticPage[] = [
+  { path: '/', changefreq: 'weekly', priority: '1.0' }, // post-driven: lists the posts
+  { path: '/about', changefreq: 'yearly', priority: '0.5', lastmod: '2026-07-03' },
+  { path: '/how-we-source', changefreq: 'yearly', priority: '0.5', lastmod: '2026-07-03' },
+  { path: '/numbers', changefreq: 'monthly', priority: '0.8' }, // post-driven: reads allPosts
+  { path: '/glossary', changefreq: 'yearly', priority: '0.5', lastmod: '2026-07-03' },
+  { path: '/disclaimer', changefreq: 'yearly', priority: '0.3', lastmod: '2026-08-12' },
+  {
+    path: '/hawaii_firefighter_disciplines.html',
+    changefreq: 'monthly',
+    priority: '0.8',
+    lastmod: '2026-08-12',
+  },
 ]
 
 function xmlEscape(s: string): string {
@@ -74,7 +88,7 @@ function buildSitemap(docs: SitemapDoc[]): string {
 
   const staticUrls = STATIC_PAGES.map(
     (p) =>
-      `  <url>\n    <loc>${SITE_URL}${p.path}</loc>\n    <lastmod>${latest}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`,
+      `  <url>\n    <loc>${SITE_URL}${p.path}</loc>\n    <lastmod>${p.lastmod ?? latest}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`,
   )
 
   // Home first, then posts (newest first), then the remaining static pages.
