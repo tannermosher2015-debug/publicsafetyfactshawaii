@@ -1,6 +1,5 @@
-import type { Config } from "@netlify/functions";
-import { db } from "../../db/index.js";
-import { newsletterSends } from "../../db/schema.js";
+import { db } from "../db/index.js";
+import { newsletterSends } from "../db/schema.js";
 
 // Daily scheduled sender. Reads the site's own RSS feed, and for any post not
 // yet recorded in newsletter_sends, sends a Resend broadcast to the audience and
@@ -120,7 +119,7 @@ async function sendBroadcast(
   }
 }
 
-export default async () => {
+const handler = async (): Promise<Response> => {
   const apiKey = process.env.RESEND_API_KEY;
   const audienceId = process.env.RESEND_AUDIENCE_ID;
   const from = process.env.RESEND_FROM;
@@ -177,6 +176,27 @@ export default async () => {
   return new Response(`sent ${count}`, { status: 200 });
 };
 
-export const config: Config = {
-  schedule: "0 15 * * *", // 15:00 UTC = 05:00 HST, daily
+// The schedule itself moved to vercel.json "crons" (same 0 15 * * *).
+//
+// NEW RISK THAT DID NOT EXIST ON NETLIFY, do not remove this guard: a Netlify
+// scheduled function has no public URL, but a Vercel cron target is an ordinary
+// HTTP endpoint. Unguarded, anyone who knows the path could mail the whole
+// audience on demand, capped only by MAX_PER_RUN.
+//
+// Vercel sends `Authorization: Bearer $CRON_SECRET` on cron invocations when
+// CRON_SECRET is set. This FAILS CLOSED: with no CRON_SECRET configured it
+// refuses every request rather than defaulting to open, so a forgotten env var
+// costs a silent no-send (visible in the logs) instead of an open mailer.
+const guarded = async (req: Request): Promise<Response> => {
+  const secret = process.env.CRON_SECRET;
+  if (!secret) {
+    console.log("send-newsletter: CRON_SECRET not set, refusing");
+    return new Response("not configured", { status: 503 });
+  }
+  if (req.headers.get("authorization") !== `Bearer ${secret}`) {
+    return new Response("Unauthorized", { status: 401 });
+  }
+  return handler();
 };
+
+export default { fetch: guarded };

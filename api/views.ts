@@ -1,9 +1,12 @@
-import type { Config, Context } from "@netlify/functions";
-import { db } from "../../db/index.js";
-import { pageViews } from "../../db/schema.js";
+import { db } from "../db/index.js";
+import { pageViews } from "../db/schema.js";
 import { eq, sql } from "drizzle-orm";
 
-export default async (req: Request, context: Context) => {
+// Vercel routes this file at /api/views by its path, so the Netlify `config.path`
+// export is gone. The handler body below is unchanged from the Netlify version;
+// only the export wrapper differs, which is why it is a named const rather than
+// being inlined into the object.
+const handler = async (req: Request): Promise<Response> => {
   if (req.method === "POST") {
     let body: unknown;
     try {
@@ -57,6 +60,4 @@ export default async (req: Request, context: Context) => {
   return new Response("Method not allowed", { status: 405 });
 };
 
-export const config: Config = {
-  path: "/api/views",
-};
+export default { fetch: handler };
