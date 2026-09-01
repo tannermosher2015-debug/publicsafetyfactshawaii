@@ -354,7 +354,9 @@
     text-align: center;
     font-family: 'DM Mono', monospace;
     font-size: 11px;
-    color: rgba(255,255,255,0.4);
+    /* was 0.4 alpha, which measured 3.71:1 on --navy against the 4.5:1 bar for
+       11px body text (2026-09-01 full-site sweep). 0.6 measures well clear. */
+    color: rgba(255,255,255,0.6);
     letter-spacing: 0.08em;
   }
   .site-footer a { color: var(--gold-light); text-decoration: none; opacity: 0.7; }
