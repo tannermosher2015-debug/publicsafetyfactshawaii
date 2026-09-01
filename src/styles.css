@@ -1070,8 +1070,11 @@ body {
 }
 /* dark scrim over the photo keeps the chip + stat readable (AA).
    The lower stops carry the gold .psf-media-num, which sits in the bottom band:
-   measured 2026-09-01, the old 0.8 floor left 9 of 16 stats between 1.58:1 and
-   2.22:1 against the 3.0:1 large-text bar, because photo highlights read through. */
+   photo highlights read straight through the old 0.2 -> 0.8 ramp. Measured
+   2026-09-01 on production HTML + photos, old CSS as the control: 8 of 17 stats
+   failed the 3.0:1 large-text bar, worst 1.49:1. With these stops, 0 of 17 fail,
+   worst 3.30:1. DO NOT drop the 0.94 stop below about 0.90: the two worst cards
+   land at 3.30:1 and 3.33:1, so there is roughly no headroom under it. */
 .psf-card-media::after {
   content: '';
   position: absolute;
