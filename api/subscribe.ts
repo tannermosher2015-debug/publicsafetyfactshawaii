@@ -1,10 +1,8 @@
-import type { Config, Context } from "@netlify/functions";
-
 // Adds a newsletter signup to a Resend Audience. The API key lives in a Netlify
 // env var (RESEND_API_KEY) and never reaches the browser — the NewsletterSignup
 // React component POSTs { email } here, this function makes the authenticated
 // call. RESEND_AUDIENCE_ID picks which audience the contact lands in.
-export default async (req: Request, _context: Context) => {
+const handler = async (req: Request): Promise<Response> => {
   if (req.method !== "POST") {
     return new Response("Method not allowed", { status: 405 });
   }
@@ -53,6 +51,4 @@ export default async (req: Request, _context: Context) => {
   return Response.json({ ok: true });
 };
 
-export const config: Config = {
-  path: "/api/subscribe",
-};
+export default { fetch: handler };
