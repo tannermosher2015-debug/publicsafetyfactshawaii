@@ -1068,7 +1068,10 @@ body {
   transform: scale(1.05);
   filter: var(--duotone-hover);
 }
-/* dark scrim over the photo keeps the chip + stat readable (AA) */
+/* dark scrim over the photo keeps the chip + stat readable (AA).
+   The lower stops carry the gold .psf-media-num, which sits in the bottom band:
+   measured 2026-09-01, the old 0.8 floor left 9 of 16 stats between 1.58:1 and
+   2.22:1 against the 3.0:1 large-text bar, because photo highlights read through. */
 .psf-card-media::after {
   content: '';
   position: absolute;
@@ -1077,7 +1080,9 @@ body {
   background: linear-gradient(
     180deg,
     rgba(13, 20, 40, 0.2) 0%,
-    rgba(13, 20, 40, 0.8) 100%
+    rgba(13, 20, 40, 0.45) 35%,
+    rgba(13, 20, 40, 0.94) 62%,
+    rgba(13, 20, 40, 0.96) 100%
   );
   pointer-events: none;
 }
