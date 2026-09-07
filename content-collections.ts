@@ -36,7 +36,7 @@ const STATIC_PAGES: StaticPage[] = [
     path: '/hawaii_firefighter_disciplines.html',
     changefreq: 'monthly',
     priority: '0.8',
-    lastmod: '2026-08-12',
+    lastmod: '2026-09-01',
   },
 ]
 
