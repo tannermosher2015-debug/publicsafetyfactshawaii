@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-updated: "2026-07-03"
+updated: "2026-09-09"
 title: "The Federal Exemption That Costs Hawaii Firefighters Millions"
 slug: "the_federal_exemption_that_costs_hawaii_firefighters_millions"
 metaDescription: "A federal exemption lets Hawaii counties make firefighters work 53-hour weeks with no overtime. It is optional, and it costs them hundreds of thousands."
@@ -19,7 +19,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Firefighters are the exception.</p>
 
-<p>A provision of federal law called the Section 7(k) exemption creates a separate overtime standard specifically for public agency firefighters - one that allows counties to avoid paying overtime until a firefighter clears 212 hours in a 28-day cycle. Translated to a weekly equivalent, that's 53 hours a week before a single overtime dollar is owed.</p>
+<p>A provision of federal law called the Section 7(k) exemption creates a separate overtime standard specifically for public agency firefighters - one that allows counties to avoid paying overtime until a firefighter clears the equivalent of 53 hours a week. Federal law states that ceiling as 212 hours in a 28-day cycle and scales it down in exact proportion for shorter work periods. Hawaii's firefighters work a nine-day period, where the same ceiling is 68 hours.</p>
 
 <p>This is not a loophole. It is not a technicality. Congress designed it this way deliberately - to reduce the financial burden on state and local governments. And the decision to use it, or not to use it, belongs entirely to the county that employs the firefighter.</p>
 
@@ -37,22 +37,22 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <div class="stat-row">
   <div class="stat-box">
-    <div class="stat-num">160</div>
-    <div class="stat-label">Hours before overtime<br>under standard FLSA<br>(28-day equivalent)</div>
+    <div class="stat-num">51.4</div>
+    <div class="stat-label">Hours before overtime<br>under standard FLSA<br>(9-day equivalent)</div>
   </div>
   <div class="stat-box">
-    <div class="stat-num">212</div>
-    <div class="stat-label">Hours before overtime<br>under 7(k) exemption<br>(28-day period)</div>
+    <div class="stat-num">68</div>
+    <div class="stat-label">Hours before overtime<br>under the HFFA contract<br>(9-day work period)*</div>
   </div>
   <div class="stat-box featured">
-    <div class="stat-num">65</div>
-    <div class="stat-label">Straight-time hours absorbed<br>per cycle by Maui firefighters<br>above the standard threshold*</div>
+    <div class="stat-num">16.6</div>
+    <div class="stat-label">Straight-time hours absorbed<br>per work period by Hawaii<br>firefighters above the standard</div>
   </div>
 </div>
 
-<p>That 65-hour gap - specific to Maui County's confirmed Kelly schedule - is not hypothetical. It represents real hours worked at straight-time rates that would be compensated at time-and-a-half for any other public employee doing a comparable job. A county road worker, a librarian, a parks maintenance employee - none of them are subject to a 7(k) work period. Only firefighters and police.</p>
+<p>That 16.6-hour gap is not hypothetical. It represents real hours worked at straight-time rates that would be compensated at time-and-a-half for any other public employee doing a comparable job. A county road worker, a librarian, a parks maintenance employee - none of them are subject to a 7(k) work period. Only firefighters and police.</p>
 
-<p class="table-note">*Maui County MFD data confirmed by a current Maui Division representative. The general 7(k) threshold gap (52 hours) applies to any firefighter on a standard 40-hour-equivalent schedule; Maui firefighters' actual exposure is higher due to the Kelly schedule with no Kelly days.</p>
+<p class="table-note">*The 68-hour figure is not an estimate. It is written into Section 20 of the 2021 to 2025 HFFA collective bargaining agreement, which defines a "Work Period" as nine consecutive days scheduled at 72 hours, with the four hours above 68 paid at the overtime rate. It is also the exact maximum federal law permits for a nine-day work period under 29 C.F.R. 553.230. The contract sits on the federal ceiling, not below it.</p>
 
 <div class="divider">· ◆ ·</div>
 
@@ -72,12 +72,12 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
       <tr>
         <td class="bold">Work Period</td>
         <td>7 days (fixed)</td>
-        <td class="highlight">Up to 28 days</td>
+        <td class="highlight">Up to 28 days (Hawaii uses 9)</td>
       </tr>
       <tr>
         <td class="bold">OT Threshold</td>
         <td>40 hours/week</td>
-        <td class="highlight">212 hours/28 days</td>
+        <td class="highlight">212 hrs/28 days (Hawaii: 68 hrs/9 days)</td>
       </tr>
       <tr>
         <td class="bold">Equivalent Weekly Threshold</td>
@@ -85,9 +85,9 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
         <td class="highlight">53 hours/week</td>
       </tr>
       <tr>
-        <td class="bold">Straight-Time Gap (per cycle)</td>
+        <td class="bold">Straight-Time Gap (per work period)</td>
         <td>None</td>
-        <td class="highlight gold">65 hrs (Maui MFD)</td>
+        <td class="highlight gold">16.6 hrs (Hawaii, 9-day period)</td>
       </tr>
       <tr>
         <td class="bold">Who controls the work period?</td>
@@ -142,18 +142,18 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <h2>The Financial Impact: What Firefighters Are Not Being Paid</h2>
 
-<p>The 7(k) exemption is not abstract. Every 28-day cycle, it represents real hours worked at straight-time rates that the law would otherwise require to be paid at time-and-a-half. Over a career, the cumulative impact is substantial.</p>
+<p>The 7(k) exemption is not abstract. Every nine-day work period, it represents real hours worked at straight-time rates that the law would otherwise require to be paid at time-and-a-half. Over a career, the cumulative impact is substantial.</p>
 
-<p>The table below estimates the overtime compensation foregone per cycle, per year, and over a 25-year career at different pay rates. Figures assume 65 straight-time hours per 28-day cycle above the standard 40-hour threshold, Maui's actual exposure under the Kelly schedule with no Kelly days, across 13 cycles per year.</p>
+<p>The table below estimates the overtime compensation foregone per work period, per year, and over a 25-year career at different pay rates. The figures count only the hours that are actually paid at straight time and would not be. A firefighter scheduled 72 hours in a nine-day period is already paid at the overtime rate for the four hours above 68, and those hours are excluded from every figure below.</p>
 
 <div class="table-wrap">
-  <div class="table-label">Estimated Foregone Overtime Compensation - Maui County MFD (Kelly Schedule, No Kelly Days)</div>
+  <div class="table-label">Estimated Foregone Overtime Compensation - Hawaii Firefighters (9-Day Work Period, 72 Scheduled Hours)</div>
   <table>
     <thead>
       <tr>
         <th>Hourly Rate</th>
         <th class="right">OT Premium (0.5x)</th>
-        <th class="right">Lost OT / Cycle</th>
+        <th class="right">Lost OT / Work Period</th>
         <th class="right">Lost OT / Year</th>
         <th class="right highlight">Lost OT / 25-Yr Career</th>
       </tr>
@@ -162,39 +162,39 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
       <tr>
         <td>$35 / hr</td>
         <td class="right">$17.50</td>
-        <td class="right">$1,138</td>
-        <td class="right">$14,788</td>
-        <td class="right gold">$369,688</td>
+        <td class="right">$290</td>
+        <td class="right">$11,761</td>
+        <td class="right gold">$294,028</td>
       </tr>
       <tr>
         <td>$40 / hr</td>
         <td class="right">$20.00</td>
-        <td class="right">$1,300</td>
-        <td class="right">$16,900</td>
-        <td class="right gold">$422,500</td>
+        <td class="right">$331</td>
+        <td class="right">$13,441</td>
+        <td class="right gold">$336,032</td>
       </tr>
       <tr>
         <td>$45 / hr</td>
         <td class="right">$22.50</td>
-        <td class="right">$1,463</td>
-        <td class="right">$19,013</td>
-        <td class="right gold">$475,313</td>
+        <td class="right">$373</td>
+        <td class="right">$15,121</td>
+        <td class="right gold">$378,036</td>
       </tr>
       <tr>
         <td>$50 / hr</td>
         <td class="right">$25.00</td>
-        <td class="right">$1,625</td>
-        <td class="right">$21,125</td>
-        <td class="right gold">$528,125</td>
+        <td class="right">$414</td>
+        <td class="right">$16,802</td>
+        <td class="right gold">$420,040</td>
       </tr>
     </tbody>
   </table>
-  <p class="table-note">Based on 65 straight-time hours per 28-day cycle above the standard 40-hr threshold - derived from Maui County MFD's confirmed Kelly schedule with no Kelly days (121 to 122 days worked/year, ~56.3 hrs/week average). 13 cycles/year. Single pay rate; does not account for step increases or ATB raises over a career. Figures represent the difference between what was paid and what would have been paid under standard FLSA rules. Maui County data confirmed by a current Maui Division representative.</p>
+  <p class="table-note">Method: the HFFA agreement schedules 72 hours per nine-day work period, which is 2,920 hours a year, or a 56.0-hour average week. Of those, 68 hours per work period (2,758 a year) are paid at straight time and four (162 a year) at the overtime rate. Under the standard 40-hour rule, overtime would begin at 2,086 hours a year. The gap is therefore 672 straight-time hours a year, 16.6 per work period, or 12.9 a week, valued at the 0.5x overtime premium. The 162 hours already paid at the overtime rate are excluded. Single pay rate; does not account for step increases or ATB raises over a career. Schedule and threshold figures are from Section 20 of the 2021 to 2025 HFFA collective bargaining agreement; the federal maximum for a nine-day work period is from 29 C.F.R. 553.230.</p>
 </div>
 
 <div class="callout-dark">
   <span class="callout-label">Maui County Example</span>
-  <p>A Maui firefighter earning $45 per hour on the Kelly schedule absorbs approximately $1,463 in foregone overtime every 28-day cycle. That's $19,013 per year. Over a 25-year career at a single pay rate, the total comes to $475,313 - money worked for, never paid, because of an optional federal exemption Maui County chooses to apply.</p>
+  <p>A Hawaii firefighter earning $45 per hour absorbs approximately $373 in foregone overtime every nine-day work period. That's $15,121 per year. Over a 25-year career at a single pay rate, the total comes to $378,036 - money worked for, paid at straight time, because of an optional federal exemption the counties choose to apply at its maximum.</p>
 </div>
 
 <div class="divider">· ◆ ·</div>
@@ -207,7 +207,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>Some jurisdictions across the country have made exactly that choice. Others have negotiated collective bargaining agreements that contractually reduce the work period or lower the overtime threshold, partially offsetting the exemption's impact even without eliminating it. The range of outcomes is wide, and it is determined by employer policy - not federal mandate.</p>
 
-<p>In Hawaii, all four counties currently apply the full 7(k) exemption, using the maximum 28-day work period and the 212-hour threshold. That is a policy choice made by each county administration. It saves counties money. It costs firefighters money. And it rarely comes up in that form in a budget hearing or a proclamation.</p>
+<p>In Hawaii, the firefighters' agreement never mentions Section 7(k) at all. It does not need to. It defines a nine-day work period and sets overtime above 68 hours, and 68 hours is precisely the maximum federal law permits for a nine-day period. A shorter work period than 28 days does not help a firefighter by itself, because the threshold shrinks in exact proportion. What would help is a threshold set below the federal ceiling, and Hawaii's sits on it. That is a policy choice made by each county administration. It saves counties money. It costs firefighters money. And it rarely comes up in that form in a budget hearing or a proclamation.</p>
 
 <div class="pull-quote">
   <p>"The exemption is optional. Counties choose to apply it. Nothing in federal law requires them to. The decision is made by management - and it directly determines how much overtime pay a firefighter receives."</p>
@@ -219,7 +219,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>The financial impact of the 7(k) exemption doesn't exist in isolation. It is directly shaped by the shift schedule counties assign to their firefighters - because the schedule determines how many hours are actually worked in each cycle, and how far above the 7(k) threshold those hours fall.</p>
 
-<p>Maui County firefighters work a Kelly schedule - a rotating system of 24-hour shifts designed to provide continuous coverage - with no Kelly days. Kelly days are the built-in relief days that a standard Kelly schedule uses to bring annual hours down closer to a 40-hour-per-week average. Without them, Maui firefighters work approximately 121 to 122 days per year, producing an average of roughly 56.3 working hours per week and approximately 225 hours per 28-day cycle. That places them 13 hours above the 7(k) overtime threshold and 65 hours above the standard 40-hour-week threshold every single cycle.</p>
+<p>Maui County firefighters work a Kelly schedule - a rotating system of 24-hour shifts designed to provide continuous coverage - with no Kelly days. Kelly days are the built-in relief days that a standard Kelly schedule uses to bring annual hours down closer to a 40-hour-per-week average. Without them, Maui firefighters work approximately 121 to 122 24-hour shifts per year, which is 2,920 hours, an average of 56.0 working hours per week. That figure is not an estimate: it is what the contract's own 72 hours per nine-day work period produces. Of those 72 hours, four are paid at the overtime rate and 68 at straight time, and 16.6 of that 68 would have been overtime for any worker under the standard 40-hour rule.</p>
 
 <p>A 24/72 schedule - 24 hours on, 72 hours off - changes the math significantly. It averages approximately 42 working hours per week, which is still above the standard 40-hour threshold but dramatically reduces the straight-time hours accumulated above it. Under a 24/72 schedule, the financial impact of the 7(k) exemption would be a fraction of what Maui firefighters currently absorb.</p>
 
@@ -239,7 +239,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
       <tr>
         <td class="bold">Kelly / No Kelly Days (current)</td>
         <td class="center">121 to 122</td>
-        <td class="center">~56.3 hrs</td>
+        <td class="center">56.0 hrs</td>
         <td class="center">~16 hrs</td>
         <td class="center" style="color:var(--fire); font-weight:600;">Maximum</td>
       </tr>
@@ -270,8 +270,9 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 <ul class="article-list">
   <li>Congress created Section 7(k) in 1974 to reduce costs for public employers. Not to benefit firefighters.</li>
   <li>Under 7(k), Hawaii's firefighters can be required to work up to 53-hour weeks without earning a single dollar of overtime.</li>
-  <li>On Maui, the Kelly schedule with no Kelly days means firefighters work approximately 121 to 122 days per year - producing roughly 65 straight-time hours per cycle above the standard 40-hour threshold.</li>
-  <li>Over a career, the cumulative impact on a Maui firefighter can exceed $475,000 at a single pay rate.</li>
+  <li>The HFFA agreement schedules 72 hours per nine-day work period, a 56.0-hour average week, and sets overtime above 68 hours. That 68-hour threshold is the exact maximum federal law allows for a nine-day period.</li>
+  <li>That leaves roughly 16.6 straight-time hours per work period, about 12.9 a week, that would have been paid at time-and-a-half for any other worker.</li>
+  <li>Over a career, the cumulative impact on a Hawaii firefighter can approach $378,000 at a single pay rate of $45 an hour.</li>
   <li>The exemption is optional. All four Hawaii counties choose to apply it.</li>
   <li>Adopting a 24/72 schedule would substantially reduce firefighters' exposure to the 7(k) gap, even without eliminating the exemption.</li>
   <li>Both decisions - whether to use 7(k), and which schedule to assign - are made by county management, not federal law.</li>
