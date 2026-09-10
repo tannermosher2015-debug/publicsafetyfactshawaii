@@ -15,6 +15,12 @@
     },
     { "source": "/category/:path*", "destination": "/", "permanent": true },
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.publicsafetyfactshawaii.org" }],
+      "destination": "https://publicsafetyfactshawaii.org/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "www.publicsafetyfactshawaii.org" }],
       "destination": "https://publicsafetyfactshawaii.org/:path*",
