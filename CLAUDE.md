@@ -16,8 +16,21 @@ come across and exists only in the untracked `.netlify/` build cache; ignore eve
   Vercel. So the site spans two vendors, and any record change (a TXT for verification, the Resend
   SPF and DKIM) is made in the Netlify zone, not in Vercel and not in Hostinger. There are no MX
   records, so no email rides on this domain.
-- `netlify/edge-functions/security-headers.ts` is still tracked and is now dead: headers moved into
-  `vercel.json`. Left in place rather than deleted, but do not edit it expecting an effect.
+- **Dead Netlify config was DELETED 2026-09-09: `netlify.toml` and
+  `netlify/edge-functions/security-headers.ts`.** Headers live in `vercel.json` (`X-Frame-Options`,
+  `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, `Content-Security-Policy` on
+  `/(.*)`). **The reason it mattered, not just tidiness: the www to apex 301 lived ONLY in
+  `netlify.toml` and was silently lost in the migration**, and the file sitting in the repo made the
+  rule look present. The replacement is in `vercel.json`.
+- **`netlify/database/migrations/` STAYS. It is NOT a leftover.** `drizzle.config.ts` sets
+  `out: "netlify/database/migrations"`, so that is the live drizzle migration journal wearing a
+  Netlify name. Renaming or deleting it breaks migrations.
+- `package.json` still declares `@netlify/database`, `@netlify/functions` and
+  `@netlify/vite-plugin-tanstack-start`. **None is imported anywhere** (checked `src/`, `db/`, `api/`,
+  `vite.config.ts`, `content-collections.ts` on 2026-09-09). Removable, but that is a dep and
+  lockfile change, so it was left for its own pass. Note `package.json` names `vercel` zero times:
+  the preset comes from Nitro's host detection in `vite.config.ts`, so grepping `package.json` for
+  the host tells you nothing.
 
 - Markdown is rendered to HTML **at build** (content-collections `transform`; `marked` is a
   devDep, don't ship it to the client).
