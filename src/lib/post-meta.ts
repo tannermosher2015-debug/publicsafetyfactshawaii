@@ -113,6 +113,11 @@ export const POST_META: Record<string, PostMeta> = {
     stat: '2',
     statLabel: 'systems in one government: officials get a study, the workforce bargains',
   },
+  hawaii_firefighter_overtime_68_hour_ceiling: {
+    topic: 'Overtime Law',
+    stat: '68',
+    statLabel: 'hours before overtime, the exact federal maximum for a nine-day work period',
+  },
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {
