@@ -11,7 +11,7 @@ export const Route = createFileRoute('/about')({
       {
         name: 'description',
         content:
-          'PublicSafetyFactsHawaii is an independent community education project on Hawaii firefighter pay, overtime, and labor rights, built from public records and cited sources.',
+          'An independent community education project on Hawaii firefighter pay, overtime, and labor rights, built from public records and cited sources.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/about` },

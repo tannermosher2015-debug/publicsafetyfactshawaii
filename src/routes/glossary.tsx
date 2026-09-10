@@ -66,7 +66,7 @@ export const Route = createFileRoute('/glossary')({
       {
         name: 'description',
         content:
-          'Plain-language definitions of the terms behind Hawaii firefighter pay and staffing: BU-11, the 7(k) exemption, ATB raises, step advancement, arbitration, and more.',
+          'Plain-language definitions of the terms behind Hawaii firefighter pay and staffing: BU-11, the 7(k) exemption, ATB raises, step advancement, and more.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/glossary` },

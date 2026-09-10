@@ -3,7 +3,7 @@ date: "2026-06-18"
 title: "What the Fire Commission Was Told About Firefighter Pay, and What the Records Show"
 slug: "maui_fire_commission_was_told_firefighters_do_fairly_well"
 seoTitle: "Maui Firefighter Pay: What the Commission Was Told"
-metaDescription: "Maui's fire commission was told firefighters are paid 'fairly well.' The county's own budget, arbitration award, and compensation study show a different picture."
+metaDescription: "Maui's fire commission was told firefighters are paid 'fairly well.' The county's budget, arbitration award, and compensation study show a different picture."
 updated: "2026-07-03"
 summary: "In a public meeting, Maui's oversight commission was told that firefighters rank \"fairly good to great\" on pay. Months later, the county's own arbitration award, budget, and compensation study filled in a fuller picture. Both are in the official minutes."
 categories:

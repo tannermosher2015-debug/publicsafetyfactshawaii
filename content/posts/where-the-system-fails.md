@@ -3,7 +3,7 @@ date: "2026-07-17"
 title: "Where the System Fails the People Who Do the Work"
 titleHtml: "Where the System <em>Fails the People Who Do the Work</em>"
 slug: "where_the_system_fails"
-metaDescription: "Government commissions a study to raise its own officials' pay, then bargains down every one of Hawaii's fifteen public-worker unions. Two systems, opposite defaults."
+metaDescription: "Government commissions a study to raise its own officials' pay, then bargains down Hawaii's fifteen public-worker unions. Two systems, opposite defaults."
 summary: "Government sets its officials' pay with a study it commissions and adopts, and its workers' pay across a bargaining table where it argues to pay the least it can defend. Same government, opposite defaults."
 categories:
   - Governance

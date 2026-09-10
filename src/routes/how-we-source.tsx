@@ -11,7 +11,7 @@ export const Route = createFileRoute('/how-we-source')({
       {
         name: 'description',
         content:
-          'How PublicSafetyFactsHawaii sources its facts: every claim traces to a public record, dollar scenarios are labeled estimates, and each article cites where to verify it.',
+          'How we source our facts: every claim traces to a public record, dollar scenarios are labeled estimates, and each article cites where to verify it.',
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${SITE_URL}/how-we-source` },

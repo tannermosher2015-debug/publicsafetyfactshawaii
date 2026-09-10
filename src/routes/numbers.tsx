@@ -37,7 +37,7 @@ function buildRows(): Row[] {
 }
 
 const DESCRIPTION =
-  'Every headline figure on this site in one place: firefighter and ocean safety pay, vacancies, overtime hours and staffing benchmarks, each linked to the public record it came from.'
+  'Every headline figure in one place: firefighter and ocean safety pay, vacancies, overtime and staffing benchmarks, each linked to its public record.'
 
 export const Route = createFileRoute('/numbers')({
   head: () => ({
