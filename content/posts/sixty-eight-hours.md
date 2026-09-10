@@ -156,7 +156,7 @@ masthead: "Community Education · Overtime Law · Public Safety Compensation Ser
 
 <h3>Burlington, Massachusetts</h3>
 
-<p>The Town of Burlington's agreement with IAFF Local 2313 does not frame its firefighters' hours in FLSA terms at all. It sets a schedule and prices overtime off it directly.</p>
+<p>The Town of Burlington, Massachusetts, which is not the Burlington in Vermont, has an agreement with IAFF Local 2313 that does not frame its firefighters' hours in FLSA terms at all. It sets a schedule and prices overtime off it directly.</p>
 
 <div class="callout-dark">
   <span class="callout-label">Burlington FY2023 to FY2025 Agreement, Articles 9 and 15</span>
@@ -178,7 +178,7 @@ masthead: "Community Education · Overtime Law · Public Safety Compensation Ser
 
 <p>The statute calculates that average over the prior eight weeks, and counts paid leave as hours worked. It phased in per department as each existing contract expired, so it was not universal on the day it passed.</p>
 
-<p>Neither Burlington nor Rhode Island abolished the federal exemption. They could not; it is federal law. What they did was decline to use all of it. The FLSA sets a floor under workers, not a cap on what an employer may agree to, so a shorter week and a lower threshold have always been available to any city, any town, and any state that wants them.</p>
+<p>Neither Burlington, Massachusetts, nor Rhode Island abolished the federal exemption. They could not; it is federal law. What they did was decline to use all of it. The FLSA sets a floor under workers, not a cap on what an employer may agree to, so a shorter week and a lower threshold have always been available to any city, any town, and any state that wants them.</p>
 
 <div class="divider">· ◆ ·</div>
 
@@ -203,7 +203,7 @@ masthead: "Community Education · Overtime Law · Public Safety Compensation Ser
 
 <p>Nothing described here is a violation. The exemption is lawful, the nine-day work period is lawful, and 68 hours is lawful. The point is narrower and, in the long run, more useful than an accusation would be.</p>
 
-<p>A maximum permitted by federal law tends to be read, over time, as the way things are done. It stops sounding like a decision. Burlington and Rhode Island are useful precisely because they are ordinary places that treated it as a decision and answered it differently, without asking Congress for anything.</p>
+<p>A maximum permitted by federal law tends to be read, over time, as the way things are done. It stops sounding like a decision. Burlington, Massachusetts, and Rhode Island are useful precisely because they are ordinary places that treated it as a decision and answered it differently, without asking Congress for anything.</p>
 
 <ul class="article-list">
   <li>Hawaii's firefighter agreement never names Section 7(k). It defines a nine-day work period scheduled at 72 hours and sets overtime above 68.</li>
