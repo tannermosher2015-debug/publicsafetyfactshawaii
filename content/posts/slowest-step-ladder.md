@@ -1,5 +1,6 @@
 ---
 date: "2026-07-13"
+updated: "2026-09-10"
 title: "The Slowest Step Ladder in the Nation"
 titleHtml: "The Slowest Step Ladder <em>in the Nation</em>"
 slug: "the_slowest_firefighter_step_ladder_in_the_nation"
@@ -175,7 +176,7 @@ masthead: "Community Education · Firefighter Pay Progression · Public Safety"
 <div class="sources">
   <h3>Primary sources</h3>
   <ul>
-    <li><strong>Hawaii firefighter schedule.</strong> State of Hawaii Department of Human Resources Development, Bargaining Unit 11 salary schedule, range SR-17, effective July 1, 2024 ($69,060 at entry to $98,328 at step L6), and the 2021 to 2025 HFFA collective bargaining agreement, section 32-A(O). The current post-adjustment schedule (a 3% across-the-board raise effective July 1, 2025) runs 3% higher, $71,132 to $101,278, with an identical step count, band width, and 28-year timeline, so the ranking and every finding here are unchanged.</li>
+    <li><strong>Hawaii firefighter schedule.</strong> State of Hawaii Department of Human Resources Development, Bargaining Unit 11 salary schedule, range SR-17, effective July 1, 2024 ($69,060 at entry to $98,328 at step L6), and the 2021 to 2025 HFFA collective bargaining agreement, section 32-A(O). The current post-adjustment schedule (a 3% across-the-board wage adjustment effective July 1, 2025) runs 3% higher, $71,136 to $101,280, with an identical step count, band width, and 28-year timeline, so the ranking and every finding here are unchanged.</li>
     <li><strong>Peer departments.</strong> Each peer figure is drawn from that department's own primary schedule, its collective bargaining agreement, pay ordinance, or official salary table. Thirty-seven departments publish a usable conventional step ladder and are ranked here. The full 50-state dataset and per-department sources are available on request.</li>
     <li><strong>Scope.</strong> "Step movement" means the automatic longevity and merit steps within the base firefighter rank. Promotions, overtime, holiday, and specialty pay are excluded throughout. This is an argument about time and rate of progression only. It makes no cost-of-living or dollar-gap claim.</li>
   </ul>

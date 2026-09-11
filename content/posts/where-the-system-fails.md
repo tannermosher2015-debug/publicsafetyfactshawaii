@@ -1,5 +1,6 @@
 ---
 date: "2026-07-17"
+updated: "2026-09-10"
 title: "Where the System Fails the People Who Do the Work"
 titleHtml: "Where the System <em>Fails the People Who Do the Work</em>"
 slug: "where_the_system_fails"
@@ -63,7 +64,7 @@ masthead: "Community Education · Maui County · July 2026 · Public Safety Comp
 
 <div class="callout-dark">
   <span class="callout-label">The Firefighters' Track: One Unit Among Fifteen</span>
-  <p>The most recent award for the county's firefighters came back at 3, 3, 2.5, and 2.5 percent over four years, about 11 percent in all, with no step movement, in a pay ladder that already takes ten steps and twenty-eight years to climb. Entry pay rose to $71,132 and the top of the scale to $101,278. The Fire Chief himself told the Fire and Public Safety Commission that the award was lower than most of the contracts settled that year. There was no study recommending a market-leader target. There was a process built to test how little the employer could defend paying. It is one unit's result, but the machine that produced it is the same one every unit faces.</p>
+  <p>The most recent award for the county's firefighters came back at 3, 3, 2.5, and 2.5 percent over four years, about 11 percent in all, with no step movement, in a pay ladder that already takes ten steps and twenty-eight years to climb. Entry pay rose to $71,136 and the top of the scale to $101,280. The Fire Chief himself told the Fire and Public Safety Commission that the award was lower than most of the contracts settled that year. There was no study recommending a market-leader target. There was a process built to test how little the employer could defend paying. It is one unit's result, but the machine that produced it is the same one every unit faces.</p>
 </div>
 
 <p>What the commission was told about that gap is covered in <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">What the Fire Commission Was Told About Firefighter Pay</a>.</p>
@@ -124,7 +125,7 @@ masthead: "Community Education · Maui County · July 2026 · Public Safety Comp
     <li>Adopted 75th-percentile figures for department heads, the grade-14 tier (fire chief, police chief, corporation counsel) at $239,043 and grade-13 directors at $192,458, matching the study's computed figures; MGT Consulting Classification and Compensation Study (2025 draft), County of Maui</li>
     <li>Hawaii Revised Statutes section 89-6, establishing Hawaii's fifteen public-employee bargaining units, excluding elected officials, department heads, directors, and deputies from every unit, and defining the public employer for firefighters (unit 11) and police officers (unit 12) as the governor together with the mayors, with the governor holding four votes and each mayor one</li>
     <li>Hawaii Revised Statutes section 89-11, providing that firefighters and police officers, who are prohibited from striking, resolve impasse through mandatory final and binding interest arbitration, while other units resolve impasse through mediation and, ultimately, the right to strike; all cost items remain subject to legislative appropriation</li>
-    <li>HFFA Local 1463 bargaining unit 11 arbitration award (2026), across-the-board increases of 3, 3, 2.5, and 2.5 percent with no step movement; SR-17 Fire Fighter I schedule entry $71,132 and top of scale $101,278 effective July 1, 2025 (CBA Exhibit E); and the Fire Chief's statement to the Maui County Fire and Public Safety Commission, April 16, 2026, that the award was lower than most contracts settled that year</li>
+    <li>HFFA Local 1463 bargaining unit 11 arbitration award (2026), across-the-board increases of 3, 3, 2.5, and 2.5 percent with no step movement; SR-17 Fire Fighter I schedule entry $71,136 and top of scale $101,280 effective July 1, 2025 (DHRD Bargaining Unit 11 salary schedule effective July 1, 2025); and the Fire Chief's statement to the Maui County Fire and Public Safety Commission, April 16, 2026, that the award was lower than most contracts settled that year</li>
     <li>Companion articles: <a href="/posts/maui_county_paid_for_a_study_that_made_the_case_for_firefighter_raises_then_gave_the_raises_only_to_management">Maui County's Own Study Made the Case for Firefighter Raises</a>, and <a href="/posts/maui_fire_commission_was_told_firefighters_do_fairly_well">What the Fire Commission Was Told About Firefighter Pay</a></li>
   </ul>
 </div>

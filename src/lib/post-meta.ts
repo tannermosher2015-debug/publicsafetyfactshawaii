@@ -62,7 +62,7 @@ export const POST_META: Record<string, PostMeta> = {
   },
   cost_of_living_gap_hawaii_firefighter_pay: {
     topic: 'Cost of Living',
-    stat: '~5×',
+    stat: '~4.5×',
     statLabel: "a starting firefighter's salary to afford Maui's median home",
     photo: 'cost-of-living.jpg',
   },
