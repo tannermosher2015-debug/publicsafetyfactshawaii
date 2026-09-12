@@ -1,0 +1,17 @@
+{
+  "name": "reel-renderer",
+  "private": true,
+  "type": "module",
+  "description": "Renders the Haʻikū fire station IG reel to mp4. Standalone — not part of the site build.",
+  "scripts": {
+    "render": "node render.mjs",
+    "preview": "node render.mjs --preview"
+  },
+  "dependencies": {
+    "@fontsource/dm-mono": "^5.2.5",
+    "@fontsource/playfair-display": "^5.2.5",
+    "@fontsource/source-serif-4": "^5.2.5",
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.55.0"
+  }
+}

@@ -1,0 +1,439 @@
+<meta charset="utf-8">
+<title>reel</title>
+<style>
+{{FONTFACES}}
+
+:root{
+  --navy:#0F1F3D;
+  --navy-deep:#0A1629;
+  --gold:#C9A84C;
+  --gold-lt:#E8C97A;
+  --cream:#F5F1EB;
+  --blue:#1A3A6B;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--navy)}
+body{
+  font-family:'Source Serif 4',serif;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:geometricPrecision;
+}
+.stage{position:absolute;inset:0;overflow:hidden}
+.scene{position:absolute;inset:0;opacity:0}
+
+/* ---------- shared bits ---------- */
+.kicker{
+  font-family:'DM Mono',monospace;
+  font-weight:500;
+  font-size:26px;
+  letter-spacing:.34em;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+.rule{height:3px;background:linear-gradient(90deg,var(--gold),rgba(201,168,76,0));}
+
+/* ---------- caption bar ---------- */
+.capwrap{
+  position:absolute;left:0;right:0;bottom:360px;
+  display:flex;justify-content:center;
+  padding:0 72px;
+}
+.cap{
+  background:rgba(10,22,41,.94);
+  border-left:8px solid var(--gold);
+  padding:26px 34px 28px;
+  max-width:936px;
+  font-size:40px;
+  line-height:1.34;
+  color:var(--cream);
+  letter-spacing:.004em;
+}
+.cap b{color:var(--gold-lt);font-weight:600}
+
+/* ---------- scene 1: hook ---------- */
+#s1 .photo{
+  position:absolute;inset:0;
+  background-image:url("{{PHOTO}}");
+  background-size:cover;background-position:50% 42%;
+  transform-origin:52% 45%;
+}
+#s1 .scrim{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(180deg,rgba(10,22,41,.92) 0%,rgba(10,22,41,.30) 34%,rgba(10,22,41,.55) 62%,rgba(10,22,41,.96) 88%);
+}
+#s1 .vign{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,rgba(0,0,0,0) 42%,rgba(0,0,0,.45) 100%)}
+#s1 .hookwrap{position:absolute;left:80px;right:80px;top:430px;text-align:center}
+#s1 .big{
+  font-family:'Playfair Display',serif;
+  font-weight:900;
+  font-size:158px;
+  line-height:.94;
+  color:var(--cream);
+  letter-spacing:.005em;
+  text-shadow:0 10px 46px rgba(0,0,0,.66);
+}
+#s1 .big .em{display:block;color:var(--gold)}
+#s1 .toprule{width:190px;height:4px;background:var(--gold);margin:0 auto 40px}
+
+/* route line */
+.route{position:absolute;left:110px;right:110px;top:900px;height:130px}
+.route .track{position:absolute;left:0;right:0;top:52px;height:3px;background:rgba(245,241,235,.28)}
+.route .fill{position:absolute;left:0;top:52px;height:3px;background:var(--gold)}
+.route .pin{
+  position:absolute;top:41px;width:25px;height:25px;border-radius:50%;
+  background:var(--cream);border:5px solid var(--navy);
+}
+.route .pin.b{background:var(--gold)}
+.route .engine{
+  position:absolute;top:33px;width:42px;height:42px;border-radius:50%;
+  background:var(--gold);box-shadow:0 0 0 10px rgba(201,168,76,.22),0 0 34px rgba(201,168,76,.7);
+}
+.route .lbl{
+  position:absolute;top:92px;
+  font-family:'DM Mono',monospace;font-weight:500;font-size:25px;
+  letter-spacing:.2em;color:var(--cream);text-transform:uppercase;
+}
+.route .lbl.r{right:0;color:var(--gold)}
+
+/* attribution lower third */
+#s1 .attrib{
+  position:absolute;left:110px;right:110px;top:1130px;
+  border-left:6px solid var(--gold);padding:6px 0 6px 26px;
+}
+#s1 .attrib .who{
+  font-family:'DM Mono',monospace;font-weight:500;font-size:27px;
+  letter-spacing:.13em;color:var(--cream);text-transform:uppercase;line-height:1.5;
+}
+#s1 .attrib .what{font-size:29px;color:rgba(245,241,235,.72);font-style:italic;margin-top:4px}
+
+/* ---------- scene 2: the gap ---------- */
+.slab{position:absolute;inset:0;background:var(--navy)}
+.slab:before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 30%,rgba(26,58,107,.55) 0%,rgba(15,31,61,0) 68%);
+}
+#s2 .head{position:absolute;left:96px;top:250px}
+#s2 .head .rule{width:150px;margin-bottom:30px}
+.statblock{position:absolute;left:96px;right:96px}
+.statblock .num{
+  font-family:'Playfair Display',serif;font-weight:900;
+  font-size:270px;line-height:.82;color:var(--gold);
+}
+.statblock .num .unit{font-size:104px;letter-spacing:.02em}
+.statblock .lab{
+  font-size:44px;line-height:1.28;color:var(--cream);
+  margin-top:30px;max-width:860px;
+}
+.statblock .hair{height:2px;background:rgba(201,168,76,.42);margin-top:40px}
+#s2 .b1{top:470px}
+#s2 .b2{top:900px}
+
+/* ---------- scene 3: the fight ---------- */
+#s3 .head{position:absolute;left:96px;right:96px;top:250px}
+#s3 .head .line{
+  font-size:42px;line-height:1.34;color:var(--cream);margin-top:26px;max-width:880px;
+}
+#s3 .verdict{position:absolute;left:96px;top:530px}
+#s3 .not{
+  font-family:'Playfair Display',serif;font-weight:700;font-size:112px;
+  color:rgba(245,241,235,.5);line-height:1;
+}
+#s3 .where{
+  font-family:'Playfair Display',serif;font-weight:900;font-size:178px;
+  color:var(--gold);line-height:.98;letter-spacing:.01em;margin-top:10px;
+}
+#s3 .chips{position:absolute;left:96px;right:96px;top:930px}
+#s3 .chip{
+  display:flex;align-items:center;gap:26px;
+  border-left:5px solid var(--gold);
+  padding:16px 0 16px 28px;margin-bottom:20px;
+}
+#s3 .chip .t{font-size:44px;color:var(--cream)}
+#s3 .chip .n{
+  font-family:'DM Mono',monospace;font-size:25px;color:var(--gold);
+  letter-spacing:.16em;min-width:52px;
+}
+
+/* ---------- scene 4: cta ---------- */
+#s4 .cal{
+  position:absolute;left:50%;top:300px;width:430px;margin-left:-215px;
+  background:var(--cream);border-radius:10px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.45);
+}
+#s4 .cal .mon{
+  background:var(--navy);color:var(--gold);
+  font-family:'DM Mono',monospace;font-weight:500;font-size:44px;
+  letter-spacing:.3em;text-align:center;padding:22px 0 20px;
+}
+#s4 .cal .day{
+  font-family:'Playfair Display',serif;font-weight:900;font-size:250px;
+  color:var(--navy);text-align:center;line-height:1;padding:24px 0 34px;
+}
+#s4 .lines{position:absolute;left:96px;right:96px;top:790px;text-align:center}
+#s4 .l1{
+  font-family:'Playfair Display',serif;font-weight:700;font-size:66px;
+  color:var(--cream);line-height:1.2;
+}
+#s4 .l2{font-size:40px;color:rgba(245,241,235,.82);margin-top:26px;line-height:1.4}
+#s4 .l2 .g{color:var(--gold)}
+#s4 .mark{position:absolute;left:0;right:0;top:1180px;text-align:center}
+#s4 .mark .rule{width:220px;height:2px;background:var(--gold);margin:0 auto 34px}
+#s4 .mark .site{
+  font-family:'DM Mono',monospace;font-weight:500;font-size:31px;
+  letter-spacing:.16em;color:var(--gold);text-transform:uppercase;
+}
+#s4 .mark .bio{font-size:36px;color:var(--cream);margin-top:20px;font-style:italic}
+</style>
+
+<div class="stage">
+
+  <!-- ============ 1. HOOK ============ -->
+  <div class="scene" id="s1">
+    <div class="photo"></div>
+    <div class="scrim"></div>
+    <div class="vign"></div>
+    <div class="hookwrap">
+      <div class="toprule"></div>
+      <div class="big">TWO<span class="em">HOURS</span></div>
+    </div>
+    <div class="route">
+      <div class="track"></div>
+      <div class="fill"></div>
+      <div class="pin a" style="left:-12px"></div>
+      <div class="pin b" style="right:-12px"></div>
+      <div class="engine"></div>
+      <div class="lbl">Pāʻia</div>
+      <div class="lbl r">Keʻanae</div>
+    </div>
+    <div class="attrib">
+      <div class="who">Maui Fire Chief Brad Ventura</div>
+      <div class="what">to a Maui County Council committee</div>
+    </div>
+  </div>
+
+  <!-- ============ 2. THE GAP ============ -->
+  <div class="scene" id="s2">
+    <div class="slab"></div>
+    <div class="head">
+      <div class="rule"></div>
+      <div class="kicker">Haʻikū · East Maui</div>
+    </div>
+    <div class="statblock b1">
+      <div class="num">0</div>
+      <div class="lab">fire stations in Haʻikū</div>
+      <div class="hair"></div>
+    </div>
+    <div class="statblock b2">
+      <div class="num">18 <span class="unit">years</span></div>
+      <div class="lab">since the county bought the land</div>
+      <div class="hair"></div>
+    </div>
+  </div>
+
+  <!-- ============ 3. THE REAL FIGHT ============ -->
+  <div class="scene" id="s3">
+    <div class="slab"></div>
+    <div class="head">
+      <div class="kicker">At the hearing</div>
+      <div class="line">Nobody argued East Maui should go without fire coverage.</div>
+    </div>
+    <div class="verdict">
+      <div class="not">Not IF.</div>
+      <div class="where">WHERE.</div>
+    </div>
+    <div class="chips">
+      <div class="chip"><span class="n">01</span><span class="t">A title claim</span></div>
+      <div class="chip"><span class="n">02</span><span class="t">A pending records appeal</span></div>
+      <div class="chip"><span class="n">03</span><span class="t">Open questions about burials</span></div>
+    </div>
+  </div>
+
+  <!-- ============ 4. CTA ============ -->
+  <div class="scene" id="s4">
+    <div class="slab"></div>
+    <div class="cal">
+      <div class="mon">AUG</div>
+      <div class="day">24</div>
+    </div>
+    <div class="lines">
+      <div class="l1">The committee<br>takes it up again</div>
+      <div class="l2">Oral testimony is <span class="g">closed</span>.<br>Written testimony is <span class="g">still open</span>.</div>
+    </div>
+    <div class="mark">
+      <div class="rule"></div>
+      <div class="site">publicsafetyfactshawaii.org</div>
+      <div class="bio">Housing &amp; Land Use Committee · 9:00 a.m.</div>
+    </div>
+  </div>
+
+  <!-- ============ captions ============ -->
+  <div class="capwrap"><div class="cap" id="cap"></div></div>
+</div>
+
+<script>
+const T = {
+  s1:[0,5], s2:[5,13], s3:[13,22], s4:[22,30]
+};
+
+const CUES = [
+  [0.35, 4.95, 'A Pāʻia engine sent toward Keʻanae is <b>two hours</b> from home.'],
+  [5.25, 8.85, 'Haʻikū still has <b>zero</b> fire stations —'],
+  [8.95,12.90, '<b>eighteen years</b> after the county bought land for one.'],
+  [13.25,17.10, "Nobody at the hearing argued East Maui doesn't need coverage."],
+  [17.25,21.90, 'The fight is over the land itself — a title claim, a records appeal, and open questions about burials.'],
+  [22.25,25.60, 'The committee takes it up again <b>August 24</b>.'],
+  [25.75,28.20, 'Oral testimony is closed, written is still open.'],
+  [28.35,30.00, 'Full story and sources — link in bio.']
+];
+
+const clamp=(v,a,b)=>v<a?a:v>b?b:v;
+const inv=(t,a,b)=>clamp((t-a)/(b-a),0,1);
+const outCubic=p=>1-Math.pow(1-p,3);
+const outQuint=p=>1-Math.pow(1-p,5);
+// fade in over `fi` after `a`, hold, fade out over `fo` before `b`
+const env=(t,a,b,fi,fo)=>clamp(Math.min((t-a)/fi,(b-t)/fo),0,1);
+
+const $=s=>document.querySelector(s);
+const px=v=>v.toFixed(2)+'px';
+
+// Scenes are stacked in DOM order and each later one is full-bleed opaque, so a
+// seam is a true cross-dissolve: the incoming scene fades in ON TOP of the
+// outgoing one, which is left at full opacity underneath. Fading both at once
+// would punch a hole of empty background through every seam.
+function scene(id,t){
+  const [a,b]=T[id];
+  const o=clamp((t-a)/0.34,0,1);
+  const el=document.getElementById(id);
+  el.style.opacity=o;
+  return {a,b,on:o>0.001};
+}
+
+function render(t){
+  /* ---- scene 1 ---- */
+  {
+    const {a,on}=scene('s1',t);
+    if(on){
+      const l=t-a;
+      $('#s1 .photo').style.transform='scale('+(1.06+l*0.021).toFixed(4)+')';
+      const hw=$('#s1 .hookwrap');
+      const p=outCubic(inv(l,0.10,1.05));
+      hw.style.opacity=p;
+      hw.style.transform='translateY('+px((1-p)*46)+')';
+      $('#s1 .toprule').style.width=px(outQuint(inv(l,0.30,1.30))*190);
+
+      const rp=outCubic(inv(l,0.85,2.45));
+      $('#s1 .route').style.opacity=outCubic(inv(l,0.70,1.30));
+      $('#s1 .route .fill').style.width=(rp*100).toFixed(2)+'%';
+      const eng=$('#s1 .route .engine');
+      eng.style.left='calc('+(rp*100).toFixed(2)+'% - 21px)';
+      eng.style.opacity=(rp>0.002&&rp<0.999)?1:(rp>=0.999?0.9:0);
+      $('#s1 .route .pin.b').style.opacity=(0.35+0.65*inv(rp,0.9,1));
+
+      const ap=outCubic(inv(l,2.35,3.15));
+      const at=$('#s1 .attrib');
+      at.style.opacity=ap;
+      at.style.transform='translateX('+px((1-ap)*-26)+')';
+    }
+  }
+
+  /* ---- scene 2 ---- */
+  {
+    const {a,on}=scene('s2',t);
+    if(on){
+      const l=t-a;
+      const hp=outCubic(inv(l,0.12,0.90));
+      const hd=$('#s2 .head');
+      hd.style.opacity=hp;
+      hd.style.transform='translateY('+px((1-hp)*24)+')';
+      $('#s2 .head .rule').style.width=px(outQuint(inv(l,0.20,1.10))*150);
+
+      const blocks=[['#s2 .b1',0.55],['#s2 .b2',3.45]];
+      for(const [sel,st] of blocks){
+        const p=outCubic(inv(l,st,st+0.95));
+        const el=$(sel);
+        el.style.opacity=p;
+        el.style.transform='translateY('+px((1-p)*54)+')';
+        const num=el.querySelector('.num');
+        // numerals settle with a slight scale
+        const sc=0.94+0.06*outQuint(inv(l,st,st+0.85));
+        num.style.transform='scale('+sc.toFixed(4)+')';
+        num.style.transformOrigin='0% 60%';
+        el.querySelector('.hair').style.width=(outCubic(inv(l,st+0.45,st+1.5))*100).toFixed(2)+'%';
+      }
+    }
+  }
+
+  /* ---- scene 3 ---- */
+  {
+    const {a,on}=scene('s3',t);
+    if(on){
+      const l=t-a;
+      const hp=outCubic(inv(l,0.12,1.05));
+      const hd=$('#s3 .head');
+      hd.style.opacity=hp;
+      hd.style.transform='translateY('+px((1-hp)*26)+')';
+
+      const np=outCubic(inv(l,1.15,1.85));
+      const nt=$('#s3 .not');
+      nt.style.opacity=np*0.999;
+      nt.style.transform='translateY('+px((1-np)*22)+')';
+
+      const wp=outQuint(inv(l,1.65,2.55));
+      const wh=$('#s3 .where');
+      wh.style.opacity=wp;
+      wh.style.transform='translateY('+px((1-wp)*40)+') scale('+(0.93+0.07*wp).toFixed(4)+')';
+      wh.style.transformOrigin='0% 60%';
+
+      const chips=$('#s3 .chips').children;
+      for(let i=0;i<chips.length;i++){
+        const st=3.05+i*0.62;
+        const p=outCubic(inv(l,st,st+0.72));
+        chips[i].style.opacity=p;
+        chips[i].style.transform='translateX('+px((1-p)*-34)+')';
+      }
+    }
+  }
+
+  /* ---- scene 4 ---- */
+  {
+    const {a,on}=scene('s4',t);
+    if(on){
+      const l=t-a;
+      const cp=outQuint(inv(l,0.12,1.05));
+      const cal=$('#s4 .cal');
+      cal.style.opacity=cp;
+      cal.style.transform='translateY('+px((1-cp)*38)+') scale('+(0.94+0.06*cp).toFixed(4)+')';
+
+      const lp=outCubic(inv(l,0.95,1.75));
+      const ln=$('#s4 .lines');
+      ln.style.opacity=lp;
+      ln.style.transform='translateY('+px((1-lp)*30)+')';
+
+      const l2=outCubic(inv(l,1.75,2.55));
+      $('#s4 .l2').style.opacity=l2;
+
+      const mp=outCubic(inv(l,3.05,3.95));
+      const mk=$('#s4 .mark');
+      mk.style.opacity=mp;
+      mk.style.transform='translateY('+px((1-mp)*24)+')';
+      $('#s4 .mark .rule').style.width=px(outQuint(inv(l,3.05,4.15))*220);
+    }
+  }
+
+  /* ---- captions ---- */
+  {
+    const cap=$('#cap');
+    let o=0,txt='';
+    for(const [a,b,s] of CUES){
+      const e=env(t,a,b,0.22,0.20);
+      if(e>o){o=e;txt=s;}
+    }
+    if(txt && cap.dataset.k!==txt){cap.innerHTML=txt;cap.dataset.k=txt;}
+    cap.parentElement.style.opacity=o;
+    cap.style.transform='translateY('+px((1-o)*10)+')';
+  }
+}
+window.render=render;
+render(0);
+</script>
