@@ -25,7 +25,7 @@ export const POST_META: Record<string, PostMeta> = {
   },
   hawaii_firefighter_recruitment_collapse: {
     topic: 'Recruitment',
-    stat: '−73%',
+    stat: '−70%+',
     statLabel: 'firefighter applicants since the 2017 peak',
     photo: 'recruitment.jpg',
   },

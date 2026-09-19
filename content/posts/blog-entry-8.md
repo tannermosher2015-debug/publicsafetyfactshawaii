@@ -3,7 +3,7 @@ date: "2026-05-15"
 updated: "2026-09-18"
 title: "Fewer People Are Applying to Be Firefighters on Maui"
 slug: "hawaii_firefighter_recruitment_collapse"
-seoTitle: "Maui Firefighter Applications Fell 73% Since 2017"
+seoTitle: "Maui Firefighter Applications Fell Over 70% Since 2017"
 metaDescription: "Maui firefighter recruitment: applications fell from 2,500-plus in 2017 to 682 in 2025. What the job costs, what pay covers, and what is unconfirmed."
 summary: "For years, the argument against paying firefighters more was that everyone wants the job. The applicant numbers shared by Maui's firefighters say otherwise: more than 2,500 applied in 2017, and 682 in 2025. This update adds what the job costs the people who take it, and marks every figure that is still unconfirmed."
 categories:
@@ -26,7 +26,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 
 <div class="data-callout">
   <div class="callout-label">Maui County Firefighter Entrance Exam, 2017 vs. 2025</div>
-  <p><strong>2017:</strong> more than 2,500 applicants.<br><br><strong>2025:</strong> 682 applied to take the written exam. 477 showed up to test. 196 passed. The lowest-scoring person who passed scored <strong>in the 50s</strong>.<br><br>That is a decline of about <strong>73 percent in applicants</strong> in eight years, on a single island. Because "more than 2,500" is a floor, the true drop could be larger.</p>
+  <p><strong>2017:</strong> more than 2,500 applicants.<br><br><strong>2025:</strong> 682 applied to take the written exam. 477 showed up to test. 196 passed. The lowest-scoring person who passed scored <strong>in the 50s</strong>.<br><br>That is a decline of <strong>more than 70 percent in applicants</strong> in eight years, on a single island. Taken at exactly 2,500 it is about 73 percent. Because "more than 2,500" is a floor, the true drop could be larger.</p>
 </div>
 
 <div class="stat-row">
@@ -39,7 +39,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
     <div class="stat-label">applicants in 2025, and<br>only 196 passed the exam</div>
   </div>
   <div class="stat-box">
-    <div class="stat-num">−73%</div>
+    <div class="stat-num">−70%+</div>
     <div class="stat-label">decline in applicants<br>2017 to 2025</div>
   </div>
 </div>

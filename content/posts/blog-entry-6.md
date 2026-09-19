@@ -1,5 +1,6 @@
 ---
 date: "2026-06-25"
+updated: "2026-09-18"
 title: "Where Maui's Firefighter Vacancies Are, According to the County's Own Roster"
 slug: "maui_firefighter_vacancies_county_roster"
 seoTitle: "Maui Firefighter Vacancies: What the County Roster Shows"
@@ -53,7 +54,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   </div>
 </div>
 
-<p>The number of funded firefighting positions has grown steadily: 288 in FY2023, then 298, then 319, and 325 in FY2026. The county keeps adding seats. The question is whether it can fill them, and the evidence says filling them is getting harder, not easier. Firefighter applications on Maui have fallen roughly 73 percent since their peak, and the department has said that with only a handful of vacancies at a time it does not make sense to run a recruit academy, because a class "costs too much" to stand up for a few openings. So the county is carrying a growing number of funded seats, a shrinking applicant pool to fill them from, and stretches with no new class in training.</p>
+<p>The number of funded firefighting positions has grown steadily: 288 in FY2023, then 298, then 319, and 325 in FY2026. The county keeps adding seats. The question is whether it can fill them, and the evidence says filling them is getting harder, not easier. Firefighter applications on Maui have fallen by more than 70 percent since 2017, and the department has said that with only a handful of vacancies at a time it does not make sense to run a recruit academy, because a class "costs too much" to stand up for a few openings. So the county is carrying a growing number of funded seats, a shrinking applicant pool to fill them from, and stretches with no new class in training.</p>
 
 <div class="callout-dark">
   <span class="callout-label">The Piece That Does Not Show Up in the Vacancy Count</span>
@@ -70,7 +71,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
 
 <div class="callout-dark">
   <span class="callout-label">Plain English</span>
-  <p>Maui's fire department publishes a roster that marks open positions as VACANT. The May 2026 version names ten on the firefighting line, including one on the Lahaina ladder truck and two in Wailea. Ten out of 325 funded positions is a low vacancy rate right now, and that is true. The worry is the direction: the county keeps funding more firefighter positions, the pool of people applying has dropped about 73 percent, the department has skipped running a recruit class, and it is also holding some positions unfunded on the side. The gap is small today and getting harder to close tomorrow.</p>
+  <p>Maui's fire department publishes a roster that marks open positions as VACANT. The May 2026 version names ten on the firefighting line, including one on the Lahaina ladder truck and two in Wailea. Ten out of 325 funded positions is a low vacancy rate right now, and that is true. The worry is the direction: the county keeps funding more firefighter positions, the pool of people applying has dropped by more than 70 percent, the department has skipped running a recruit class, and it is also holding some positions unfunded on the side. The gap is small today and getting harder to close tomorrow.</p>
 </div>
 
 <div class="divider">· ◆ ·</div>

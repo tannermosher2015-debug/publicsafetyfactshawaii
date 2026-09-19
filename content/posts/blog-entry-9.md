@@ -1,6 +1,6 @@
 ---
 date: "2026-05-15"
-updated: "2026-08-31"
+updated: "2026-09-18"
 title: "The Family Behind the Badge"
 slug: "the_family_behind_the_firefighter_badge"
 seoTitle: "The Family Cost of a Firefighter's Schedule"
@@ -63,7 +63,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
 
 <p>The first is how long the climb takes. A base-rank firefighter in Hawaii needs <strong>28 years</strong> to reach the top of the pay scale, the longest of the 37 U.S. departments that publish a conventional step ladder. Most of those nights away are worked on the way up, not at the top. That is set out in <a href="/posts/the_slowest_firefighter_step_ladder_in_the_nation">The Slowest Step Ladder in the Nation</a>.</p>
 
-<p>The second is who is left to share the rotation. Applications to become a Maui firefighter have fallen roughly <strong>73 percent</strong>, on the county's own entrance-exam data. Fewer people in the pool does not shrink the work. It concentrates it, and the overtime that fills the gap is another night the partner at home covers alone. See <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a>.</p>
+<p>The second is who is left to share the rotation. Applications to become a Maui firefighter have fallen by <strong>more than 70 percent</strong>, on the Maui Division's entrance-exam figures. Fewer people in the pool does not shrink the work. It concentrates it, and the overtime that fills the gap is another night the partner at home covers alone. See <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a>.</p>
 
 <p>The third is distance. Maui County's own study named four places that need fire stations, and the Haʻikū station has been in planning since <strong>2007</strong>. Where a station does not exist, a crew covers the gap from farther away, and a longer response area is a longer time from home. That is <a href="/posts/haiku_fire_station_east_maui_coverage_gap">Two Hours From Pāʻia</a>.</p>
 
@@ -73,7 +73,7 @@ masthead: "Community Education · State of Hawaii · May 2026 · Public Safety C
     <div class="stat-label">to reach the top of the<br>pay scale in Hawaii</div>
   </div>
   <div class="stat-box">
-    <div class="stat-num">~73%</div>
+    <div class="stat-num">70%+</div>
     <div class="stat-label">drop in Maui firefighter<br>applications</div>
   </div>
   <div class="stat-box">
