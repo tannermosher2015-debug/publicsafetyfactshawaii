@@ -339,6 +339,18 @@ body {
   letter-spacing: -0.02em;
 }
 
+/* Sub-heading under an h2. Direct children only, so h3s inside boxes (the
+   .sources label, comparison cards) keep their own styles. */
+.article-body > h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(20px, 2.4vw, 24px);
+  margin: 36px 0 12px;
+  color: var(--smoke);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
 /* Bold fire accent bar above every section heading — direct-child headings
    only, so the comparison-card heading keeps its own centered style. This
    normalizes all articles consistently and gives strong brand presence. */
