@@ -75,6 +75,14 @@ export default function SiteFooter({
           >
             CC BY 2.0
           </a>
+          . Hawai&#699;i State Capitol by Cliff, resized and cropped, licensed{' '}
+          <a
+            href="https://creativecommons.org/licenses/by/2.0/"
+            rel="license noopener noreferrer"
+            target="_blank"
+          >
+            CC BY 2.0
+          </a>
           .
         </span>
       </div>

@@ -112,6 +112,7 @@ export const POST_META: Record<string, PostMeta> = {
     topic: 'Governance',
     stat: '2',
     statLabel: 'systems in one government: officials get a study, the workforce bargains',
+    photo: 'capitol.jpg',
   },
   hawaii_firefighter_overtime_68_hour_ceiling: {
     topic: 'Overtime Law',
