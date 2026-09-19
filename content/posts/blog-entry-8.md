@@ -61,7 +61,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
   <li>One person who tested in 2017 recalls that a score in the mid-80s or higher was needed to be picked for the first academy class. That is a recollection, not a record, and we have no published 2017 pass scores to compare against the 2025 figure.</li>
 </ul>
 
-<p>Put together, the practical result is this. When the pool shrinks and hiring goes by rank, the department fills the same jobs from a smaller group of applicants, and some of the people who pass scored in the 50s. That describes 2025. Whether it is worse than 2017 depends on scores the county has not published.</p>
+<p>Put together, the practical result is this. When the pool shrinks and hiring goes by rank, the department fills the same jobs from a smaller group of applicants, and some of the people who pass scored in the 50s. That describes 2025. The Maui Division says the recruit class now coming is again reaching down to candidates who scored in the 50s to fill its spots. Whether it is worse than 2017 depends on scores the county has not published.</p>
 
 <div class="divider">· ◆ ·</div>
 
@@ -175,7 +175,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 
 <div class="callout-dark">
   <span class="callout-label">What Changed in This Update (September 18, 2026)</span>
-  <p>Added the section on what the job costs, and the list of what we do not know. Corrected "about nine years ago" to 2017. Narrowed the statement that Hawaii's counties hire without a minimum score to what the Maui Division reports about the Maui Fire Department, and added the county's own hiring pages. Replaced a citation to commission minutes we could not locate with the county's published wording on recruit classes. Replaced the phrase "referenced from a UIPA records request" with what happened: the request for the official 2017 figure was denied, and the figures remain the Division's. Removed "the passing scores are dropping" from the summary, because we have no published scores from an earlier year to compare.</p>
+  <p>Added the section on what the job costs, and the list of what we do not know. Corrected "about nine years ago" to 2017. Narrowed the statement that Hawaii's counties hire without a minimum score to what the Maui Division reports about the Maui Fire Department, and added the county's own hiring pages. Replaced a citation to commission minutes we could not locate with the county's published wording on recruit classes. Replaced the phrase "referenced from a UIPA records request" with what happened: the request for the official 2017 figure was denied, and the figures remain the Division's. Added the Maui Division's account that the class now coming is again filling its spots from candidates who scored in the 50s. Removed "the passing scores are dropping" from the summary, because we have no published scores from an earlier year to compare.</p>
 </div>
 
 <div class="divider">· ◆ ·</div>

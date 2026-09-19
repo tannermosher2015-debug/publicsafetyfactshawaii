@@ -49,12 +49,12 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
     <div class="stat-label">line vacancies named on the<br>county's own May 2026 roster</div>
   </div>
   <div class="stat-box">
-    <div class="stat-num">0</div>
-    <div class="stat-label">recruit classes the department<br>planned for 2026, per the Maui Division</div>
+    <div class="stat-num">18</div>
+    <div class="stat-label">weeks in a recruit class, run only<br>when enough vacancies exist to fill one</div>
   </div>
 </div>
 
-<p>The number of funded firefighting positions has grown steadily: 288 in FY2023, then 298, then 319, and 325 in FY2026. The county keeps adding seats. The question is whether it can fill them, and the evidence says filling them is getting harder, not easier. Firefighter applications on Maui have fallen by more than 70 percent since 2017, and, according to the Maui Division, the department has said that with only a handful of vacancies at a time it does not make sense to run a recruit academy, because a class costs too much to stand up for a few openings. So the county is carrying a growing number of funded seats, a shrinking applicant pool to fill them from, and stretches with no new class in training.</p>
+<p>The number of funded firefighting positions has grown steadily: 288 in FY2023, then 298, then 319, and 325 in FY2026. The county keeps adding seats. The question is whether it can fill them, and the evidence says filling them is getting harder, not easier. Firefighter applications on Maui have fallen by more than 70 percent since 2017, and, according to the Maui Division, the department has said that with only a handful of vacancies at a time it does not make sense to run a recruit academy, because a class costs too much to stand up for a few openings. So the county is carrying a growing number of funded seats, a shrinking applicant pool to fill them from, and stretches with no new class in training. The Maui Division says a recruit class is coming, and that its spots are again being filled by reaching down to candidates who scored in the 50s.</p>
 
 <div class="callout-dark">
   <span class="callout-label">The Piece That Does Not Show Up in the Vacancy Count</span>
@@ -83,7 +83,7 @@ masthead: "Community Education · Maui County · June 2026 · Public Safety Comp
   <li>County of Maui, FY2026 Program Budget, Department of Fire and Public Safety (Fire/Rescue Operations authorized positions: 288 in FY2023 rising to 325 in FY2026)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, January 15 and March 19, 2026 (department's characterization of vacancies as low)</li>
   <li>Maui County Fire & Public Safety Commission, meeting minutes, April 16, 2026 (department on "unfunded" positions being held)</li>
-  <li>Recruit classes: that the department says a class costs too much to run for a few openings, that it has skipped a class, and that none was planned for 2026 is the Maui Division's account. It is not in the published Commission minutes. The county's employment page says it "hires new fire fighters only when there are enough vacancies to fill a recruit class" (mauicounty.gov/1468/Employment, read September 18, 2026)</li>
+  <li>Recruit classes: that the department says a class costs too much to run for a few openings, that it has skipped a class, that another is now coming, and that its spots are again being filled from candidates who scored in the 50s is the Maui Division's account. It is not in the published Commission minutes. The county's employment page says it "hires new fire fighters only when there are enough vacancies to fill a recruit class" and that the recruit class runs eighteen weeks (mauicounty.gov/1468/Employment, read September 18, 2026)</li>
   <li>Firefighter applicant-pool decline: see <a href="/posts/hawaii_firefighter_recruitment_collapse">Fewer People Are Applying to Be Firefighters on Maui</a></li>
   <li>Crew-size research (NIST, Dallas Fire Department, USFA/NFIRS): see our <a href="/posts/why_5_person_fire_crews_are_the_standard">staffing-data page</a></li>
 </ul>
