@@ -14,8 +14,9 @@ come across and exists only in the untracked `.netlify/` build cache; ignore eve
 - **DNS is still at Netlify and that is not a leftover you can ignore.** Measured 2026-09-07: the
   apex nameservers are `dns1..4.p04.nsone.net`, which is Netlify DNS, while the A records point at
   Vercel. So the site spans two vendors, and any record change (a TXT for verification, the Resend
-  SPF and DKIM) is made in the Netlify zone, not in Vercel and not in Hostinger. There are no MX
-  records, so no email rides on this domain.
+  SPF and DKIM) is made in the Netlify zone, not in Vercel and not in Hostinger. The apex has no MX
+  record, so no inbox rides on this domain. `send.` does have an MX (Resend bounce feedback), and
+  its SPF TXT was missing on 2026-09-18; the 2026-09-01 values are in `docs/dns/`.
 - **Dead Netlify config was DELETED 2026-09-09: `netlify.toml` and
   `netlify/edge-functions/security-headers.ts`.** Headers live in `vercel.json` (`X-Frame-Options`,
   `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, `Content-Security-Policy` on
