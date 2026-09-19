@@ -118,6 +118,7 @@ export const POST_META: Record<string, PostMeta> = {
     topic: 'Overtime Law',
     stat: '68',
     statLabel: 'hours before overtime, the exact federal maximum for a nine-day work period',
+    photo: 'dusk-shift.jpg',
   },
 }
 
