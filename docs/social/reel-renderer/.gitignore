@@ -1,0 +1,5 @@
+# Build artifacts — the mp4 gets uploaded, not committed
+*.mp4
+*.png
+reel.built.html
+package-lock.json
