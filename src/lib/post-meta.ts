@@ -27,7 +27,7 @@ export const POST_META: Record<string, PostMeta> = {
     topic: 'Recruitment',
     stat: '−70%+',
     statLabel: 'firefighter applicants since the 2017 peak',
-    photo: 'recruitment.jpg',
+    photo: 'recruitment-dark.jpg',
   },
   the_family_behind_the_firefighter_badge: {
     topic: 'Recognition',

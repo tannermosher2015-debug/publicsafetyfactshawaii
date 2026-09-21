@@ -1,6 +1,7 @@
 ---
 date: "2026-05-15"
 updated: "2026-09-18"
+remade: "2026-09-18"
 title: "Fewer People Are Applying to Be Firefighters on Maui"
 slug: "hawaii_firefighter_recruitment_collapse"
 seoTitle: "Maui Firefighter Applications Fell Over 70% Since 2017"

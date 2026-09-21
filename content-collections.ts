@@ -109,6 +109,9 @@ const posts = defineCollection({
     summary: z.string(),
     metaDescription: z.string().optional(),
     updated: z.string().optional(),
+    // A full rewrite, not a small fix. The homepage sorts and dates the post by
+    // this instead of `date`, so a remake takes the hero like a new post.
+    remade: z.string().optional(),
     // 'note' = a short records-watch entry (one public record, a few hundred
     // words). Notes stay out of the hero, the main grid and RSS; they render in
     // the homepage Records Watch rail. Absent means 'article'.

@@ -36,6 +36,10 @@ come across and exists only in the untracked `.netlify/` build cache; ignore eve
 - Markdown is rendered to HTML **at build** (content-collections `transform`; `marked` is a
   devDep, don't ship it to the client).
 - `sitemap.xml` is **generated at build** (content-collections `onSuccess`). **Do not hand-edit it.**
+- **A remade article gets `remade: "YYYY-MM-DD"` in its frontmatter** (Tanner, 2026-09-20). The
+  homepage then sorts it by that day, so it takes the hero like a new post, and shows "Updated
+  <date>" in place of the publish date, the way a news site marks a rewritten story. A small fix
+  only bumps `updated`, which moves nothing. Keep `date` as the first publish day.
 - Fonts are **self-hosted** via `@fontsource` (Playfair Display, Source Serif 4, DM Mono),
   no Google Fonts `<link>`. Identity = editorial/newspaper, **fire/smoke/ember** palette.
 

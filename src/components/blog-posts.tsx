@@ -31,6 +31,7 @@ type Item = {
   summary: string
   date: string
   updated?: string
+  remade?: string
   byline?: string
   readTime: string
   stat?: string
@@ -48,8 +49,9 @@ function postToItem(post: Post): Item {
     topic: m?.topic ?? post.categories[0] ?? 'Public Safety',
     title: post.title,
     summary: post.summary,
-    date: post.date,
+    date: post.remade ?? post.date,
     updated: post.updated,
+    remade: post.remade,
     byline: post.byline,
     readTime: readTime(post.html),
     stat: m?.stat,
@@ -105,10 +107,16 @@ function Card({ item }: { item: Item }) {
       <CardMedia item={item} />
       <div className="psf-card-body">
         <div className="psf-card-meta">
-          <span>{fmtDateShort(item.date)}</span>
+          {item.remade ? (
+            <span className="post-updated">
+              Updated {fmtDateShort(item.remade)}
+            </span>
+          ) : (
+            <span>{fmtDateShort(item.date)}</span>
+          )}
           <span aria-hidden="true">·</span>
           <span>{item.readTime}</span>
-          {item.updated && (
+          {item.updated && !item.remade && (
             <span className="post-updated">
               Updated {fmtDateShort(item.updated)}
             </span>
@@ -170,8 +178,11 @@ export default function BlogPosts({
   showFeatured?: boolean
   faq?: FaqItem[]
 }) {
+  // A remade post sorts by its remade date, so it takes the hero like a new one.
   const sorted = [...posts].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+    (a, b) =>
+      new Date(b.remade ?? b.date).getTime() -
+      new Date(a.remade ?? a.date).getTime(),
   )
   // Records-watch notes are short single-record entries. They publish often, so
   // they get their own rail and are kept out of the hero and the article grid:
@@ -252,10 +263,16 @@ export default function BlogPosts({
                     <span className="psf-source-dot" aria-hidden="true" />
                     {featured.byline ?? 'PublicSafetyFactsHawaii'}
                   </span>
-                  <span>{fmtDateShort(featured.date)}</span>
+                  {featured.remade ? (
+                    <span className="post-updated post-updated-light">
+                      Updated {fmtDateShort(featured.remade)}
+                    </span>
+                  ) : (
+                    <span>{fmtDateShort(featured.date)}</span>
+                  )}
                   <span aria-hidden="true">·</span>
                   <span>{featured.readTime}</span>
-                  {featured.updated && (
+                  {featured.updated && !featured.remade && (
                     <span className="post-updated post-updated-light">
                       Updated {fmtDateShort(featured.updated)}
                     </span>
