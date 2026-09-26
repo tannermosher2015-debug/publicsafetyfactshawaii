@@ -278,10 +278,11 @@ function RouteComponent() {
           </div>
 
           {meta && (
-            <div className="post-header-media" aria-hidden="true">
+            <div className="post-header-media" aria-hidden={meta.alt ? undefined : true}>
               {meta.photo ? (
                 <Photo
                   photo={meta.photo}
+                  alt={meta.alt}
                   className="post-hero-img"
                   sizes="(max-width: 760px) 100vw, 480px"
                   priority

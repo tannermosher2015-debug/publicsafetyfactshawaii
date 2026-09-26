@@ -6,6 +6,8 @@
 type PhotoProps = {
   /** base JPEG filename in /photos, e.g. "family.jpg" */
   photo: string
+  /** alt text; leave unset where the photo sits inside a link that already names it */
+  alt?: string
   /** class applied to the <img> (keeps the existing object-fit styling) */
   className?: string
   /** responsive sizes hint for the browser to pick the right srcset width */
@@ -14,7 +16,7 @@ type PhotoProps = {
   priority?: boolean
 }
 
-export default function Photo({ photo, className, sizes, priority }: PhotoProps) {
+export default function Photo({ photo, alt = '', className, sizes, priority }: PhotoProps) {
   const base = `/photos/${photo.replace(/\.jpe?g$/i, '')}`
   const srcset = (ext: string) => `${base}-768.${ext} 768w, ${base}-1280.${ext} 1280w`
   return (
@@ -23,7 +25,7 @@ export default function Photo({ photo, className, sizes, priority }: PhotoProps)
       <source type="image/webp" srcSet={srcset('webp')} sizes={sizes} />
       <img
         src={`/photos/${photo}`}
-        alt=""
+        alt={alt}
         className={className}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : 'auto'}
