@@ -1,53 +1,53 @@
 ---
 date: "2026-05-15"
-updated: "2026-09-18"
+updated: "2026-10-15"
 remade: "2026-09-18"
 title: "Fewer People Are Applying to Be Firefighters on Maui"
 slug: "hawaii_firefighter_recruitment_collapse"
-seoTitle: "Maui Firefighter Applications Fell Over 70% Since 2017"
-metaDescription: "Maui firefighter recruitment: applications fell from 2,500-plus in 2017 to 682 in 2025. What the job costs, what pay covers, and what is unconfirmed."
-summary: "For years, the argument against paying firefighters more was that everyone wants the job. The applicant numbers shared by Maui's firefighters say otherwise: more than 2,500 applied in 2017, and 682 in 2025. This update adds what the job costs the people who take it, and marks every figure that is still unconfirmed."
+seoTitle: "Maui Firefighter Applications Fell 59% Since 2017"
+metaDescription: "Maui firefighter applications fell from 1,041 in 2017 to 424 in 2025, county testing records show. What the job costs, what pay covers, and what is unconfirmed."
+summary: "For years, the argument against paying firefighters more was that everyone wants the job. The applicant numbers in the county's own testing records say otherwise: 1,041 applied in 2017, and 424 in 2025. This update adds what the job costs the people who take it, and marks every figure that is still unconfirmed."
 categories:
   - Recruitment
   - Hawaii
 image: placeholder.png
 kicker: "Public Safety Fact Check"
-subtitle: "For years, the argument against paying firefighters more was that everyone wants the job. The applicant numbers shared by Maui's firefighters say otherwise: more than 2,500 applied in 2017, and 682 in 2025. This update adds what the job costs the people who take it, and marks every figure that is still unconfirmed."
-byline: "Based on Maui Division applicant figures (official figures requested), Maui County hiring pages, Hawaii Revised Statutes, and published health research"
-masthead: "Community Education · State of Hawaii · Updated September 2026 · Public Safety Compensation Series"
+subtitle: "For years, the argument against paying firefighters more was that everyone wants the job. The applicant numbers in the county's own testing records say otherwise: 1,041 applied in 2017, and 424 in 2025. This update adds what the job costs the people who take it, and marks every figure that is still unconfirmed."
+byline: "Based on Department of Personnel Services testing records (UIPA request R005104), Maui County hiring pages, Hawaii Revised Statutes, and published health research"
+masthead: "Community Education · State of Hawaii · Updated October 2026 · Public Safety Compensation Series"
 ---
 
-<p class="lead-p">"There's a line out the door." For years that has been an informal reason given for not raising firefighter pay. The reasoning goes that the job is so desirable, so competitive, that compensation does not need to keep up. The applicant numbers Maui's firefighters have shared tell a different story. So does the list of what the job asks of the people who take it.</p>
+<p class="lead-p">"There's a line out the door." For years that has been an informal reason given for not raising firefighter pay. The reasoning goes that the job is so desirable, so competitive, that compensation does not need to keep up. The county's own testing records tell a different story. So does the list of what the job asks of the people who take it.</p>
 
 <div class="divider">· ◆ ·</div>
 
 <h2 class="section-head">The Line Is Getting Shorter</h2>
 
-<p>The "line out the door" is measurable, and on Maui it has shrunk. The figures below come from a current Maui Division representative with direct knowledge of the department's entrance-exam records. The Division says its 2025 figures come from Department of Personnel Services (DPS) records. The official 2017 figure was requested under Hawaii's public records law (UIPA), and according to the Division, DPS denied that request on the ground that the records are "not readily available." Later requests by email, phone, and voicemail had gone unanswered as of mid-September 2026. Read these as the Division's figures, not as a county record.</p>
+<p>The "line out the door" is measurable, and on Maui it has shrunk. The figures below come from the Department of Personnel Services (DPS), which released its Fire Fighter Trainee testing records in response to a public-records (UIPA) request, R005104. The records cover each exam year from 2017 to 2025.</p>
 
 <div class="data-callout">
   <div class="callout-label">Maui County Firefighter Entrance Exam, 2017 vs. 2025</div>
-  <p><strong>2017:</strong> more than 2,500 applicants.<br><br><strong>2025:</strong> 682 applied to take the written exam. 477 showed up to test. 196 passed. The lowest-scoring person who passed scored <strong>in the 50s</strong>.<br><br>That is a decline of <strong>more than 70 percent in applicants</strong> in eight years, on a single island. Taken at exactly 2,500 it is about 73 percent. Because "more than 2,500" is a floor, the true drop could be larger.</p>
+  <p><strong>2017:</strong> 1,041 applied. 511 took the exam. 185 passed. Passing score: 70 percent.<br><br><strong>2025:</strong> 424 applied. 265 took the exam. 169 passed. Passing score: <strong>55 percent</strong>.<br><br>Applications fell by <strong>more than half (59 percent)</strong> in eight years, on a single island, and the passing score was lowered from 70 to 55 percent. In between, 837 applied in 2019, 590 in 2021, and 682 in 2023.</p>
 </div>
 
 <div class="stat-row">
   <div class="stat-box">
-    <div class="stat-num">2,500+</div>
+    <div class="stat-num">1,041</div>
     <div class="stat-label">applicants<br>in 2017</div>
   </div>
   <div class="stat-box featured">
-    <div class="stat-num">682</div>
-    <div class="stat-label">applicants in 2025, and<br>only 196 passed the exam</div>
+    <div class="stat-num">424</div>
+    <div class="stat-label">applicants in 2025, and<br>169 passed the exam</div>
   </div>
   <div class="stat-box">
-    <div class="stat-num">−70%+</div>
+    <div class="stat-num">−59%</div>
     <div class="stat-label">decline in applicants<br>2017 to 2025</div>
   </div>
 </div>
 
-<p>Two more numbers come from the same 2025 count. About 70 percent of applicants (477 of 682) showed up to test, and about 41 percent of the people who tested (196 of 477) passed. Both are our arithmetic on the Division's figures.</p>
+<p>Two more numbers come from the same 2025 records. About 63 percent of applicants (265 of 424) took the exam, and about 64 percent of the people who tested (169 of 265) passed. Both are our arithmetic on the county's figures.</p>
 
-<p>Two limits matter. First, we searched news reports and county records and found no other outlet or document that repeats these counts, so they rest on one source until the county answers. Second, the 2017 count is described as "applicants" and the 2025 count as people who "applied to take the written exam." We cannot confirm the two years were counted the same way.</p>
+<p>One limit matters. The records give totals only. They do not say why fewer people applied, or how the passing score was set each year.</p>
 
 <div class="divider">· ◆ ·</div>
 
@@ -58,11 +58,11 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 <ul>
   <li>The county's employment page says the department "hires new fire fighters only when there are enough vacancies to fill a recruit class." The recruit class runs eighteen weeks.</li>
   <li>The Fire Fighter Trainee job posting that closed on February 1, 2026 lists "Written Examination: 100%" as the entire evaluation. It says applicants who pass stay eligible for one to two years. It does not say what score passes.</li>
-  <li>According to the Maui Division, the Fire Department has never used a minimum passing score. Candidates are ranked, and the department hires down the list as positions open. The Division says the Police Department has used a minimum passing score on its entrance exam for many years, and that it confirmed this with the Police Department. We found no published county record that settles either point. For comparison, the Honolulu Police Department publishes its own rule: "Applicants must score a 70 to move forward in the process." Maui's 2017 Police Officer I posting, like the fire posting, lists the written test at 100 percent and states no passing score, so the Maui police comparison rests on the Division's account.</li>
-  <li>One person who tested in 2017 recalls that a score in the mid-80s or higher was needed to be picked for the first academy class. That is a recollection, not a record, and we have no published 2017 pass scores to compare against the 2025 figure.</li>
+  <li>The county's testing records list a passing score for every exam year: 70 percent in 2017, 65 percent in 2019 and 2021, 60 percent in 2023, and 55 percent in 2025. Candidates who pass are ranked, and the department hires down the list as positions open. The Maui Division says the Police Department holds a fixed minimum score. For comparison, the Honolulu Police Department publishes its own rule: "Applicants must score a 70 to move forward in the process." Maui's 2017 Police Officer I posting, like the fire posting, lists the written test at 100 percent and states no passing score, so the Maui police comparison rests on the Division's account.</li>
+  <li>One person who tested in 2017 recalls that a score in the mid-80s or higher was needed to be picked for the first academy class. That is a recollection, not a record. The county's record shows a 70 percent passing score that year; a higher score could still have been needed to be picked, because hiring goes by rank.</li>
 </ul>
 
-<p>Put together, the practical result is this. When the pool shrinks and hiring goes by rank, the department fills the same jobs from a smaller group of applicants, and some of the people who pass scored in the 50s. That describes 2025. The Maui Division says the recruit class now coming is again reaching down to candidates who scored in the 50s to fill its spots. Whether it is worse than 2017 depends on scores the county has not published.</p>
+<p>Put together, the practical result is this. When the pool shrinks and hiring goes by rank, the department fills the same jobs from a smaller group of applicants, and the passing score in 2025 was 55 percent. The Maui Division says the recruit class now coming is again reaching down to candidates who scored in the 50s to fill its spots.</p>
 
 <div class="divider">· ◆ ·</div>
 
@@ -162,8 +162,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 <h2 class="section-head">What We Do Not Know</h2>
 
 <ul>
-  <li><strong>The official numbers.</strong> A public-records request for the official 2017 count was denied, and later requests for the counts of applicants, test-takers, passers, and pass scores have gone unanswered.</li>
-  <li><strong>Whether 2017 and 2025 were counted the same way.</strong> See the limits above.</li>
+  <li><strong>How the passing score is set.</strong> The county's records give the score for each year, not the reason it changed.</li>
   <li><strong>Why people did not apply.</strong> We found no Hawaii survey. The closest evidence is national and asks current firefighters, not applicants.</li>
   <li><strong>Hawaii health rates.</strong> We found no Maui or Hawaii rate for firefighter cancer, heart disease, injury, PTSD, or suicide.</li>
   <li><strong>Whether Maui is alone.</strong> A 2024 U.S. Fire Administration workgroup reported about 62,100 fewer firefighters nationwide than in 2010, and said the decline affects career and volunteer departments. That is a headcount, not an applicant count, and it does not show a career applicant collapse everywhere.</li>
@@ -171,11 +170,16 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 
 <div class="callout-dark">
   <span class="callout-label">Plain English</span>
-  <p>The old argument was that firefighters do not need better pay because everyone wants the job. The applicant numbers Maui's firefighters have shared say otherwise: more than 2,500 applicants in 2017, 682 in 2025, and 196 who passed, some with scores in the 50s. The job carries documented health, sleep, and stress costs. Pay is the lever the county controls. The county's official numbers would settle the parts we cannot confirm.</p>
+  <p>The old argument was that firefighters do not need better pay because everyone wants the job. The county's testing records say otherwise: 1,041 applications in 2017 and 424 in 2025, with the passing score lowered from 70 to 55 percent. The job carries documented health, sleep, and stress costs. Pay is the lever the county controls.</p>
 </div>
 
 <div class="callout-dark">
-  <span class="callout-label">What Changed in This Update (September 18, 2026)</span>
+  <span class="callout-label">What Changed in This Update (October 15, 2026)</span>
+  <p>Replaced the Maui Division's estimates with the Department of Personnel Services testing records (UIPA request R005104). The 682 applied, 477 tested and 196 passed figures are from 2023, not 2025. The 2017 figure is 1,041 applications, not more than 2,500. The records list a passing score for each exam year, so we removed the statement that the Fire Department has never used a minimum passing score.</p>
+</div>
+
+<div class="callout-dark">
+  <span class="callout-label">Earlier Update (September 18, 2026)</span>
   <p>Added the section on what the job costs, and the list of what we do not know. Corrected "about nine years ago" to 2017. Narrowed the statement that Hawaii's counties hire without a minimum score to what the Maui Division reports about the Maui Fire Department, and added the county's own hiring pages. Replaced a citation to commission minutes we could not locate with the county's published wording on recruit classes. Replaced the phrase "referenced from a UIPA records request" with what happened: the request for the official 2017 figure was denied, and the figures remain the Division's. Added the Maui Division's account that the class now coming is again filling its spots from candidates who scored in the 50s. Removed "the passing scores are dropping" from the summary, because we have no published scores from an earlier year to compare.</p>
 </div>
 
@@ -184,7 +188,7 @@ masthead: "Community Education · State of Hawaii · Updated September 2026 · P
 <div class="sources">
   <h3>Sources &amp; References</h3>
   <ul>
-    <li>Applicant, test-taker, and pass counts for 2017 and 2025, and the Fire Department and Police Department scoring practices: figures from a current Maui Division representative. A public-records (UIPA) request for the official 2017 figure was denied by DPS as "not readily available," per the Division; later requests are unanswered. No published record located.</li>
+    <li>County of Maui, Department of Personnel Services, Fire Fighter Trainee testing records, released under UIPA request R005104 (received October 14, 2026): applications, applicants tested, applicants passed, and passing score for 2017, 2019, 2021, 2023, and 2025. The Police Department scoring practice is the Maui Division's account.</li>
     <li>County of Maui, Employment page (mauicounty.gov/1468/Employment), read September 18, 2026: recruit hiring "only when there are enough vacancies to fill a recruit class," and an eighteen-week recruit class.</li>
     <li>Honolulu Police Department, Application Process page (joinhonolulupd.org), read September 18, 2026, no page date shown: "Applicants must score a 70 to move forward in the process," with a six-month wait to retest. County of Maui, Police Officer I (PO-05) job announcement, closing June 30, 2017: "Written Test" weighted 100 percent, no passing score stated.</li>
     <li>County of Maui, Fire Fighter Trainee (SR-15) job announcement, closing February 1, 2026 (governmentjobs.com/careers/maui): "Written Examination: 100%," eligibility of one to two years for those who pass, "irregular hours, shift and weekend work, and exposure to hazardous and obnoxious conditions." The posting states no passing score.</li>
