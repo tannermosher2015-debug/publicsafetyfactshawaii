@@ -40,6 +40,14 @@ come across and exists only in the untracked `.netlify/` build cache; ignore eve
   homepage then sorts it by that day, so it takes the hero like a new post, and shows "Updated
   <date>" in place of the publish date, the way a news site marks a rewritten story. A small fix
   only bumps `updated`, which moves nothing. Keep `date` as the first publish day.
+- **Adding a post takes TWO files, not one.** (1) `content/posts/<name>.md` with the frontmatter in
+  `content-collections.ts` (required: `title`, `summary`, `categories`, `image`, `date`). (2) An entry in
+  `POST_META` in `src/lib/post-meta.ts`, keyed by the post's slug: `topic`, `stat`, `statLabel`, and
+  optionally `photo` (a file in `public/photos/`) and `alt`. Without the entry the homepage card renders
+  with no stat or photo (`m?.stat`, `m?.photo` in `blog-posts.tsx`) and `/numbers` leaves the post out
+  (`numbers.tsx` filters on `POST_META[p.slug]`). The post page reads `meta.alt` with no `?.`
+  (`posts.$slug.tsx:281`); whether a missing entry crashes it is untested, so add the entry first.
+  Measured 2026-10-18: 17 of the 18 posts have an entry; the Maui study post has none.
 - Fonts are **self-hosted** via `@fontsource` (Playfair Display, Source Serif 4, DM Mono),
   no Google Fonts `<link>`. Identity = editorial/newspaper, **fire/smoke/ember** palette.
 
