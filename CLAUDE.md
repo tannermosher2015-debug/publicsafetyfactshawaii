@@ -7,8 +7,10 @@ Independent community-education blog on Hawaii firefighter pay, overtime, and la
 **TanStack Start** (React 19, TanStack Router v1) · **Vite 8** · **Tailwind CSS 4** ·
 **Content Collections** (markdown posts in `content/posts/`) · **Drizzle ORM** · deployed on
 **Vercel** since 2026-09-01 (`a5e21a4` through `a363f8c`), confirmed 2026-09-07 by the live
-response header `Server: Vercel`. Three endpoints, all `api/*.ts`: `views.ts` (DB view counter at
-`/api/views`), `subscribe.ts`, and `send-newsletter.ts`. The old `social-feed` function did NOT
+response header `Server: Vercel`. Four endpoints, all `api/*.ts`: `views.ts` (DB view counter at
+`/api/views`), `subscribe.ts`, `send-newsletter.ts`, and `inbound.ts` (since 2026-10-21: the Resend
+`email.received` webhook; forwards mail sent to any @publicsafetyfactshawaii.org address to the
+`FORWARD_TO` env var, Reply-To set to the sender, signature checked with `RESEND_WEBHOOK_SECRET`). The old `social-feed` function did NOT
 come across and exists only in the untracked `.netlify/` build cache; ignore every mention of it.
 
 - **DNS is still at Netlify and that is not a leftover you can ignore.** Measured 2026-09-07: the
